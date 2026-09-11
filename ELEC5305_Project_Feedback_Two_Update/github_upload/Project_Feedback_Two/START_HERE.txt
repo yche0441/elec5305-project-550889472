@@ -1,0 +1,16 @@
+Project Feedback Two — 已完成首次 MATLAB 运行
+
+学生：Yulong Chen，SID 550889472
+
+这份更新保留首次运行的四个 MATLAB 源文件和六个原始音频。
+results_matlab 是你在 MATLAB Online R2026a Update 5 运行后发回的实际结果。
+原始结果 ZIP 也完整保留；本次只更新说明文件并加入结果核对记录。
+
+如需复现：
+1. 将整个 Project_Feedback_Two 文件夹上传至 MATLAB Drive。
+2. 打开 run_project_feedback2.m，点击“运行”。
+3. 出现目录提示时选择“更改文件夹”。
+4. 完成后生成 results_matlab 和 Project_Feedback_Two_MATLAB_Results.zip。
+
+已有运行结果可用于本次进度汇报，无需仅为上传 GitHub 再次运行。
+下一步按压缩包外层的 UPLOAD_TO_GITHUB.txt 更新现有项目。

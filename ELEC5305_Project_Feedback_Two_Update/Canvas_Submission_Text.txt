@@ -1,0 +1,11 @@
+Project Feedback Two — Yulong Chen, SID 550889472
+
+This project compares fixed-noise Wiener filtering with an energy-VAD-guided noise update for speech enhancement. The MATLAB prototype has been run on four SpEAR cases covering two utterances with factory and Volvo noise. These are laboratory acoustic re-recordings, used as a pilot in place of the student-recorded data originally proposed. The project code does not generate or digitally mix noise.
+
+The run produced measurement tables, spectrograms, VAD diagnostics and audio examples. Both filters improved reference SNR, but the fixed baseline produced higher values in all four cases. The next step is to inspect the noise-update decisions, test one documented modification and extend the evaluation to additional utterances. The current results are preliminary and do not establish listening-quality improvement.
+
+GitHub Project Site:
+https://yche0441.github.io/elec5305-project-550889472/
+
+GitHub Repository:
+https://github.com/yche0441/elec5305-project-550889472

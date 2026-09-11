@@ -1,0 +1,5 @@
+Utterance,Environment,OriginalNoisySamples,OriginalReferenceSamples,EvaluatedSamples,Fs_Hz,CalibrationStart_s,CalibrationEnd_s
+butter,factory,42000,42000,42000,16000,2.42,2.5
+butter,volvo,40000,42000,40000,16000,2.42,2.5
+scholars,factory,38000,36000,36000,16000,1.9,2.2
+scholars,volvo,42000,36000,36000,16000,1.9,2.2
