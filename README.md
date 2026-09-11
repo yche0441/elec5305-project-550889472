@@ -1,45 +1,16 @@
 # Evaluation of VAD-Guided Wiener Filtering for Speech Enhancement Using Real Recordings in Everyday Noise
 
-This ELEC5305 project evaluates VAD-guided Wiener filtering for speech enhancement using real speech recordings captured in everyday noisy environments.
+**Yulong Chen** | **SID 550889472** | **ELEC5305**
 
-## Student Information
+This project compares fixed-noise Wiener filtering with an energy-VAD-guided noise update. Four pilot cases were completed in MATLAB Online R2026a Update 5 on 11 September 2026. Both methods increased reference SNR, and the fixed baseline produced higher reference SNR in all four cases.
 
-- **Name:** Yulong Chen
-- **SID:** 550889472
-- **GitHub username:** yche0441
+The current data are laboratory acoustic re-recordings from SpEAR, using factory and Volvo noise. They differ from the student-recorded fan and traffic data in the original proposal. The code does not generate noise or digitally mix speech and noise.
 
-## Project Overview
+- [Project website](https://yche0441.github.io/elec5305-project-550889472/)
+- [Project Feedback Two progress](Project_Feedback_Two/feedback_two_progress.md)
+- [Method and MATLAB run instructions](Project_Feedback_Two/README.md)
+- [Measured results](Project_Feedback_Two/results_matlab/metrics.csv)
+- [MATLAB results ZIP](Project_Feedback_Two/Project_Feedback_Two_MATLAB_Results.zip)
+- [Original proposal](ELEC5305_Project_Proposal_Yulong_Chen.pdf)
 
-The project will compare a Wiener filter with a fixed noise estimate against a VAD-guided Wiener filter that updates its noise estimate during likely non-speech frames. The aim is to examine whether adaptive noise updating improves noise reduction while preserving the speech signal.
-
-## Research Question
-
-How much does VAD-guided noise updating improve noise reduction and speech preservation compared with a fixed-noise Wiener filter when both systems are tested on real recordings made in everyday noisy environments?
-
-## Real Recording Requirement
-
-The project will use speech recorded in a quiet room and in the presence of real electric-fan and traffic noise. It will not use MATLAB-generated noise, synthesised noisy speech, or digital mixing of clean speech and noise files.
-
-## Planned MATLAB Methods
-
-1. Inspect each recording using waveforms, spectra, and spectrograms.
-2. Apply short-time Fourier transform analysis.
-3. Implement a Wiener filter with one fixed noise estimate.
-4. Implement energy-based voice activity detection.
-5. Update the noise estimate during likely non-speech frames.
-6. Reconstruct and compare the enhanced recordings.
-
-## Planned Evaluation
-
-The comparison will use estimated noise attenuation, estimated speech-to-noise ratio, speech-frame energy and spectral changes, processing time, spectrograms, and listening examples. Results will be added only after the recordings have been collected and the MATLAB code has been tested.
-
-## Repository Contents
-
-- `ELEC5305_Project_Proposal_Yulong_Chen.pdf` - formal project proposal
-- `src/` - MATLAB source code to be added during implementation
-- `audio/` - shareable real recording examples to be added after collection
-- `results/` - figures, tables, and processed examples to be added after testing
-
-## Project Site
-
-[GitHub Pages project site](https://yche0441.github.io/elec5305-project-550889472/)
+To reproduce the pilot, download this repository, open the `Project_Feedback_Two` folder in MATLAB and run `run_project_feedback2.m`. All required pilot inputs and helper functions are included. The source documentation is retained in `Project_Feedback_Two/source_information`.
