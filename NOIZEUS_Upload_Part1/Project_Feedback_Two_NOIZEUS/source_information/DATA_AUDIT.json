@@ -1,0 +1,2608 @@
+{
+  "protocol": "2026-09-12-v1",
+  "audit_runtime": "Python/NumPy/SciPy; not a MATLAB enhancement run",
+  "selected_utterances": [
+    "sp01",
+    "sp06",
+    "sp11",
+    "sp16",
+    "sp21",
+    "sp26"
+  ],
+  "development": [
+    "sp01",
+    "sp16"
+  ],
+  "evaluation": [
+    "sp06",
+    "sp11",
+    "sp21",
+    "sp26"
+  ],
+  "archives": [
+    {
+      "name": "clean.zip",
+      "sha256": "47507c64fc78d50a62dca8052afb35d58c40818a8f2c259f81c589e084561cb7",
+      "wav_files": 30,
+      "crc_check": "passed"
+    },
+    {
+      "name": "car_0dB.zip",
+      "sha256": "cf48b491d097b83d897a66db19a552c740d18226eb5bfdeb23bf2abf3e248506",
+      "wav_files": 30,
+      "crc_check": "passed"
+    },
+    {
+      "name": "car_5dB.zip",
+      "sha256": "af5d642c738b79be127d4757d604a0c28e2839a793527fc5f9fbcca04ba6689b",
+      "wav_files": 30,
+      "crc_check": "passed"
+    },
+    {
+      "name": "car_10dB.zip",
+      "sha256": "572f99ef163657a1ce7f898040c86b134f6ace95f4535f26a0ffc821c2acab0b",
+      "wav_files": 30,
+      "crc_check": "passed"
+    },
+    {
+      "name": "car_15dB.zip",
+      "sha256": "ed7ebb86cae7e32fe3dcdffcb5b8b8468e7c87ec0cc9d92f53047c96431fb3ac",
+      "wav_files": 30,
+      "crc_check": "passed"
+    },
+    {
+      "name": "street_0dB.zip",
+      "sha256": "ada3f170b692eed8ce1b1d514f9623285ced5856df183f0243424cf6e7821b45",
+      "wav_files": 30,
+      "crc_check": "passed"
+    },
+    {
+      "name": "street_5dB.zip",
+      "sha256": "0bc0adb655e3fae5a566c69f88db119e8fc85f4c934a9d0211bf7038d41c5378",
+      "wav_files": 30,
+      "crc_check": "passed"
+    },
+    {
+      "name": "street_10dB.zip",
+      "sha256": "5bbbf0fa385ff2837f502e37f5a9790909b2f2ce36ddf9471de7ddbbc262fd89",
+      "wav_files": 30,
+      "crc_check": "passed"
+    },
+    {
+      "name": "street_15dB.zip",
+      "sha256": "aaecc4014a73f1454242cb15d625d966eb051521ccb8e112d5b3fe08bb0b7d9e",
+      "wav_files": 30,
+      "crc_check": "passed"
+    }
+  ],
+  "all_240_pairs": [
+    {
+      "utterance": "sp01",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 22529,
+      "whole_record_reference_snr_dB": -0.6698245978271883,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -44.54861010056133,
+      "post_initial_reference_snr_dB": -0.5326432840152464,
+      "residual_power_P90_P10_dB": 2.461506460318816
+    },
+    {
+      "utterance": "sp01",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 22529,
+      "whole_record_reference_snr_dB": 4.330184038336247,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -41.23341217236954,
+      "post_initial_reference_snr_dB": 4.533929614040493,
+      "residual_power_P90_P10_dB": 2.790876729902287
+    },
+    {
+      "utterance": "sp01",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 22529,
+      "whole_record_reference_snr_dB": 9.33019582393071,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -33.10250147737547,
+      "post_initial_reference_snr_dB": 9.428082422783726,
+      "residual_power_P90_P10_dB": 3.940203643992156
+    },
+    {
+      "utterance": "sp01",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 22529,
+      "whole_record_reference_snr_dB": 14.330238443013245,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -31.019731976390425,
+      "post_initial_reference_snr_dB": 14.523982658789468,
+      "residual_power_P90_P10_dB": 2.284167722361822
+    },
+    {
+      "utterance": "sp01",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 22529,
+      "whole_record_reference_snr_dB": -0.6698374975843219,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -44.81284518305263,
+      "post_initial_reference_snr_dB": -0.5239045241476936,
+      "residual_power_P90_P10_dB": 3.3712820127149357
+    },
+    {
+      "utterance": "sp01",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 22529,
+      "whole_record_reference_snr_dB": 4.330165659851971,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -32.68009053480569,
+      "post_initial_reference_snr_dB": 4.3580220227584014,
+      "residual_power_P90_P10_dB": 9.019486511063356
+    },
+    {
+      "utterance": "sp01",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 22529,
+      "whole_record_reference_snr_dB": 9.330124705038564,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -38.70086500229357,
+      "post_initial_reference_snr_dB": 9.696455218544568,
+      "residual_power_P90_P10_dB": 12.667927294951689
+    },
+    {
+      "utterance": "sp01",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 22529,
+      "whole_record_reference_snr_dB": 14.330032182675572,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -28.310448623997907,
+      "post_initial_reference_snr_dB": 14.432773361119226,
+      "residual_power_P90_P10_dB": 6.363238306717349
+    },
+    {
+      "utterance": "sp02",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21119,
+      "whole_record_reference_snr_dB": -0.6668309706729469,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp02",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21119,
+      "whole_record_reference_snr_dB": 4.3331564010908705,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp02",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21119,
+      "whole_record_reference_snr_dB": 9.333191872043132,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp02",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21119,
+      "whole_record_reference_snr_dB": 14.333244640451003,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp02",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21119,
+      "whole_record_reference_snr_dB": -0.6668059444268637,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp02",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21119,
+      "whole_record_reference_snr_dB": 4.333157680521201,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp02",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21119,
+      "whole_record_reference_snr_dB": 9.333129352564193,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp02",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21119,
+      "whole_record_reference_snr_dB": 14.333260801143515,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp03",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 17967,
+      "whole_record_reference_snr_dB": -0.5497767085718653,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp03",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 17967,
+      "whole_record_reference_snr_dB": 4.450219195757328,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp03",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 17967,
+      "whole_record_reference_snr_dB": 9.450230476338561,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp03",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 17967,
+      "whole_record_reference_snr_dB": 14.450293921939863,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp03",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 17967,
+      "whole_record_reference_snr_dB": -0.5497779233321989,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp03",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 17967,
+      "whole_record_reference_snr_dB": 4.450148625847596,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp03",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 17967,
+      "whole_record_reference_snr_dB": 9.450235348684203,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp03",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 17967,
+      "whole_record_reference_snr_dB": 14.450185077541658,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp04",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 16928,
+      "whole_record_reference_snr_dB": -0.4605156971839439,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp04",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 16928,
+      "whole_record_reference_snr_dB": 4.539475117244556,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp04",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 16928,
+      "whole_record_reference_snr_dB": 9.53965135286476,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp04",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 16928,
+      "whole_record_reference_snr_dB": 14.539363410491724,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp04",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 16928,
+      "whole_record_reference_snr_dB": -0.4605035072703443,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp04",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 16928,
+      "whole_record_reference_snr_dB": 4.539469114982803,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp04",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 16928,
+      "whole_record_reference_snr_dB": 9.53951948489854,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp04",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 16928,
+      "whole_record_reference_snr_dB": 14.53941821145719,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp05",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 17627,
+      "whole_record_reference_snr_dB": -0.6783131565681362,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp05",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 17627,
+      "whole_record_reference_snr_dB": 4.321682088126045,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp05",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 17627,
+      "whole_record_reference_snr_dB": 9.321679306844329,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp05",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 17627,
+      "whole_record_reference_snr_dB": 14.32166368351143,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp05",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 17627,
+      "whole_record_reference_snr_dB": -0.678328124471378,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp05",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 17627,
+      "whole_record_reference_snr_dB": 4.321649780919871,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp05",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 17627,
+      "whole_record_reference_snr_dB": 9.32167264669739,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp05",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 17627,
+      "whole_record_reference_snr_dB": 14.321596088763314,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp06",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21801,
+      "whole_record_reference_snr_dB": -0.7517307429333532,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -51.919863586811196,
+      "post_initial_reference_snr_dB": -0.5673800963760243,
+      "residual_power_P90_P10_dB": 2.3075003904758233
+    },
+    {
+      "utterance": "sp06",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21801,
+      "whole_record_reference_snr_dB": 4.248288632350322,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -45.077460074772766,
+      "post_initial_reference_snr_dB": 4.368015651226836,
+      "residual_power_P90_P10_dB": 4.094380948809825
+    },
+    {
+      "utterance": "sp06",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21801,
+      "whole_record_reference_snr_dB": 9.248265433389955,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -47.95772772012845,
+      "post_initial_reference_snr_dB": 10.041309341118318,
+      "residual_power_P90_P10_dB": 3.5871986750322264
+    },
+    {
+      "utterance": "sp06",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21801,
+      "whole_record_reference_snr_dB": 14.248421199953153,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -36.511606182750825,
+      "post_initial_reference_snr_dB": 14.415914175833526,
+      "residual_power_P90_P10_dB": 2.189067481076215
+    },
+    {
+      "utterance": "sp06",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21801,
+      "whole_record_reference_snr_dB": -0.7517328032974168,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -53.13553964269147,
+      "post_initial_reference_snr_dB": -0.5061201684142799,
+      "residual_power_P90_P10_dB": 10.113063871297431
+    },
+    {
+      "utterance": "sp06",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21801,
+      "whole_record_reference_snr_dB": 4.248275311669856,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -45.245011442978594,
+      "post_initial_reference_snr_dB": 4.37277948354857,
+      "residual_power_P90_P10_dB": 3.4747185949613097
+    },
+    {
+      "utterance": "sp06",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21801,
+      "whole_record_reference_snr_dB": 9.248279965980341,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -44.34541017590504,
+      "post_initial_reference_snr_dB": 9.575840819882751,
+      "residual_power_P90_P10_dB": 8.397182699353309
+    },
+    {
+      "utterance": "sp06",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21801,
+      "whole_record_reference_snr_dB": 14.24831877963641,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -37.53790653886708,
+      "post_initial_reference_snr_dB": 14.461568405716502,
+      "residual_power_P90_P10_dB": 2.7685311362673204
+    },
+    {
+      "utterance": "sp07",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20115,
+      "whole_record_reference_snr_dB": -0.46305193549033996,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp07",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20115,
+      "whole_record_reference_snr_dB": 4.536857338896464,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp07",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20115,
+      "whole_record_reference_snr_dB": 9.536769484181853,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp07",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20115,
+      "whole_record_reference_snr_dB": 14.537006318688023,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp07",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20115,
+      "whole_record_reference_snr_dB": -0.4630763057138053,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp07",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20115,
+      "whole_record_reference_snr_dB": 4.536982386391377,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp07",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20115,
+      "whole_record_reference_snr_dB": 9.536938162607592,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp07",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20115,
+      "whole_record_reference_snr_dB": 14.536999047766221,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp08",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 22764,
+      "whole_record_reference_snr_dB": -0.644369364038797,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp08",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 22764,
+      "whole_record_reference_snr_dB": 4.355621395225077,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp08",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 22764,
+      "whole_record_reference_snr_dB": 9.355607426382653,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp08",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 22764,
+      "whole_record_reference_snr_dB": 14.355598488209475,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp08",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 22764,
+      "whole_record_reference_snr_dB": -0.6443823690595324,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp08",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 22764,
+      "whole_record_reference_snr_dB": 4.35561972436018,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp08",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 22764,
+      "whole_record_reference_snr_dB": 9.35559872785334,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp08",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 22764,
+      "whole_record_reference_snr_dB": 14.355616996574934,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp09",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 24077,
+      "whole_record_reference_snr_dB": -0.3644006197825275,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp09",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 24077,
+      "whole_record_reference_snr_dB": 4.635631163417443,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp09",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 24077,
+      "whole_record_reference_snr_dB": 9.635645131333328,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp09",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 24077,
+      "whole_record_reference_snr_dB": 14.635627559203195,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp09",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 24077,
+      "whole_record_reference_snr_dB": -0.3643885925933707,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp09",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 24077,
+      "whole_record_reference_snr_dB": 4.635563492600181,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp09",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 24077,
+      "whole_record_reference_snr_dB": 9.63559011514194,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp09",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 24077,
+      "whole_record_reference_snr_dB": 14.635561935090495,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp10",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21371,
+      "whole_record_reference_snr_dB": -0.661160763481242,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp10",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21371,
+      "whole_record_reference_snr_dB": 4.3388202674899725,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp10",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21371,
+      "whole_record_reference_snr_dB": 9.338765879028108,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp10",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21371,
+      "whole_record_reference_snr_dB": 14.339029675204882,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp10",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21371,
+      "whole_record_reference_snr_dB": -0.6611627807407089,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp10",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21371,
+      "whole_record_reference_snr_dB": 4.338799074883682,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp10",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21371,
+      "whole_record_reference_snr_dB": 9.338787896034486,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp10",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21371,
+      "whole_record_reference_snr_dB": 14.338833518698452,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp11",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 23436,
+      "whole_record_reference_snr_dB": -0.5933891016071909,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -52.19572374521355,
+      "post_initial_reference_snr_dB": -0.45437916597742434,
+      "residual_power_P90_P10_dB": 4.579538397022798
+    },
+    {
+      "utterance": "sp11",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 23436,
+      "whole_record_reference_snr_dB": 4.406617971455907,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -48.38210976745952,
+      "post_initial_reference_snr_dB": 4.590230449256383,
+      "residual_power_P90_P10_dB": 2.65145400910016
+    },
+    {
+      "utterance": "sp11",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 23436,
+      "whole_record_reference_snr_dB": 9.40654859035824,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -49.22187917567095,
+      "post_initial_reference_snr_dB": 10.157727372367734,
+      "residual_power_P90_P10_dB": 3.3920872000340623
+    },
+    {
+      "utterance": "sp11",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 23436,
+      "whole_record_reference_snr_dB": 14.406503434684737,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -35.67228853049892,
+      "post_initial_reference_snr_dB": 14.503917111222297,
+      "residual_power_P90_P10_dB": 4.140951739094334
+    },
+    {
+      "utterance": "sp11",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 23436,
+      "whole_record_reference_snr_dB": -0.5933990345755731,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -49.08850868490327,
+      "post_initial_reference_snr_dB": -0.5259843321740578,
+      "residual_power_P90_P10_dB": 8.844178494368158
+    },
+    {
+      "utterance": "sp11",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 23436,
+      "whole_record_reference_snr_dB": 4.406582367713744,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -54.29510671052607,
+      "post_initial_reference_snr_dB": 5.171734519636699,
+      "residual_power_P90_P10_dB": 10.190468773143962
+    },
+    {
+      "utterance": "sp11",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 23436,
+      "whole_record_reference_snr_dB": 9.406634014804146,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -50.39518468259316,
+      "post_initial_reference_snr_dB": 10.419952782894113,
+      "residual_power_P90_P10_dB": 12.397943626404953
+    },
+    {
+      "utterance": "sp11",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 23436,
+      "whole_record_reference_snr_dB": 14.406581570606143,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -40.23972593839361,
+      "post_initial_reference_snr_dB": 14.691473003814451,
+      "residual_power_P90_P10_dB": 5.047534488195673
+    },
+    {
+      "utterance": "sp12",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21982,
+      "whole_record_reference_snr_dB": -0.2983404315704802,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp12",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21982,
+      "whole_record_reference_snr_dB": 4.701687455950524,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp12",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21982,
+      "whole_record_reference_snr_dB": 9.70168092002637,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp12",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21982,
+      "whole_record_reference_snr_dB": 14.701804704744594,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp12",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21982,
+      "whole_record_reference_snr_dB": -0.2983076481625805,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp12",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21982,
+      "whole_record_reference_snr_dB": 4.70167027746935,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp12",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21982,
+      "whole_record_reference_snr_dB": 9.701675893121152,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp12",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21982,
+      "whole_record_reference_snr_dB": 14.701737125922726,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp13",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20307,
+      "whole_record_reference_snr_dB": -1.0510446988489732,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp13",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20307,
+      "whole_record_reference_snr_dB": 3.9489731791459355,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp13",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20307,
+      "whole_record_reference_snr_dB": 8.949050232634898,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp13",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20307,
+      "whole_record_reference_snr_dB": 13.948889330871545,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp13",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20307,
+      "whole_record_reference_snr_dB": -1.0510545103053281,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp13",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20307,
+      "whole_record_reference_snr_dB": 3.948983581774508,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp13",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20307,
+      "whole_record_reference_snr_dB": 8.948916638210203,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp13",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20307,
+      "whole_record_reference_snr_dB": 13.949039624124705,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp14",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 23466,
+      "whole_record_reference_snr_dB": -0.38914482606670187,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp14",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 23466,
+      "whole_record_reference_snr_dB": 4.610898799861071,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp14",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 23466,
+      "whole_record_reference_snr_dB": 9.610885798301233,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp14",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 23466,
+      "whole_record_reference_snr_dB": 14.610917585021351,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp14",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 23466,
+      "whole_record_reference_snr_dB": -0.38911612554746405,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp14",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 23466,
+      "whole_record_reference_snr_dB": 4.610929017976179,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp14",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 23466,
+      "whole_record_reference_snr_dB": 9.610954332934687,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp14",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 23466,
+      "whole_record_reference_snr_dB": 14.610867527841807,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp15",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 23323,
+      "whole_record_reference_snr_dB": -0.3132421769389113,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp15",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 23323,
+      "whole_record_reference_snr_dB": 4.686755102722209,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp15",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 23323,
+      "whole_record_reference_snr_dB": 9.686737315756401,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp15",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 23323,
+      "whole_record_reference_snr_dB": 14.686606349114816,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp15",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 23323,
+      "whole_record_reference_snr_dB": -0.3132631816114705,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp15",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 23323,
+      "whole_record_reference_snr_dB": 4.686743052390644,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp15",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 23323,
+      "whole_record_reference_snr_dB": 9.686665496971107,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp15",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 23323,
+      "whole_record_reference_snr_dB": 14.686792737666854,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp16",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 18621,
+      "whole_record_reference_snr_dB": -1.1245727342884835,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -48.15495003604086,
+      "post_initial_reference_snr_dB": -0.9539089681271323,
+      "residual_power_P90_P10_dB": 2.2971914361359893
+    },
+    {
+      "utterance": "sp16",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 18621,
+      "whole_record_reference_snr_dB": 3.875501528866687,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -43.963745906677005,
+      "post_initial_reference_snr_dB": 4.08194728268921,
+      "residual_power_P90_P10_dB": 2.1366449952558426
+    },
+    {
+      "utterance": "sp16",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 18621,
+      "whole_record_reference_snr_dB": 8.875391241986932,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -37.391654281554125,
+      "post_initial_reference_snr_dB": 9.018088816732456,
+      "residual_power_P90_P10_dB": 5.403348644330677
+    },
+    {
+      "utterance": "sp16",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 18621,
+      "whole_record_reference_snr_dB": 13.875404989731026,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -33.31799593097746,
+      "post_initial_reference_snr_dB": 14.052732020804559,
+      "residual_power_P90_P10_dB": 2.780633986284144
+    },
+    {
+      "utterance": "sp16",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 18621,
+      "whole_record_reference_snr_dB": -1.1245379283346328,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -46.26736864766236,
+      "post_initial_reference_snr_dB": -1.01480119671721,
+      "residual_power_P90_P10_dB": 4.865719303777226
+    },
+    {
+      "utterance": "sp16",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 18621,
+      "whole_record_reference_snr_dB": 3.8754540301878686,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -43.35609604078583,
+      "post_initial_reference_snr_dB": 4.0543782970080775,
+      "residual_power_P90_P10_dB": 5.3669085650627295
+    },
+    {
+      "utterance": "sp16",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 18621,
+      "whole_record_reference_snr_dB": 8.875435594410197,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -43.028346189731735,
+      "post_initial_reference_snr_dB": 9.422513424508201,
+      "residual_power_P90_P10_dB": 8.08797560610035
+    },
+    {
+      "utterance": "sp16",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 18621,
+      "whole_record_reference_snr_dB": 13.875479627142271,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -32.15256378490836,
+      "post_initial_reference_snr_dB": 14.010416244792829,
+      "residual_power_P90_P10_dB": 4.835207543251542
+    },
+    {
+      "utterance": "sp17",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 19231,
+      "whole_record_reference_snr_dB": -0.45088223796202664,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp17",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 19231,
+      "whole_record_reference_snr_dB": 4.549067560571624,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp17",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 19231,
+      "whole_record_reference_snr_dB": 9.549095043939976,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp17",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 19231,
+      "whole_record_reference_snr_dB": 14.548940270798173,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp17",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 19231,
+      "whole_record_reference_snr_dB": -0.45093983871973725,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp17",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 19231,
+      "whole_record_reference_snr_dB": 4.5490213498863,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp17",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 19231,
+      "whole_record_reference_snr_dB": 9.549075285762143,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp17",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 19231,
+      "whole_record_reference_snr_dB": 14.549069743074579,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp18",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 18269,
+      "whole_record_reference_snr_dB": -0.40125458865007624,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp18",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 18269,
+      "whole_record_reference_snr_dB": 4.5987615846093135,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp18",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 18269,
+      "whole_record_reference_snr_dB": 9.598774488255637,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp18",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 18269,
+      "whole_record_reference_snr_dB": 14.598629976412859,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp18",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 18269,
+      "whole_record_reference_snr_dB": -0.40127586858214415,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp18",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 18269,
+      "whole_record_reference_snr_dB": 4.5987580071287795,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp18",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 18269,
+      "whole_record_reference_snr_dB": 9.598850223792521,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp18",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 18269,
+      "whole_record_reference_snr_dB": 14.598715732968072,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp19",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21338,
+      "whole_record_reference_snr_dB": -0.7972136577644017,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp19",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21338,
+      "whole_record_reference_snr_dB": 4.20278200522438,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp19",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21338,
+      "whole_record_reference_snr_dB": 9.202788039477142,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp19",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21338,
+      "whole_record_reference_snr_dB": 14.202785907335446,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp19",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21338,
+      "whole_record_reference_snr_dB": -0.7972017502742592,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp19",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21338,
+      "whole_record_reference_snr_dB": 4.202849461181932,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp19",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21338,
+      "whole_record_reference_snr_dB": 9.202793347048466,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp19",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21338,
+      "whole_record_reference_snr_dB": 14.202778101830198,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp20",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20752,
+      "whole_record_reference_snr_dB": -0.48904315170970125,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp20",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20752,
+      "whole_record_reference_snr_dB": 4.510993827057289,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp20",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20752,
+      "whole_record_reference_snr_dB": 9.51093953363419,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp20",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20752,
+      "whole_record_reference_snr_dB": 14.511089522142402,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp20",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20752,
+      "whole_record_reference_snr_dB": -0.4889878809539978,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp20",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20752,
+      "whole_record_reference_snr_dB": 4.511036633732536,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp20",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20752,
+      "whole_record_reference_snr_dB": 9.5109040060255,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp20",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20752,
+      "whole_record_reference_snr_dB": 14.510930922460725,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp21",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 28064,
+      "whole_record_reference_snr_dB": -0.6738130598483478,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -36.67688480376793,
+      "post_initial_reference_snr_dB": -0.5260022139466658,
+      "residual_power_P90_P10_dB": 2.7196970772574183
+    },
+    {
+      "utterance": "sp21",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 28064,
+      "whole_record_reference_snr_dB": 4.326199563880385,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -29.17876225674646,
+      "post_initial_reference_snr_dB": 4.408719791930537,
+      "residual_power_P90_P10_dB": 4.104992392037019
+    },
+    {
+      "utterance": "sp21",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 28064,
+      "whole_record_reference_snr_dB": 9.326151260242856,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -24.099038263266507,
+      "post_initial_reference_snr_dB": 9.407154800404523,
+      "residual_power_P90_P10_dB": 2.6506544095014775
+    },
+    {
+      "utterance": "sp21",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 28064,
+      "whole_record_reference_snr_dB": 14.32625971781296,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -21.521949194095885,
+      "post_initial_reference_snr_dB": 14.468805467599674,
+      "residual_power_P90_P10_dB": 2.1473766666421525
+    },
+    {
+      "utterance": "sp21",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 28064,
+      "whole_record_reference_snr_dB": -0.6737858952746936,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -35.07613734513768,
+      "post_initial_reference_snr_dB": -0.5720929519022218,
+      "residual_power_P90_P10_dB": 5.943295859676976
+    },
+    {
+      "utterance": "sp21",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 28064,
+      "whole_record_reference_snr_dB": 4.326232560685312,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -28.63075663307967,
+      "post_initial_reference_snr_dB": 4.398884150648711,
+      "residual_power_P90_P10_dB": 7.019701105854061
+    },
+    {
+      "utterance": "sp21",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 28064,
+      "whole_record_reference_snr_dB": 9.326157088614558,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -19.778617752770373,
+      "post_initial_reference_snr_dB": 9.355912704831287,
+      "residual_power_P90_P10_dB": 10.955627177383306
+    },
+    {
+      "utterance": "sp21",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 28064,
+      "whole_record_reference_snr_dB": 14.32613096504203,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -19.705479307653935,
+      "post_initial_reference_snr_dB": 14.419409888027621,
+      "residual_power_P90_P10_dB": 6.0274964853906
+    },
+    {
+      "utterance": "sp22",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21582,
+      "whole_record_reference_snr_dB": -0.5134366649996049,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp22",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21582,
+      "whole_record_reference_snr_dB": 4.486542859542531,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp22",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21582,
+      "whole_record_reference_snr_dB": 9.48643133791821,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp22",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21582,
+      "whole_record_reference_snr_dB": 14.486629190804383,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp22",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21582,
+      "whole_record_reference_snr_dB": -0.5134856547969187,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp22",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21582,
+      "whole_record_reference_snr_dB": 4.486548907972786,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp22",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21582,
+      "whole_record_reference_snr_dB": 9.486505349379552,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp22",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21582,
+      "whole_record_reference_snr_dB": 14.486602923512432,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp23",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21209,
+      "whole_record_reference_snr_dB": -0.7033886599744246,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp23",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21209,
+      "whole_record_reference_snr_dB": 4.296626997755321,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp23",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21209,
+      "whole_record_reference_snr_dB": 9.29660048596952,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp23",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21209,
+      "whole_record_reference_snr_dB": 14.296745560766302,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp23",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21209,
+      "whole_record_reference_snr_dB": -0.7033585646198612,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp23",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21209,
+      "whole_record_reference_snr_dB": 4.2966364079704435,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp23",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21209,
+      "whole_record_reference_snr_dB": 9.29658547682401,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp23",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21209,
+      "whole_record_reference_snr_dB": 14.296827572083377,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp24",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 27768,
+      "whole_record_reference_snr_dB": -0.40843068729465815,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp24",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 27768,
+      "whole_record_reference_snr_dB": 4.591587498411786,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp24",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 27768,
+      "whole_record_reference_snr_dB": 9.59154303877008,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp24",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 27768,
+      "whole_record_reference_snr_dB": 14.5916719255994,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp24",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 27768,
+      "whole_record_reference_snr_dB": -0.40841304763776426,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp24",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 27768,
+      "whole_record_reference_snr_dB": 4.591542137770323,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp24",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 27768,
+      "whole_record_reference_snr_dB": 9.59159954081601,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp24",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 27768,
+      "whole_record_reference_snr_dB": 14.59149516857275,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp25",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 23443,
+      "whole_record_reference_snr_dB": -0.32922618131383424,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp25",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 23443,
+      "whole_record_reference_snr_dB": 4.67078521366516,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp25",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 23443,
+      "whole_record_reference_snr_dB": 9.670792642826422,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp25",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 23443,
+      "whole_record_reference_snr_dB": 14.670752211737884,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp25",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 23443,
+      "whole_record_reference_snr_dB": -0.32921539927651466,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp25",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 23443,
+      "whole_record_reference_snr_dB": 4.670775866347928,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp25",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 23443,
+      "whole_record_reference_snr_dB": 9.670789050079346,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp25",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 23443,
+      "whole_record_reference_snr_dB": 14.670817303480561,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp26",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 19934,
+      "whole_record_reference_snr_dB": -0.4858826609360523,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -42.417854934909265,
+      "post_initial_reference_snr_dB": -0.28855204261171064,
+      "residual_power_P90_P10_dB": 2.1813623975323893
+    },
+    {
+      "utterance": "sp26",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 19934,
+      "whole_record_reference_snr_dB": 4.514099809195719,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -36.68756561384105,
+      "post_initial_reference_snr_dB": 4.680292787794386,
+      "residual_power_P90_P10_dB": 3.0152602809632363
+    },
+    {
+      "utterance": "sp26",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 19934,
+      "whole_record_reference_snr_dB": 9.514119638948365,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -33.115982425259176,
+      "post_initial_reference_snr_dB": 9.746802622155169,
+      "residual_power_P90_P10_dB": 2.356044844953871
+    },
+    {
+      "utterance": "sp26",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 19934,
+      "whole_record_reference_snr_dB": 14.514029660602347,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -27.063273895347454,
+      "post_initial_reference_snr_dB": 14.69555647666513,
+      "residual_power_P90_P10_dB": 2.2009176729442146
+    },
+    {
+      "utterance": "sp26",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 19934,
+      "whole_record_reference_snr_dB": -0.48586274117103667,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -47.439481303588224,
+      "post_initial_reference_snr_dB": 0.17510182448398526,
+      "residual_power_P90_P10_dB": 13.152346431257854
+    },
+    {
+      "utterance": "sp26",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 19934,
+      "whole_record_reference_snr_dB": 4.514114277948986,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -39.66900796364924,
+      "post_initial_reference_snr_dB": 4.850793870765125,
+      "residual_power_P90_P10_dB": 13.41306339059792
+    },
+    {
+      "utterance": "sp26",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 19934,
+      "whole_record_reference_snr_dB": 9.51408468148559,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -31.95267464614099,
+      "post_initial_reference_snr_dB": 9.690954753533823,
+      "residual_power_P90_P10_dB": 6.009175381999853
+    },
+    {
+      "utterance": "sp26",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 19934,
+      "whole_record_reference_snr_dB": 14.514072341013978,
+      "checked_lag_samples": 0,
+      "initial_clean_to_residual_dB": -33.29566579090426,
+      "post_initial_reference_snr_dB": 15.333456978425886,
+      "residual_power_P90_P10_dB": 11.482764144840267
+    },
+    {
+      "utterance": "sp27",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20316,
+      "whole_record_reference_snr_dB": -0.4540259358660795,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp27",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20316,
+      "whole_record_reference_snr_dB": 4.545961099174401,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp27",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20316,
+      "whole_record_reference_snr_dB": 9.546071048980568,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp27",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20316,
+      "whole_record_reference_snr_dB": 14.545956373932365,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp27",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20316,
+      "whole_record_reference_snr_dB": -0.4539942978936057,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp27",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20316,
+      "whole_record_reference_snr_dB": 4.5460072987915146,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp27",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20316,
+      "whole_record_reference_snr_dB": 9.546041748241564,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp27",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20316,
+      "whole_record_reference_snr_dB": 14.545935630233606,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp28",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 19487,
+      "whole_record_reference_snr_dB": -0.36595342114492513,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp28",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 19487,
+      "whole_record_reference_snr_dB": 4.633981148928935,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp28",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 19487,
+      "whole_record_reference_snr_dB": 9.634138898713434,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp28",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 19487,
+      "whole_record_reference_snr_dB": 14.634092259029387,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp28",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 19487,
+      "whole_record_reference_snr_dB": -0.36596514544051933,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp28",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 19487,
+      "whole_record_reference_snr_dB": 4.6340017563251115,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp28",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 19487,
+      "whole_record_reference_snr_dB": 9.634021269158318,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp28",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 19487,
+      "whole_record_reference_snr_dB": 14.633782204433237,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp29",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20409,
+      "whole_record_reference_snr_dB": -0.5087734221235493,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp29",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20409,
+      "whole_record_reference_snr_dB": 4.491287107702005,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp29",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20409,
+      "whole_record_reference_snr_dB": 9.491225380495521,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp29",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20409,
+      "whole_record_reference_snr_dB": 14.491427094017041,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp29",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 20409,
+      "whole_record_reference_snr_dB": -0.5087721585518049,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp29",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 20409,
+      "whole_record_reference_snr_dB": 4.4912563741068245,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp29",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 20409,
+      "whole_record_reference_snr_dB": 9.491253702991964,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp29",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 20409,
+      "whole_record_reference_snr_dB": 14.491300092028592,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp30",
+      "noise": "car",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21086,
+      "whole_record_reference_snr_dB": -0.38035824508897065,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp30",
+      "noise": "car",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21086,
+      "whole_record_reference_snr_dB": 4.619602618637043,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp30",
+      "noise": "car",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21086,
+      "whole_record_reference_snr_dB": 9.619596287252108,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp30",
+      "noise": "car",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21086,
+      "whole_record_reference_snr_dB": 14.619623074990148,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp30",
+      "noise": "street",
+      "nominal_snr_dB": 0,
+      "fs_Hz": 8000,
+      "samples": 21086,
+      "whole_record_reference_snr_dB": -0.38033379235022224,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp30",
+      "noise": "street",
+      "nominal_snr_dB": 5,
+      "fs_Hz": 8000,
+      "samples": 21086,
+      "whole_record_reference_snr_dB": 4.619594980524881,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp30",
+      "noise": "street",
+      "nominal_snr_dB": 10,
+      "fs_Hz": 8000,
+      "samples": 21086,
+      "whole_record_reference_snr_dB": 9.619629029341505,
+      "checked_lag_samples": 0
+    },
+    {
+      "utterance": "sp30",
+      "noise": "street",
+      "nominal_snr_dB": 15,
+      "fs_Hz": 8000,
+      "samples": 21086,
+      "whole_record_reference_snr_dB": 14.619593923786079,
+      "checked_lag_samples": 0
+    }
+  ],
+  "selected_files": [
+    {
+      "file": "data/clean/sp01.wav",
+      "sha256": "7f3e48252e44def80a5b72c165bbfd00a9c2f52e1773c426745607463e8f49e5"
+    },
+    {
+      "file": "data/car/0dB/sp01_car_sn0.wav",
+      "sha256": "fbc943f716dd4981255f5b851874f5232153cc8c3937cd718af102a07d27ad60"
+    },
+    {
+      "file": "data/car/5dB/sp01_car_sn5.wav",
+      "sha256": "f636fac6bf7f8bfccb9897891884b532102da066d46fc766111a94f917c73066"
+    },
+    {
+      "file": "data/car/10dB/sp01_car_sn10.wav",
+      "sha256": "de0a641405ca41d6fdb18b312bc9b80e0e78d639b696e146a4943f5047051439"
+    },
+    {
+      "file": "data/car/15dB/sp01_car_sn15.wav",
+      "sha256": "42c9b42016e0317ca79a591ec4c909ecd5a9d22b2d34c71e2f23452972b0d64c"
+    },
+    {
+      "file": "data/street/0dB/sp01_street_sn0.wav",
+      "sha256": "1f8d6a437cb354ce2520fb2805b029492bfa0ca2860a0846ab7be9ff5404a420"
+    },
+    {
+      "file": "data/street/5dB/sp01_street_sn5.wav",
+      "sha256": "9631872801f186792aaf86a4d7cd01c559a4658c1fc2eb4780c3a227a44c3a1d"
+    },
+    {
+      "file": "data/street/10dB/sp01_street_sn10.wav",
+      "sha256": "ecf1e6cae05e42793743b30720e72c2ae48aeb43633214c52795ed47c3bd0f60"
+    },
+    {
+      "file": "data/street/15dB/sp01_street_sn15.wav",
+      "sha256": "074fa8b0668d8b1af4d7706e064d34750bc001f41e86d047788c2573071b91af"
+    },
+    {
+      "file": "data/clean/sp06.wav",
+      "sha256": "931e0ed6c37b575bc10012c73184d9fed7a65ce36846f535f205597797ca3783"
+    },
+    {
+      "file": "data/car/0dB/sp06_car_sn0.wav",
+      "sha256": "b90700b56902f1b7490243e4fbc263b3f4be272a10b36a8fbe9886f2f7d10157"
+    },
+    {
+      "file": "data/car/5dB/sp06_car_sn5.wav",
+      "sha256": "cb550508a23a99a9a55d56d99c530157d7584d496de8fd65094a286bca7c0d49"
+    },
+    {
+      "file": "data/car/10dB/sp06_car_sn10.wav",
+      "sha256": "f45b214b90e22960d76d7d3fe11e523e3b8b0582c30a2288bdedeb7b33f2a927"
+    },
+    {
+      "file": "data/car/15dB/sp06_car_sn15.wav",
+      "sha256": "26066d9c259378e085119ddf46df8a8f49f96eac7209e408f5415371d44ae3c5"
+    },
+    {
+      "file": "data/street/0dB/sp06_street_sn0.wav",
+      "sha256": "7b0935097bda62c92f4480ab4daec032159612798cda8d47dbbe13d3ddc67013"
+    },
+    {
+      "file": "data/street/5dB/sp06_street_sn5.wav",
+      "sha256": "bd5bc53f3939c61cc53af4a66d0f8c12c1b0fa6b9675cacd9078eaf5fbb7c4d5"
+    },
+    {
+      "file": "data/street/10dB/sp06_street_sn10.wav",
+      "sha256": "e5202fee08f07b8823143cff475175e67965a9b9fd6e430b5fa868e6dbf18873"
+    },
+    {
+      "file": "data/street/15dB/sp06_street_sn15.wav",
+      "sha256": "a2edd3db51f869cbf1b151860678babce0f9e64d2f28c7271e1724ad111c7f5a"
+    },
+    {
+      "file": "data/clean/sp11.wav",
+      "sha256": "99418329f80e2bf4dd97bf1c861fd2862e10993ffcc3d8e4cb691b50ddeb617f"
+    },
+    {
+      "file": "data/car/0dB/sp11_car_sn0.wav",
+      "sha256": "6422db6188462db57d4e52782d4f426d9be2958dda0e5b90d58bada6c431a7d7"
+    },
+    {
+      "file": "data/car/5dB/sp11_car_sn5.wav",
+      "sha256": "3b960d08f27511455ca5eb5d593c581550dbfadae01d66e138f5bc1bc1062734"
+    },
+    {
+      "file": "data/car/10dB/sp11_car_sn10.wav",
+      "sha256": "e02304ae07e18220fcda967988dd8c9e1a2dea0f85db09788f0fa908abde7b5b"
+    },
+    {
+      "file": "data/car/15dB/sp11_car_sn15.wav",
+      "sha256": "89f76b01eba49d86cfc09aecd56b8acc34ed469145f2a4c37aad342bdbb433a0"
+    },
+    {
+      "file": "data/street/0dB/sp11_street_sn0.wav",
+      "sha256": "883de108163143d8c46354dc78265034f4c1739776fac2c2f447572874a50e2e"
+    },
+    {
+      "file": "data/street/5dB/sp11_street_sn5.wav",
+      "sha256": "aba785a51204bc5b3adfbbf0ed23473d7f17c08420e4a49fb66f87f0b0d944b6"
+    },
+    {
+      "file": "data/street/10dB/sp11_street_sn10.wav",
+      "sha256": "edad5587ff4f16310e7fdb89aa0798d505f5d04a5830ae13d89dd92a374427c3"
+    },
+    {
+      "file": "data/street/15dB/sp11_street_sn15.wav",
+      "sha256": "ff1a78d8ad45cbde369a72fa77eff5b5a82cf06261be20c50daae6463cd27b14"
+    },
+    {
+      "file": "data/clean/sp16.wav",
+      "sha256": "ee03112b1170ebd91c02f1fa1e8b49e9d792f80ecc612a263570501af6eb4189"
+    },
+    {
+      "file": "data/car/0dB/sp16_car_sn0.wav",
+      "sha256": "328fe164af2070dddf76bec57d88f7a6ff71c562d6b9f99c5a757268dd2c3958"
+    },
+    {
+      "file": "data/car/5dB/sp16_car_sn5.wav",
+      "sha256": "c79ecd756627de13aca488598b520198b291a7f62f2d9b8a8f2bf57e057bc150"
+    },
+    {
+      "file": "data/car/10dB/sp16_car_sn10.wav",
+      "sha256": "d2bbce1665a64adecde02dae76e06a2c6f0eb1bf88b4897400c45ca8782ecd15"
+    },
+    {
+      "file": "data/car/15dB/sp16_car_sn15.wav",
+      "sha256": "049e3b976c4e49a9f4d3f104e17dfc45a5e8823ec62eb02a3fe4070a9ddc4171"
+    },
+    {
+      "file": "data/street/0dB/sp16_street_sn0.wav",
+      "sha256": "6cd7cb2dc3ce68fa6430f3430e797e9b9a8f0bb0f7ca7738a323ed683ff27896"
+    },
+    {
+      "file": "data/street/5dB/sp16_street_sn5.wav",
+      "sha256": "7fd7bf50a493c175296e2fa74ec987055b68e2a752fd7e8e5ee66ac6a02df92e"
+    },
+    {
+      "file": "data/street/10dB/sp16_street_sn10.wav",
+      "sha256": "d2e14fcc3ccdfe3f5e7ba7ca318264f3904832fbe3bc0406a3c8798837e6b178"
+    },
+    {
+      "file": "data/street/15dB/sp16_street_sn15.wav",
+      "sha256": "5dcd31e0c44175a529b09ee08fda5a9cec58c1379ac2d2291e938336a80ea663"
+    },
+    {
+      "file": "data/clean/sp21.wav",
+      "sha256": "6d304391fb19a48b496aca2706ed26cb28509f7a9d111e02fe1ade1c9045f9fe"
+    },
+    {
+      "file": "data/car/0dB/sp21_car_sn0.wav",
+      "sha256": "8acf52ec5941c979306f288daf62db073430e72bb3c16a07ba1d435e07c7aa79"
+    },
+    {
+      "file": "data/car/5dB/sp21_car_sn5.wav",
+      "sha256": "8635cbbd19c0e1442e1ac3e4e78b1520e172eb57e0def3c2ad1949ae211c0bac"
+    },
+    {
+      "file": "data/car/10dB/sp21_car_sn10.wav",
+      "sha256": "c043eca1259344d1cfe101656ba950e91b66845f7a0b70a0319632e1da8a4276"
+    },
+    {
+      "file": "data/car/15dB/sp21_car_sn15.wav",
+      "sha256": "6c483c50518c3b80f759aba1d00ede6b7bd648898c48799261ee6090b2121438"
+    },
+    {
+      "file": "data/street/0dB/sp21_street_sn0.wav",
+      "sha256": "058ee71330193d765f1207a7a56b4b9a57bca855ad40df8f097a782a62f18c1c"
+    },
+    {
+      "file": "data/street/5dB/sp21_street_sn5.wav",
+      "sha256": "a0fbbd9331ff15a7f45992ae6972a3fc853c4ea11d1a897ee1759c9185f420bf"
+    },
+    {
+      "file": "data/street/10dB/sp21_street_sn10.wav",
+      "sha256": "16cbc15ee9798957088b856bb2149ed7da1e3727c6a9051b5612bd3424695a2f"
+    },
+    {
+      "file": "data/street/15dB/sp21_street_sn15.wav",
+      "sha256": "bd2cffbfff9c778730591b637587a7eeedbf8f1325e0bcd26ab4ee369e2fc53f"
+    },
+    {
+      "file": "data/clean/sp26.wav",
+      "sha256": "341bd23c924c0910c389ed8364957ffb47b127e225554e5d564719ba03963fc6"
+    },
+    {
+      "file": "data/car/0dB/sp26_car_sn0.wav",
+      "sha256": "ce0226683d4f1c886acf7f69808b55719cf03a2f2a9b695325b6f1c9f41456d9"
+    },
+    {
+      "file": "data/car/5dB/sp26_car_sn5.wav",
+      "sha256": "627ba8812fb271cac0b38bcd59c7c5aeb199863966c22d462f43890d44d21f8a"
+    },
+    {
+      "file": "data/car/10dB/sp26_car_sn10.wav",
+      "sha256": "e6e4daee61003e3877ee0c145b4a19186eed20683498187db8bd7c388a637d1c"
+    },
+    {
+      "file": "data/car/15dB/sp26_car_sn15.wav",
+      "sha256": "3f9a0537a1b7e027c403d38304d436dbb041621877a37193628e4b5369f612db"
+    },
+    {
+      "file": "data/street/0dB/sp26_street_sn0.wav",
+      "sha256": "e3d292b442b9e1fc022d435978f132b5908a47ce10dbaefe0755dde966c5f673"
+    },
+    {
+      "file": "data/street/5dB/sp26_street_sn5.wav",
+      "sha256": "91e75fac4a95d0184a05baed73f23e38257e0dfdf867bad96e8e741ffd999555"
+    },
+    {
+      "file": "data/street/10dB/sp26_street_sn10.wav",
+      "sha256": "7843c5b09111cd2ea0a0039a272b7215e5ba364d514bab7697eaaf1206f55580"
+    },
+    {
+      "file": "data/street/15dB/sp26_street_sn15.wav",
+      "sha256": "e81fe367fbff1979bc585b07aa7f5aa36eabb2ec2c40e6ced92e10d6ca9212d0"
+    }
+  ],
+  "original_reference": {
+    "car.wav": "1957b4854bcb4dc1a7b626a94c1210bc4c24ff1c49cb22606a0f5003eb8baf26",
+    "license.txt": "305a73ba4a12f23445b45c49d6f049e4e205e25acad9e25db85fb65c639f2635",
+    "Scalart_Original_Run.mat": "ad861cb4ab0a4a523b17760cfe6a565803c78e612c46bca82824df70701a0acc",
+    "WienerNoiseReduction.m": "cf76f2166d1dbcb0ac6676e4eefd58c058cf3dbe5b05d345e2e3e40473150940"
+  }
+}
