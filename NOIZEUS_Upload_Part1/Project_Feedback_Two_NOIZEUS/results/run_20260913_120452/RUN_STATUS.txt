@@ -1,8 +1,0 @@
-Protocol: 2026-09-12-v1
-MATLAB: 26.1.0.3346908 (R2026a) Update 5
-Input cases: 48
-Metric rows: 144
-Verification gates: PASSED
-Finite STOI rows: 144/144
-Status: COMPLETE (SNR and STOI measured)
-Scientific interpretation and listening review are still required.
