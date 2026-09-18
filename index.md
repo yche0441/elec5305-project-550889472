@@ -96,3 +96,4 @@ Next steps are listening review, VAD error annotation and a small parameter stud
 
 The existing source is credited to LIU Ming / Pascal Scalart, and the corpus to NOIZEUS / Hu and Loizou. [Source details and references](https://github.com/yche0441/elec5305-project-550889472/blob/main/Project_Feedback_Two_NOIZEUS/source_information/SOURCE_AND_CHANGES.md). The original proposal records the initial plan; this progress page describes the revised experiment. The final report and video remain future deliverables.
 [Initial project proposal (PDF)](ELEC5305_Project_Proposal_Yulong_Chen.pdf)
+[Download the full Project Feedback Two report (PDF)](ELEC5305_Project_Feedback_Two_Yulong_Chen_550889472.pdf)
