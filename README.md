@@ -36,3 +36,4 @@ Relative to fixed estimation, VAD raised mean SNR by 0.049 dB for car and 0.144 
 - [Results table](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/metrics.csv) and [checked results](Project_Feedback_Two_NOIZEUS/review/CHECKED_RESULTS.json).
 
 The next work is listening review, clearer VAD error annotation and a small parameter sensitivity study using development data. The original proposal PDF can remain in the repository as a record of the initial plan.
+[Download the full Project Feedback Two report (PDF)](ELEC5305_Project_Feedback_Two_Yulong_Chen_550889472.pdf)
