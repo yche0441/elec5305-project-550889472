@@ -1,0 +1,56 @@
+[
+  {
+    "path": "reference_v1/original_reference/Scalart_Original_Run.mat",
+    "bytes": 2299046,
+    "sha256": "ad861cb4ab0a4a523b17760cfe6a565803c78e612c46bca82824df70701a0acc",
+    "source_sha256": "ad861cb4ab0a4a523b17760cfe6a565803c78e612c46bca82824df70701a0acc"
+  },
+  {
+    "path": "reference_v1/verification/python_reference.mat",
+    "bytes": 312027,
+    "sha256": "cb181cc2a203dce744d4d5a0e91bc26962902a78d72ccb68dd1fac57c470bb6e",
+    "source_sha256": "cb181cc2a203dce744d4d5a0e91bc26962902a78d72ccb68dd1fac57c470bb6e"
+  },
+  {
+    "path": "reference_v1/data/car/0dB/sp01_car_sn0.wav",
+    "bytes": 45102,
+    "sha256": "fbc943f716dd4981255f5b851874f5232153cc8c3937cd718af102a07d27ad60",
+    "source_sha256": "fbc943f716dd4981255f5b851874f5232153cc8c3937cd718af102a07d27ad60"
+  },
+  {
+    "path": "reference_v1/data/clean/sp01.wav",
+    "bytes": 45102,
+    "sha256": "7f3e48252e44def80a5b72c165bbfd00a9c2f52e1773c426745607463e8f49e5",
+    "source_sha256": "7f3e48252e44def80a5b72c165bbfd00a9c2f52e1773c426745607463e8f49e5"
+  },
+  {
+    "path": "reference_v1/data/clean/sp06.wav",
+    "bytes": 43646,
+    "sha256": "931e0ed6c37b575bc10012c73184d9fed7a65ce36846f535f205597797ca3783",
+    "source_sha256": "931e0ed6c37b575bc10012c73184d9fed7a65ce36846f535f205597797ca3783"
+  },
+  {
+    "path": "reference_v1/data/clean/sp11.wav",
+    "bytes": 46916,
+    "sha256": "99418329f80e2bf4dd97bf1c861fd2862e10993ffcc3d8e4cb691b50ddeb617f",
+    "source_sha256": "99418329f80e2bf4dd97bf1c861fd2862e10993ffcc3d8e4cb691b50ddeb617f"
+  },
+  {
+    "path": "reference_v1/data/clean/sp16.wav",
+    "bytes": 37286,
+    "sha256": "ee03112b1170ebd91c02f1fa1e8b49e9d792f80ecc612a263570501af6eb4189",
+    "source_sha256": "ee03112b1170ebd91c02f1fa1e8b49e9d792f80ecc612a263570501af6eb4189"
+  },
+  {
+    "path": "reference_v1/data/clean/sp21.wav",
+    "bytes": 56172,
+    "sha256": "6d304391fb19a48b496aca2706ed26cb28509f7a9d111e02fe1ade1c9045f9fe",
+    "source_sha256": "6d304391fb19a48b496aca2706ed26cb28509f7a9d111e02fe1ade1c9045f9fe"
+  },
+  {
+    "path": "reference_v1/data/clean/sp26.wav",
+    "bytes": 39912,
+    "sha256": "341bd23c924c0910c389ed8364957ffb47b127e225554e5d564719ba03963fc6",
+    "source_sha256": "341bd23c924c0910c389ed8364957ffb47b127e225554e5d564719ba03963fc6"
+  }
+]

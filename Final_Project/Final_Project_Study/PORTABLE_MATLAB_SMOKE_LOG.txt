@@ -1,0 +1,11 @@
+[警告: 名称不存在或不是目录: /Users/richard/Desktop/SGCC/强化题库] 
+Verification passed: source TSNR, reconstruction, controlled update and SNR.
+            LegacyTSNRMaxAbsError: 2.7756e-16
+         IdentityMaxRelativeError: 2.6396e-16
+          FrozenUpdateMaxAbsError: 0
+    CrossLanguageFixedMaxAbsError: 4.8225e-16
+      CrossLanguageVADMaxAbsError: 4.8225e-16
+                    SNRKnownError: 0
+                           Passed: 1
+
+PORTABLE FIXTURE SMOKE CHECK PASSED

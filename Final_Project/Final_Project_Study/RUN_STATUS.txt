@@ -1,0 +1,6 @@
+COMPLETE
+MATLAB: 26.1.0.3312084 (R2026a) Update 4
+Native verification passed
+Development:9configs x16cases
+New sentence test:48cases x4methods
+All SNR/STOI finite

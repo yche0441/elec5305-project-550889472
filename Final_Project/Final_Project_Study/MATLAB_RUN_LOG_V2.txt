@@ -1,0 +1,16 @@
+[警告: 名称不存在或不是目录: /Users/richard/Desktop/SGCC/强化题库] 
+Verification passed: source TSNR, reconstruction, controlled update and SNR.
+GRID threshold=1 hangover=0 SNR=11.466940 STOI=0.799928
+GRID threshold=1 hangover=5 SNR=11.374527 STOI=0.800910
+GRID threshold=1 hangover=10 SNR=11.299507 STOI=0.801161
+GRID threshold=3 hangover=0 SNR=11.255519 STOI=0.791400
+GRID threshold=3 hangover=5 SNR=11.265295 STOI=0.794934
+GRID threshold=3 hangover=10 SNR=11.227250 STOI=0.796744
+GRID threshold=5 hangover=0 SNR=10.669854 STOI=0.783645
+GRID threshold=5 hangover=5 SNR=10.747870 STOI=0.785791
+GRID threshold=5 hangover=10 SNR=10.565721 STOI=0.788761
+TEST unprocessed SNR=7.196655 STOI=0.810228
+TEST fixed SNR=10.651369 STOI=0.814215
+TEST vad_original SNR=10.656028 STOI=0.809526
+TEST vad_selected SNR=10.714954 STOI=0.813571
+FINAL STUDY COMPLETE

@@ -1,0 +1,39 @@
+{
+  "created_before_scoring": "2026-10-05T23:19:49.505832+11:00",
+  "protocol": "2026-10-05-sensitivity-v2",
+  "development": [
+    "sp01",
+    "sp16"
+  ],
+  "thresholds_dB": [
+    1,
+    3,
+    5
+  ],
+  "hangoverFrames": [
+    0,
+    5,
+    10
+  ],
+  "noiseSmoothing": 0.95,
+  "selection": "highest mean native STOI on16development cases; ties within1e-6 use higher mean reference SNR then closest to original3dB5frames",
+  "new_sentence_test": [
+    "sp02",
+    "sp07",
+    "sp12",
+    "sp17",
+    "sp22",
+    "sp27"
+  ],
+  "test_conditions": "car/street x 0/5/10/15dB;48cases; speakers overlapdevelopment andoriginalevaluation",
+  "test_methods": [
+    "unprocessed",
+    "fixed",
+    "vad_original",
+    "vad_selected"
+  ],
+  "no_retuning_after_test": true,
+  "scoring": "sample801:end, original native STOI and reference SNR; no gain fitting",
+  "original_evaluation": "not used to select configuration in this study; previous outcomes already seen so findings exploratory",
+  "runtime": "not a speed benchmark"
+}

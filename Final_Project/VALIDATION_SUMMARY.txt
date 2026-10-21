@@ -1,0 +1,21 @@
+FINAL RELEASE VALIDATION — 14 October 2026
+
+The original 114-file study, 99-file original project and complete controlled
+study are preserved byte-for-byte from their source deliverables.
+
+The packaged START_HERE demonstration executed successfully in MATLAB R2026a
+Update 4 with Python 3.12.14, NumPy 2.3.5, SciPy 1.18.1 and PySTOI 0.4.1.
+All four fresh SNR/STOI pairs matched the saved study within 1e-8. The four
+24-bit WAV files exactly match the previously checked same-gain outputs.
+Results and stored controlled-study figure display completed successfully.
+
+The portable reanalysis was executed using package-relative default input paths.
+All 144 original standard STOI scores reproduced their validation reference
+exactly (maximum difference 0), with independent reference-SNR checks.
+
+The controlled-study verification is recorded in controlled_study/ANALYSIS_SUMMARY.json.
+The main report uses standard PySTOI consistently, while native MATLAB values
+remain available only as historical evidence.
+
+The English script, JSON source and HTML teleprompter contain the same 456 words.
+The recording itself is pending. No human listening evaluation is claimed.

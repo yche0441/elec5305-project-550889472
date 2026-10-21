@@ -1,0 +1,131 @@
+{
+  "Status": "PASS",
+  "CreatedUTC": "2026-10-14T03:55:05.863488+00:00",
+  "Scope": "Fresh scoring of archived unquantized v1 waveforms; arithmetic reanalysis of frozen extension CSVs; no enhancement rerun or parameter retuning",
+  "Dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "pystoi": "0.4.1"
+  },
+  "Python": "3.12.14",
+  "ScoreInterval": "MATLAB samples 801:end; Python [800:]",
+  "STOICall": "stoi(clean, processed, 8000, extended=False)",
+  "EvidenceArchive": "Project_Feedback_Two_NOIZEUS/evidence/NOIZEUS_Results_20260913_120452.zip",
+  "EvidenceSHA256": "cdf43cf90dcda4a15c68c548caa490a7c89adb67ac7c70fb88bc476ec1a837d4",
+  "EvidenceMATMember": "results/run_20260913_120452/experiment_results.mat",
+  "EvidenceMATSHA256": "2c187803e7210e816b8eb7f8f66c548a92a8973f02c7b0c4456bbf93fec5c74d",
+  "FrozenInputSHA256": {
+    "development_metrics.csv": "d57177a1e896f5e58c2e1e4d59cab9d65a65b9b4a94cee2a4cbf3fe8d8fc110e",
+    "new_test_metrics.csv": "8a6d0480fe45d1604d74a8125fb1a0c06ccc0da5e45a41ddcbcbf86abf08c60b"
+  },
+  "RescoredMethodCases": 144,
+  "V1EvaluationCounts": {
+    "Cases": 32,
+    "SNRBetter": 18,
+    "STOIBetter": 8,
+    "BothBetter": 5
+  },
+  "V1EvaluationSummary": [
+    {
+      "Noise": "car",
+      "Method": "unprocessed",
+      "Cases": 16,
+      "SNR_dB": 7.103008283041418,
+      "STOI": 0.7967847481922609
+    },
+    {
+      "Noise": "car",
+      "Method": "fixed",
+      "Cases": 16,
+      "SNR_dB": 10.81398396901572,
+      "STOI": 0.7966012897420403
+    },
+    {
+      "Noise": "car",
+      "Method": "vad",
+      "Cases": 16,
+      "SNR_dB": 10.863261625358328,
+      "STOI": 0.789432867809761
+    },
+    {
+      "Noise": "street",
+      "Method": "unprocessed",
+      "Cases": 16,
+      "SNR_dB": 7.207104108357435,
+      "STOI": 0.8235600305138628
+    },
+    {
+      "Noise": "street",
+      "Method": "fixed",
+      "Cases": 16,
+      "SNR_dB": 9.655740519986836,
+      "STOI": 0.8033620824741369
+    },
+    {
+      "Noise": "street",
+      "Method": "vad",
+      "Cases": 16,
+      "SNR_dB": 9.799719147718845,
+      "STOI": 0.8023355188694317
+    }
+  ],
+  "ExistingSTOIValidation": {
+    "status": "PASS",
+    "MaxAbsoluteDifference": 0.0,
+    "Rows": 144,
+    "SHA256": "5eace25ed39b44586131f667a761aaa7781c91a93afd1d4b6896f8067c57a363"
+  },
+  "NativeImplementationSensitivity": {
+    "MeanAbsoluteScoreDifference": 0.0028549158725115218,
+    "MaxAbsoluteScoreDifference": 0.01845319385702937,
+    "MaxAbsolutePairedDifference": 0.005423687060397531,
+    "PairedDirectionChanges": 1
+  },
+  "SentenceSensitivity": [
+    {
+      "Comparison": "selected_minus_fixed",
+      "Metric": "STOI",
+      "Sentences": 6,
+      "Mean": -0.000644645408235484,
+      "SentenceMin": -0.0035230317336184813,
+      "SentenceMax": 0.0027358705882911394,
+      "PositiveSentences": 2,
+      "LeaveOneSentenceOutMin": -0.0013207486075408087,
+      "LeaveOneSentenceOutMax": -6.896814315888455e-05
+    },
+    {
+      "Comparison": "selected_minus_fixed",
+      "Metric": "SNR_dB",
+      "Sentences": 6,
+      "Mean": 0.06358520225010256,
+      "SentenceMin": 0.008558372870584863,
+      "SentenceMax": 0.1387234048559287,
+      "PositiveSentences": 6,
+      "LeaveOneSentenceOutMin": 0.048557561728937326,
+      "LeaveOneSentenceOutMax": 0.07459056812600609
+    },
+    {
+      "Comparison": "selected_minus_vad_original",
+      "Metric": "STOI",
+      "Sentences": 6,
+      "Mean": 0.0040442859588451065,
+      "SentenceMin": -0.000302247750145368,
+      "SentenceMax": 0.009274322112634376,
+      "PositiveSentences": 5,
+      "LeaveOneSentenceOutMin": 0.002998278728087253,
+      "LeaveOneSentenceOutMax": 0.004913592700643202
+    },
+    {
+      "Comparison": "selected_minus_vad_original",
+      "Metric": "SNR_dB",
+      "Sentences": 6,
+      "Mean": 0.0589260044390833,
+      "SentenceMin": -0.17612091961556742,
+      "SentenceMax": 0.25252019306465645,
+      "PositiveSentences": 4,
+      "LeaveOneSentenceOutMin": 0.02020716671396867,
+      "LeaveOneSentenceOutMax": 0.10593538925001345
+    }
+  ],
+  "SensitivityInterpretation": "Descriptive leave-one-sentence-out sensitivity; not a confidence interval or significance test. Same six sentences recur across eight conditions."
+}

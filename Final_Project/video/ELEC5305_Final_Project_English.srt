@@ -1,0 +1,325 @@
+1
+00:00:01,230 --> 00:00:05,950
+Hello, my name is Yulong
+Chen. This is my project.
+
+2
+00:00:06,210 --> 00:00:10,610
+This project asks when voice
+activity detection helps
+
+3
+00:00:10,610 --> 00:00:15,330
+Wiener speech enhancement
+update its noise estimate.
+
+4
+00:00:16,010 --> 00:00:20,110
+The trade-off is simple: updating
+can follow changing noise,
+
+5
+00:00:20,250 --> 00:00:24,030
+but speech mistakenly
+included in the estimate
+
+6
+00:00:24,030 --> 00:00:26,330
+may also be suppressed.
+
+7
+00:00:30,750 --> 00:00:35,490
+The shared two-step noise
+reduction algorithm comes from
+
+8
+00:00:35,490 --> 00:00:40,570
+an existing implementation,
+credited in the report.
+
+9
+00:00:41,010 --> 00:00:45,230
+My work is the controlled
+adaptation, verification,
+
+10
+00:00:45,930 --> 00:00:48,190
+experiments and analysis.
+
+11
+00:00:48,790 --> 00:00:52,290
+Fixed estimation and both VAD settings
+
+12
+00:00:52,290 --> 00:00:55,690
+share the same processing
+and reconstruction.
+
+13
+00:00:55,830 --> 00:00:59,410
+Only the noise update rule changes.
+
+14
+00:01:00,030 --> 00:01:02,770
+Clean speech is used for evaluation,
+
+15
+00:01:02,770 --> 00:01:05,850
+never as an input to the enhancer.
+
+16
+00:01:10,603 --> 00:01:16,343
+The original VAD uses a 3 dB threshold
+
+17
+00:01:16,643 --> 00:01:18,683
+and a five-frame hangover.
+
+18
+00:01:19,003 --> 00:01:23,503
+I compared nine settings on
+16 development conditions.
+
+19
+00:01:24,013 --> 00:01:27,133
+The highest mean STOI
+
+20
+00:01:27,133 --> 00:01:30,613
+came from a threshold of 1 dB
+
+21
+00:01:30,613 --> 00:01:33,793
+and hangover of ten frames.
+
+22
+00:01:34,333 --> 00:01:37,413
+This more cautious
+setting was then frozen
+
+23
+00:01:37,413 --> 00:01:41,973
+for 48 conditions using six sentences.
+
+24
+00:01:42,913 --> 00:01:46,193
+The speakers overlap earlier material.
+
+25
+00:01:47,073 --> 00:01:52,333
+These are repeated conditions,
+not 48 independent speakers,
+
+26
+00:01:52,833 --> 00:01:55,673
+and no retuning followed this test.
+
+27
+00:01:59,233 --> 00:02:04,603
+This demonstration runs
+the predetermined example:
+
+28
+00:02:04,883 --> 00:02:08,383
+sentence sp02, street noise,
+
+29
+00:02:08,863 --> 00:02:11,703
+at nominal five decibels.
+
+30
+00:02:12,103 --> 00:02:15,623
+The program recomputes four outputs
+
+31
+00:02:15,623 --> 00:02:19,863
+and verifies their scores
+against saved results.
+
+32
+00:02:20,443 --> 00:02:24,263
+The upper panels show this fresh run.
+
+33
+00:02:24,823 --> 00:02:29,023
+SNR measures waveform
+error against clean speech.
+
+34
+00:02:29,703 --> 00:02:33,163
+STOI predicts intelligibility;
+
+35
+00:02:33,683 --> 00:02:37,083
+it is not a percentage
+of words understood.
+
+36
+00:02:37,883 --> 00:02:41,323
+Here, processing improves SNR
+
+37
+00:02:41,323 --> 00:02:43,823
+but reduces STOI.
+
+38
+00:02:44,203 --> 00:02:47,103
+The selected setting is not best.
+
+39
+00:02:50,983 --> 00:02:56,383
+The lower panels show stored
+means over all 48 conditions,
+
+40
+00:02:56,723 --> 00:02:58,443
+not a live rerun.
+
+41
+00:02:59,163 --> 00:03:03,403
+Selected VAD improves mean STOI over
+
+42
+00:03:03,403 --> 00:03:08,043
+original VAD by about 0.004.
+
+43
+00:03:09,143 --> 00:03:14,363
+Fixed estimation still has
+slightly higher mean STOI.
+
+44
+00:03:14,983 --> 00:03:19,323
+The fraction of reference
+speech-proxy frames
+
+45
+00:03:19,323 --> 00:03:25,643
+used for updates falls
+from about 16% to 3%.
+
+46
+00:03:25,643 --> 00:03:29,063
+This suggests stronger speech protection,
+
+47
+00:03:29,363 --> 00:03:33,323
+with fewer opportunities to track noise.
+
+48
+00:03:33,803 --> 00:03:37,083
+The small effects are
+checked sentence by sentence,
+
+49
+00:03:37,403 --> 00:03:40,543
+rather than treating
+repeated noise conditions
+
+50
+00:03:40,543 --> 00:03:42,983
+as independent observations.
+
+51
+00:03:49,483 --> 00:03:52,523
+To test that trade-off more directly,
+
+52
+00:03:52,963 --> 00:03:55,463
+I added 36 matched mixtures.
+
+53
+00:03:55,983 --> 00:03:59,143
+The speech and base
+noise remain the same;
+
+54
+00:03:59,643 --> 00:04:02,263
+only the noise level is held constant,
+
+55
+00:04:02,823 --> 00:04:06,863
+raised six decibels or
+lowered six decibels.
+
+56
+00:04:07,823 --> 00:04:09,383
+Parameters stay frozen.
+
+57
+00:04:09,943 --> 00:04:14,383
+After the rise, neither VAD
+updates in the late interval:
+
+58
+00:04:14,383 --> 00:04:18,863
+higher energy can keep the speech
+gate closed to updates.
+
+59
+00:04:19,663 --> 00:04:24,243
+After the fall, updates
+resume and the selected method
+
+60
+00:04:24,243 --> 00:04:28,683
+shows small advantages
+over fixed estimation.
+
+61
+00:04:29,403 --> 00:04:33,443
+These constructed,
+previously used sentences are
+
+62
+00:04:33,443 --> 00:04:36,783
+a mechanism diagnostic,
+
+63
+00:04:37,203 --> 00:04:41,123
+not an independent generalisation test.
+
+64
+00:04:44,043 --> 00:04:47,513
+My conclusion is that
+careful noise updates
+
+65
+00:04:47,513 --> 00:04:49,733
+reduce one type of error,
+
+66
+00:04:50,313 --> 00:04:54,093
+but they do not solve noise tracking
+in every situation.
+
+67
+00:04:54,893 --> 00:04:58,313
+All main comparisons
+use the same standard
+
+68
+00:04:58,313 --> 00:05:01,873
+Python STOI implementation.
+
+69
+00:05:02,453 --> 00:05:05,893
+Effects are small,
+sentence outcomes vary,
+
+70
+00:05:05,893 --> 00:05:11,593
+and subjective listening
+quality was not evaluated.
+
+71
+00:05:12,373 --> 00:05:15,393
+More independent speakers and longer,
+
+72
+00:05:16,713 --> 00:05:19,793
+genuinely changing recordings are needed.
+
+73
+00:05:20,373 --> 00:05:21,233
+Thank you.

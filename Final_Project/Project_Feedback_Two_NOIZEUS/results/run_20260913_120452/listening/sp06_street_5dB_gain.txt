@@ -1,0 +1,2 @@
+Common playback gain applied to all four WAV copies: 1
+Metrics use the original unscaled double-precision signals in the MAT file.

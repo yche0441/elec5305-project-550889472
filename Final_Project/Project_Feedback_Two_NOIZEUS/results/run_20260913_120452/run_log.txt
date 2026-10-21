@@ -1,0 +1,108 @@
+ELEC5305 NOIZEUS controlled TSNR experiment: 2026-09-12-v1
+MATLAB: 26.1.0.3346908 (R2026a) Update 5
+48 input cases; 16 development and 32 held-out evaluation cases.
+Evaluation excludes the first 0.10 s in every signal.
+Verification passed: source TSNR, reconstruction, controlled update and SNR.
+Result collection check passed (2026-09-13-r1).
+[01/48] sp01_car_0dB (development)
+[02/48] sp01_car_5dB (development)
+[03/48] sp01_car_10dB (development)
+[04/48] sp01_car_15dB (development)
+[05/48] sp01_street_0dB (development)
+[06/48] sp01_street_5dB (development)
+[07/48] sp01_street_10dB (development)
+[08/48] sp01_street_15dB (development)
+[09/48] sp06_car_0dB (evaluation)
+[10/48] sp06_car_5dB (evaluation)
+[11/48] sp06_car_10dB (evaluation)
+[12/48] sp06_car_15dB (evaluation)
+[13/48] sp06_street_0dB (evaluation)
+[14/48] sp06_street_5dB (evaluation)
+[15/48] sp06_street_10dB (evaluation)
+[16/48] sp06_street_15dB (evaluation)
+[17/48] sp11_car_0dB (evaluation)
+[18/48] sp11_car_5dB (evaluation)
+[19/48] sp11_car_10dB (evaluation)
+[20/48] sp11_car_15dB (evaluation)
+[21/48] sp11_street_0dB (evaluation)
+[22/48] sp11_street_5dB (evaluation)
+[23/48] sp11_street_10dB (evaluation)
+[24/48] sp11_street_15dB (evaluation)
+[25/48] sp16_car_0dB (development)
+[26/48] sp16_car_5dB (development)
+[27/48] sp16_car_10dB (development)
+[28/48] sp16_car_15dB (development)
+[29/48] sp16_street_0dB (development)
+[30/48] sp16_street_5dB (development)
+[31/48] sp16_street_10dB (development)
+[32/48] sp16_street_15dB (development)
+[33/48] sp21_car_0dB (evaluation)
+[34/48] sp21_car_5dB (evaluation)
+[35/48] sp21_car_10dB (evaluation)
+[36/48] sp21_car_15dB (evaluation)
+[37/48] sp21_street_0dB (evaluation)
+[38/48] sp21_street_5dB (evaluation)
+[39/48] sp21_street_10dB (evaluation)
+[40/48] sp21_street_15dB (evaluation)
+[41/48] sp26_car_0dB (evaluation)
+[42/48] sp26_car_5dB (evaluation)
+[43/48] sp26_car_10dB (evaluation)
+[44/48] sp26_car_15dB (evaluation)
+[45/48] sp26_street_0dB (evaluation)
+[46/48] sp26_street_5dB (evaluation)
+[47/48] sp26_street_10dB (evaluation)
+[48/48] sp26_street_15dB (evaluation)
+
+Completed. STOI rows available: 144/144.
+         Split           Noise       NominalSNR_dB        Method         N    MeanInputSNR_dB    MeanOutputSNR_dB    MeanSNRImprovement_dB    StdSNRImprovement_dB    FiniteSTOIRows    MeanSTOI
+    _______________    __________    _____________    _______________    _    _______________    ________________    _____________________    ____________________    ______________    ________
+
+    {'development'}    {'car'   }          0          {'unprocessed'}    2       -0.74328            -0.74328                     0                        0                2           0.66622 
+    {'development'}    {'car'   }          0          {'fixed'      }    2       -0.74328              7.5492                8.2925                  0.13045                2           0.67861 
+    {'development'}    {'car'   }          0          {'vad'        }    2       -0.74328              6.4806                7.2239                  0.99024                2           0.66484 
+    {'development'}    {'car'   }          5          {'unprocessed'}    2         4.3079              4.3079                     0                        0                2           0.75519 
+    {'development'}    {'car'   }          5          {'fixed'      }    2         4.3079              10.548                6.2403                  0.88927                2           0.77682 
+    {'development'}    {'car'   }          5          {'vad'        }    2         4.3079              10.326                 6.018                  0.95571                2           0.75706 
+    {'development'}    {'car'   }         10          {'unprocessed'}    2         9.2231              9.2231                     0                        0                2           0.85017 
+    {'development'}    {'car'   }         10          {'fixed'      }    2         9.2231              12.757                3.5343                  0.49974                2           0.85539 
+    {'development'}    {'car'   }         10          {'vad'        }    2         9.2231              12.948                3.7245                  0.32299                2           0.84811 
+    {'development'}    {'car'   }         15          {'unprocessed'}    2         14.288              14.288                     0                        0                2           0.92013 
+    {'development'}    {'car'   }         15          {'fixed'      }    2         14.288              18.174                3.8858                   1.2188                2           0.93685 
+    {'development'}    {'car'   }         15          {'vad'        }    2         14.288              17.831                3.5421                  0.99354                2           0.92782 
+    {'development'}    {'street'}          0          {'unprocessed'}    2       -0.76935            -0.76935                     0                        0                2           0.65751 
+    {'development'}    {'street'}          0          {'fixed'      }    2       -0.76935              4.6599                5.4293                   2.2835                2           0.63541 
+    {'development'}    {'street'}          0          {'vad'        }    2       -0.76935              4.9067                 5.676                    0.705                2           0.63626 
+    {'development'}    {'street'}          5          {'unprocessed'}    2         4.2062              4.2062                     0                        0                2           0.75899 
+    {'development'}    {'street'}          5          {'fixed'      }    2         4.2062              8.0084                3.8022                   3.2225                2           0.75803 
+    {'development'}    {'street'}          5          {'vad'        }    2         4.2062              8.0935                3.8873                    3.369                2           0.75006 
+    {'development'}    {'street'}         10          {'unprocessed'}    2         9.5595              9.5595                     0                        0                2           0.87236 
+    {'development'}    {'street'}         10          {'fixed'      }    2         9.5595              11.101                1.5418                  0.75251                2           0.84227 
+    {'development'}    {'street'}         10          {'vad'        }    2         9.5595              12.043                 2.484                  0.94626                2           0.85083 
+    {'development'}    {'street'}         15          {'unprocessed'}    2         14.222              14.222                     0                        0                2           0.91669 
+    {'development'}    {'street'}         15          {'fixed'      }    2         14.222              16.882                2.6603                 0.098835                2           0.93059 
+    {'development'}    {'street'}         15          {'vad'        }    2         14.222              17.494                3.2724                  0.32007                2           0.92695 
+    {'evaluation' }    {'car'   }          0          {'unprocessed'}    4       -0.45908            -0.45908                     0                        0                4            0.6313 
+    {'evaluation' }    {'car'   }          0          {'fixed'      }    4       -0.45908              5.2877                5.7467                   1.0136                4           0.63288 
+    {'evaluation' }    {'car'   }          0          {'vad'        }    4       -0.45908              5.0052                5.4643                  0.53181                4           0.62741 
+    {'evaluation' }    {'car'   }          5          {'unprocessed'}    4         4.5118              4.5118                     0                        0                4           0.75096 
+    {'evaluation' }    {'car'   }          5          {'fixed'      }    4         4.5118              8.8292                4.3174                  0.79781                4           0.76161 
+    {'evaluation' }    {'car'   }          5          {'vad'        }    4         4.5118               8.668                4.1562                  0.42931                4           0.74394 
+    {'evaluation' }    {'car'   }         10          {'unprocessed'}    4         9.8382              9.8382                     0                        0                4           0.86681 
+    {'evaluation' }    {'car'   }         10          {'fixed'      }    4         9.8382              12.029                2.1905                   1.3679                4           0.85549 
+    {'evaluation' }    {'car'   }         10          {'vad'        }    4         9.8382               12.76                2.9217                  0.66977                4           0.85586 
+    {'evaluation' }    {'car'   }         15          {'unprocessed'}    4         14.521              14.521                     0                        0                4           0.93443 
+    {'evaluation' }    {'car'   }         15          {'fixed'      }    4         14.521               17.11                2.5892                  0.79445                4           0.93555 
+    {'evaluation' }    {'car'   }         15          {'vad'        }    4         14.521               17.02                2.4988                  0.77776                4           0.92924 
+    {'evaluation' }    {'street'}          0          {'unprocessed'}    4       -0.35727            -0.35727                     0                        0                4           0.69722 
+    {'evaluation' }    {'street'}          0          {'fixed'      }    4       -0.35727              4.0277                 4.385                  0.83295                4           0.67342 
+    {'evaluation' }    {'street'}          0          {'vad'        }    4       -0.35727               3.992                4.3493                     1.26                4           0.68366 
+    {'evaluation' }    {'street'}          5          {'unprocessed'}    4         4.6985              4.6985                     0                        0                4           0.76005 
+    {'evaluation' }    {'street'}          5          {'fixed'      }    4         4.6985              7.8268                3.1283                   1.9548                4           0.74366 
+    {'evaluation' }    {'street'}          5          {'vad'        }    4         4.6985              8.0394                3.3409                   1.8447                4           0.73735 
+    {'evaluation' }    {'street'}         10          {'unprocessed'}    4         9.7607              9.7607                     0                        0                4           0.89827 
+    {'evaluation' }    {'street'}         10          {'fixed'      }    4         9.7607              11.125                1.3643                   1.8522                4           0.87411 
+    {'evaluation' }    {'street'}         10          {'vad'        }    4         9.7607              11.412                1.6514                   1.4576                4           0.87387 
+    {'evaluation' }    {'street'}         15          {'unprocessed'}    4         14.726              14.726                     0                        0                4           0.93795 
+    {'evaluation' }    {'street'}         15          {'fixed'      }    4         14.726              15.644               0.91704                   2.4296                4           0.92046 
+    {'evaluation' }    {'street'}         15          {'vad'        }    4         14.726              15.755                1.0289                   2.1011                4           0.91347 
+

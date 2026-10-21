@@ -1,0 +1,261 @@
+{
+  "generated_utc": "2026-10-14T03:58:25.193613+00:00",
+  "files": [
+    {
+      "path": "ANALYSIS_SUMMARY.json",
+      "bytes": 22538,
+      "sha256": "fb2d372b2f9a9d543803e8b35852d3068203391ea2d86719c37a8bd87dc155c9"
+    },
+    {
+      "path": "FINDINGS.txt",
+      "bytes": 4863,
+      "sha256": "8ffabb4b0ebe1a4b440955da9317d47a7d9ed8c5d4d0264d1653788bf4278a6c"
+    },
+    {
+      "path": "INPUT_AND_CORE_MANIFEST.json",
+      "bytes": 4873,
+      "sha256": "bf246760b978505205f38b9ee93028a4b6938461e43c354c4ab4e3df65465f28"
+    },
+    {
+      "path": "MATLAB_RUN_LOG_FINAL.txt",
+      "bytes": 1592,
+      "sha256": "ab5a1f493d5022783c0eeec24975cae98f07f0f9fd44e142692697fc405e7ea6"
+    },
+    {
+      "path": "MATLAB_RUN_STATUS.json",
+      "bytes": 251,
+      "sha256": "e4f4caf2605c0158ec4956153c4228d0e40489027d1a1bf93342297085836441"
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 4703,
+      "sha256": "f779c22d36e34de3b2583647089c7c1813494451291dbccfc51fcd175b9a7182"
+    },
+    {
+      "path": "PROTOCOL_SHA256.txt",
+      "bytes": 80,
+      "sha256": "816c7363a93629c5c54ed16d00602d61c762e6ef90df6cbf03fe57f502668636"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 6818,
+      "sha256": "2efc30ae776d81304fa5b6c06d3346beac8db08c817ab6a698c5326d80e71a69"
+    },
+    {
+      "path": "RUN_HISTORY.json",
+      "bytes": 1690,
+      "sha256": "a78cb189470e325b953c2992c44cc4105539331060c33485ff328c4334b69c71"
+    },
+    {
+      "path": "SCORING_LOG_FINAL.txt",
+      "bytes": 6265,
+      "sha256": "e6bf96dad951b7a68ffa193c9421c9cb452bd6a6a74e3de3181cbbec45d279a0"
+    },
+    {
+      "path": "SELECTION.json",
+      "bytes": 128,
+      "sha256": "179da6adc500d26fa6a8d8f972521d2a6103853b49bf7f834cc1b40dcc5762e9"
+    },
+    {
+      "path": "data/car/10dB/sp02_car_sn10.wav",
+      "bytes": 42282,
+      "sha256": "23ad89169ef1e16a6802c0fe0de8aeb891b7c7c80e9ffdbc7000be69e64c7a3c"
+    },
+    {
+      "path": "data/car/10dB/sp07_car_sn10.wav",
+      "bytes": 40274,
+      "sha256": "e3b80844ce86ae14cc085a3d39ae7daaaf3b912c05db610be83cc671ac6053b3"
+    },
+    {
+      "path": "data/car/10dB/sp12_car_sn10.wav",
+      "bytes": 44008,
+      "sha256": "d5fca34f557a98325243b11fd1c39678d415f6ee78aa70ca0040025e6deb949c"
+    },
+    {
+      "path": "data/car/10dB/sp17_car_sn10.wav",
+      "bytes": 38506,
+      "sha256": "fd077606238fa3d70854ae63dcd02527fe9f2df258107621fbb22e8516e30a65"
+    },
+    {
+      "path": "data/car/10dB/sp22_car_sn10.wav",
+      "bytes": 43208,
+      "sha256": "9dcb2e38620eb3616f2dd890af63c9c553ba8e82a421141f78e43e7154d65724"
+    },
+    {
+      "path": "data/car/10dB/sp27_car_sn10.wav",
+      "bytes": 40676,
+      "sha256": "1287dd0d660b8b47cc546f81c06a8fc5aac1859d6226b532aa064cd675a97327"
+    },
+    {
+      "path": "data/clean/sp02.wav",
+      "bytes": 42282,
+      "sha256": "a95d7dbea657df0c3e47d81d3f914784f895af7c837c79df811221ca71828017"
+    },
+    {
+      "path": "data/clean/sp07.wav",
+      "bytes": 40274,
+      "sha256": "fdf80f84402a2b2e09af12ab699aed07e511b189cf55e001613a59e7acc9af69"
+    },
+    {
+      "path": "data/clean/sp12.wav",
+      "bytes": 44008,
+      "sha256": "8bb319d9a3abeb89bdfd16dc042f9414df7fa7648ff446c0ef1174f099995416"
+    },
+    {
+      "path": "data/clean/sp17.wav",
+      "bytes": 38506,
+      "sha256": "5298994ed7385670dda954171b0da237baa03aa9a5bc7a8793ea49cf565f3325"
+    },
+    {
+      "path": "data/clean/sp22.wav",
+      "bytes": 43208,
+      "sha256": "f0fdd94bd3a06b24238137d51a92e064dffa4a8c31d4a0fc8c21116380c7d67d"
+    },
+    {
+      "path": "data/clean/sp27.wav",
+      "bytes": 40676,
+      "sha256": "c4832fc9fa4b8615126ca17345878fed8558feccfcac9bc61dcd0211caaef4b8"
+    },
+    {
+      "path": "data/street/10dB/sp02_street_sn10.wav",
+      "bytes": 42282,
+      "sha256": "a0b4d3f4b1d960aaa6ad705891ca2236c269547d7119a0e7a124dcf8f8050012"
+    },
+    {
+      "path": "data/street/10dB/sp07_street_sn10.wav",
+      "bytes": 40274,
+      "sha256": "d6b16a9b6a216f672a5f1860145610e73f5f56413b736c6356357ca964dccc91"
+    },
+    {
+      "path": "data/street/10dB/sp12_street_sn10.wav",
+      "bytes": 44008,
+      "sha256": "0fcbd41ef488757ae4480c5ec8e829abf176e388242e211d2d79e7ace7ce1bff"
+    },
+    {
+      "path": "data/street/10dB/sp17_street_sn10.wav",
+      "bytes": 38506,
+      "sha256": "e9109176f75117c38f72461602a54bf55af351e1c25a1dde51482e8ac1e343b1"
+    },
+    {
+      "path": "data/street/10dB/sp22_street_sn10.wav",
+      "bytes": 43208,
+      "sha256": "fa5c16e543cb417a91174f51febf9eb12fd2b6123a55d0efb895b60c17502f4c"
+    },
+    {
+      "path": "data/street/10dB/sp27_street_sn10.wav",
+      "bytes": 40676,
+      "sha256": "045c2e2bce3e99b6a7e58f0b80578949ec7a5f8138a0758a9966452b96eef93b"
+    },
+    {
+      "path": "experiment_config.m",
+      "bytes": 773,
+      "sha256": "d41109272d523cde8f82a9f43f52393a8838b7336008ccb6d800cf4c0e3783eb"
+    },
+    {
+      "path": "frame_diagnostics.csv",
+      "bytes": 2929770,
+      "sha256": "4ee560e2424105fbd4d65efa5f1401bef02acb1406f9a016b710da42f317df9e"
+    },
+    {
+      "path": "license.txt",
+      "bytes": 1487,
+      "sha256": "305a73ba4a12f23445b45c49d6f049e4e205e25acad9e25db85fb65c639f2635"
+    },
+    {
+      "path": "matlab_metrics.csv",
+      "bytes": 17683,
+      "sha256": "fb64ac9aeef049addd3c7d0ae782d9808533b9bec05fb41bf3cef7d3df83bdb2"
+    },
+    {
+      "path": "measure_snr.m",
+      "bytes": 408,
+      "sha256": "b3435ae1d875a7e14c9a4596a7dd0d1ea99cc86552b3b60e8e9bf1de85a7c66b"
+    },
+    {
+      "path": "metrics.csv",
+      "bytes": 19292,
+      "sha256": "e223950b18e456eb3f145d968be736ab72dddbbcf6f1c3e0ea78198321561318"
+    },
+    {
+      "path": "pair_diagnostics.m",
+      "bytes": 1608,
+      "sha256": "da84cc6f28900f848b58e8511f809e990aa48349181ff57e0b16f06847a5de65"
+    },
+    {
+      "path": "paired_effects.pdf",
+      "bytes": 28999,
+      "sha256": "f3a06e004f49fc0b2974ad2d0fdd430c13735ef6b779fe5c03b214d33b5cd5cd"
+    },
+    {
+      "path": "paired_effects.png",
+      "bytes": 186993,
+      "sha256": "5b9aa23225506afa019591a28bb2915ba38c04ed99949844692cc7d6f9f55dc0"
+    },
+    {
+      "path": "prior_test_metrics_reference.csv",
+      "bytes": 18702,
+      "sha256": "8a6d0480fe45d1604d74a8125fb1a0c06ccc0da5e45a41ddcbcbf86abf08c60b"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 74,
+      "sha256": "0c841fab33724e7da70a4c081ca694be8461eb02c23d1533513d1ae760e5b7f0"
+    },
+    {
+      "path": "run_controlled_study.m",
+      "bytes": 7496,
+      "sha256": "2f91db81b636192f90d46d0f125d6636893db3dd2174958ab35e81bd14eff9de"
+    },
+    {
+      "path": "score_and_summarize.py",
+      "bytes": 13311,
+      "sha256": "eef7d66591c1d7135873d76080854960dca1f4cfe4b7c9f5b81fea5f547a54e6"
+    },
+    {
+      "path": "sentence_means.csv",
+      "bytes": 8022,
+      "sha256": "23d2ac21b99124e4b3914c3a49c89954ed615e1ce71a06c5206460fcd5e86403"
+    },
+    {
+      "path": "sentence_paired_contrasts.csv",
+      "bytes": 5244,
+      "sha256": "4e96500e1aa0a41ed6efa08a0c7c09c91c47919edc7eebff363e5e07d24fa244"
+    },
+    {
+      "path": "sentence_profile_interactions.csv",
+      "bytes": 3572,
+      "sha256": "331d28fd876ed8628197dd11b558fb761e27bce400a2993d0b86621c2d43881f"
+    },
+    {
+      "path": "tracking_example.pdf",
+      "bytes": 25206,
+      "sha256": "a818c030af846dc821be4129a2206381da4bae10eba1cdabdc75c9ce055a83ad"
+    },
+    {
+      "path": "tracking_example.png",
+      "bytes": 178311,
+      "sha256": "c636c55785df3ff3218f7d18829f84f18e993687aa8b25d8c9e0dce19ab64d9a"
+    },
+    {
+      "path": "tracking_summary.csv",
+      "bytes": 882,
+      "sha256": "b649b3beb773a5a2d49d85a803e3449998344a2970f7f073d94b6b142073c9c9"
+    },
+    {
+      "path": "tsnr_enhance.m",
+      "bytes": 5437,
+      "sha256": "85ef4d115f24dda5fb5a3f1b716c93d6ca0c48c8501d3ce6668e9e99c58bce84"
+    },
+    {
+      "path": "unquantized_signals.mat",
+      "bytes": 26926219,
+      "sha256": "14d141ed6cabfb367abb7aeea1f53205ae0a94375eb29a8cbabc53c35cb7e9ce"
+    },
+    {
+      "path": "verification_cases.csv",
+      "bytes": 3970,
+      "sha256": "9b95bebe22cfafa6846a7d6a6d9fb6df0488bae1166e4ebfddc96e5b4a03bfd2"
+    }
+  ],
+  "validation": "All numerical and visual checks passed. Full details in ANALYSIS_SUMMARY.json."
+}

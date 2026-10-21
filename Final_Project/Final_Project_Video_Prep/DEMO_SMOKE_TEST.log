@@ -1,0 +1,14 @@
+[警告: 名称不存在或不是目录: /Users/richard/Desktop/SGCC/强化题库] 
+         Method          FreshCaseSNR_dB    FreshCasePySTOI    Stored48CaseMeanSNR_dB    Stored48CaseMeanPySTOI
+    _________________    _______________    _______________    ______________________    ______________________
+
+    "Noisy input"            4.4932             0.75755                7.1967                   0.81023        
+    "Fixed noise PSD"        6.1462             0.72029                10.651                   0.81422        
+    "Original VAD"           6.9833             0.72782                10.656                   0.80953        
+    "Selected VAD"            6.763             0.71649                10.715                   0.81357        
+
+
+DEMO COMPLETE. Four fresh case scores match the saved study.
+Common playback gain: 1.000000000
+Optional audio: play_demo_audio
+Outputs: /Users/richard/.codex/.chatgpt-projects/g-p-6ab36ee4dac081918004327095d847d5/outputs/Final_Project_Video_Prep/demo_generated

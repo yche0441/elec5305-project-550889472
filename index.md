@@ -1,99 +1,83 @@
 ---
-title: ELEC5305 Project Feedback Two
+title: ELEC5305 Final Project
 ---
 
-# Wiener speech enhancement with VAD-guided noise updating
+# When does VAD-guided noise updating help Wiener speech enhancement?
 
-**Yulong Chen · SID 550889472 · ELEC5305**
+**Yulong Chen · SID 550889472 · ELEC5305 · 21 October 2026**
 
-[GitHub repository](https://github.com/yche0441/elec5305-project-550889472) · [Detailed progress report](https://github.com/yche0441/elec5305-project-550889472/blob/main/Project_Feedback_Two_NOIZEUS/review/RESULTS.md)
+[Final report (PDF)](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Final video](Final_Project/video/index.html) · [GitHub repository](https://github.com/yche0441/elec5305-project-550889472) · [Code and running instructions](Final_Project/README.txt)
 
-## Project Feedback Two
+The project asks whether voice-activity detection can update a Wiener enhancer's noise estimate without suppressing useful speech. Fixed estimation, original VAD and a more cautious VAD setting share the same TSNR enhancement and reconstruction. The experiment changes the noise-update rule.
 
-This project asks when VAD-guided noise updating improves Wiener speech enhancement compared with a fixed initial estimate, and how the outcome relates to changing background noise. Following supervisor feedback, the main experiment uses paired NOIZEUS speech instead of separate quiet and noisy utterances. An existing implementation was reproduced first, and its TSNR branch now provides the shared processing path.
+## What the completed experiments show
 
-The first native MATLAB experiment completed on **13 September 2026**. All 48 inputs and 144 SNR/STOI rows completed, including the verification checks. The main results below use the 32-case evaluation set: four sentences, two noise types and four nominal input SNR levels. Development uses two different sentences/speakers.
+### 1. Frozen parameter comparison
 
-## What the first experiment found
+Nine threshold/hangover combinations were compared on 16 development conditions. Threshold **1 dB** and hangover **10 frames** were selected, then frozen before testing six previously unused sentences under eight noise/SNR conditions each. This is a new-sentence test, not a new-speaker test.
 
-| Noise | Method | Mean reference SNR (dB) | Mean SNR gain over input (dB) | Mean STOI |
-| --- | --- | ---: | ---: | ---: |
-| Car | Unprocessed | 7.103 | +0.000 | 0.7959 |
-| Car | Fixed TSNR Wiener | 10.814 | +3.711 | 0.7964 |
-| Car | VAD-updated TSNR Wiener | 10.863 | +3.760 | 0.7891 |
-| Street | Unprocessed | 7.207 | +0.000 | 0.8234 |
-| Street | Fixed TSNR Wiener | 9.656 | +2.449 | 0.8029 |
-| Street | VAD-updated TSNR Wiener | 9.800 | +2.593 | 0.8021 |
+| 48-condition method | Mean reference SNR (dB) | Mean standard STOI |
+| --- | ---: | ---: |
+| Unprocessed | 7.197 | 0.81023 |
+| Fixed noise estimate | 10.651 | 0.81422 |
+| Original VAD (3 dB, 5 frames) | 10.656 | 0.80953 |
+| Selected VAD (1 dB, 10 frames) | 10.715 | 0.81357 |
 
+Selected VAD improves mean STOI over original VAD by **0.00404**. Fixed estimation retains slightly higher mean STOI. The changes are small and do not establish universal superiority. The six sentence units and leave-one-sentence-out checks are reported explicitly; the 48 conditions are not treated as 48 independent speakers.
 
-VAD updating had a small average SNR advantage over fixed estimation, but its average STOI was lower. Only 6 of 32 evaluation cases improved both measures. This is a mixed result. Noise tracking and preservation of speech need to be considered together.
+### 2. Matched noise-level diagnostic
 
-![All evaluation cases: paired effects and noise variation](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/figures/variation_and_paired_effect.png)
+The added experiment holds the speech and base noise fixed and compares constant noise level with a 6 dB rise or fall. It creates **36 mixtures × 4 methods**, with frozen settings and known injected noise. The six sentences were already used, so this is a mechanism diagnostic rather than a new independent generalisation test.
 
-The scatter plots show the VAD-minus-fixed difference for every evaluation case. Positive values favour VAD for that measure. These short recordings and four evaluation sentences do not establish a general or monotonic benefit from adaptation.
+![Paired effects in all six sentence units](Final_Project/controlled_study/paired_effects.png)
 
-## Listen and inspect
+After the rise, neither energy-VAD setting updates in the late interval. The energy increase can keep the speech gate closed to noise updates. After the fall, updates resume; selected VAD has small mean advantages over fixed estimation: **+0.143 dB SNR** and **+0.00201 STOI**. This asymmetry helps explain why “adaptive” does not necessarily mean better tracking.
 
-The following sp06 examples at nominal 5 dB were selected before the run. Each quartet uses the same playback gain. Spectrogram colour limits are common within each quartet. No subjective listener scores have yet been collected.
+![Predetermined example of injected and estimated noise power](Final_Project/controlled_study/tracking_example.png)
 
-### Car noise, nominal 5 dB
+These measurements support a qualified conclusion: cautious updating limits speech contamination, but may miss opportunities to follow changing noise. STOI is an intelligibility predictor, not a percentage of words understood or a subjective quality rating.
 
-Clean reference: [download WAV](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_car_5dB_clean.wav)
+## Watch the final demonstration
 
-<audio controls preload="none" src="Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_car_5dB_clean.wav">Your browser can download the WAV using the link above.</audio>
+The **5 min 24 sec** video explains the research question, method, parameter selection and results, and includes an actual MATLAB run. English captions are included in the picture. The single example is freshly computed; the full-study means and matched noise-change results are clearly identified as stored results.
 
-Unprocessed: [download WAV](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_car_5dB_unprocessed.wav)
+<video controls playsinline preload="metadata" style="width:100%;max-width:960px;aspect-ratio:16/9;background:#102031" aria-label="ELEC5305 final project demonstration"><source src="Final_Project/video/ELEC5305_Final_Project_Video.mp4" type="video/mp4">Your browser does not support the video player. Use the MP4 download link below.</video>
 
-<audio controls preload="none" src="Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_car_5dB_unprocessed.wav">Your browser can download the WAV using the link above.</audio>
+[Open the video page](Final_Project/video/index.html) · [Download MP4](Final_Project/video/ELEC5305_Final_Project_Video.mp4) · [English SRT captions](Final_Project/video/ELEC5305_Final_Project_English.srt) · [Spoken transcript](Final_Project/video/Final_Video_Transcript.txt)
 
-Fixed TSNR Wiener: [download WAV](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_car_5dB_fixed.wav)
+## See the code in action
 
-<audio controls preload="none" src="Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_car_5dB_fixed.wav">Your browser can download the WAV using the link above.</audio>
+Open [START_HERE.m](Final_Project/START_HERE.m) in MATLAB and press Run after installing the documented dependencies. It recomputes **sp02 / street / nominal 5 dB** and verifies the scores against the stored study. The upper panels are a fresh single-case run; the lower panels are stored means from all 48 conditions.
 
-VAD-updated TSNR Wiener: [download WAV](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_car_5dB_vad.wav)
+![Predetermined live-demo example and stored study means](Final_Project/Final_Project_Video_Prep/demo_generated/Demo_Results.png)
 
-<audio controls preload="none" src="Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_car_5dB_vad.wav">Your browser can download the WAV using the link above.</audio>
+This example is intentionally retained even though selected VAD is not best: processing raises SNR but lowers STOI relative to the input. The following audio is illustrative only; all four clips share the same playback gain and no listener scores are claimed.
 
-![Car noise: same-scale spectrograms](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/figures/sp06_car_5dB_spectrogram.png)
+**Noisy input**
 
-[VAD and reference-energy diagnostic plot](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/figures/sp06_car_5dB_vad.png)
+<audio controls preload="none" src="Final_Project/Final_Project_Video_Prep/demo_generated/01_noisy_input.wav"></audio>
 
-### Street noise, nominal 5 dB
+**Fixed noise estimate**
 
-Clean reference: [download WAV](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_street_5dB_clean.wav)
+<audio controls preload="none" src="Final_Project/Final_Project_Video_Prep/demo_generated/02_fixed_noise_psd.wav"></audio>
 
-<audio controls preload="none" src="Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_street_5dB_clean.wav">Your browser can download the WAV using the link above.</audio>
+**Original VAD**
 
-Unprocessed: [download WAV](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_street_5dB_unprocessed.wav)
+<audio controls preload="none" src="Final_Project/Final_Project_Video_Prep/demo_generated/03_original_vad.wav"></audio>
 
-<audio controls preload="none" src="Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_street_5dB_unprocessed.wav">Your browser can download the WAV using the link above.</audio>
+**Selected VAD**
 
-Fixed TSNR Wiener: [download WAV](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_street_5dB_fixed.wav)
+<audio controls preload="none" src="Final_Project/Final_Project_Video_Prep/demo_generated/04_selected_vad.wav"></audio>
 
-<audio controls preload="none" src="Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_street_5dB_fixed.wav">Your browser can download the WAV using the link above.</audio>
+The four clips use the same gain so the relative levels are preserved. They are audio examples for inspection, not a completed subjective listening study.
 
-VAD-updated TSNR Wiener: [download WAV](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_street_5dB_vad.wav)
+## Reproduce and review
 
-<audio controls preload="none" src="Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/listening/sp06_street_5dB_vad.wav">Your browser can download the WAV using the link above.</audio>
+- [Final report](ELEC5305_Final_Project_Yulong_Chen.pdf).
+- [Code, dependency setup and complete reproduction instructions](Final_Project/README.txt).
+- [Frozen parameter study and protocol](Final_Project/Final_Project_Study/README.txt).
+- [Unified metric replay and sentence-level analysis](Final_Project/reanalysis/README_REANALYSIS.txt).
+- [Controlled experiment: protocol, complete results and checks](Final_Project/controlled_study/README.txt).
+- [Original Feedback Two report](ELEC5305_Project_Feedback_Two_Yulong_Chen_550889472.pdf) and [unchanged original project](Project_Feedback_Two_NOIZEUS/README.md).
 
-![Street noise: same-scale spectrograms](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/figures/sp06_street_5dB_spectrogram.png)
-
-[VAD and reference-energy diagnostic plot](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/figures/sp06_street_5dB_vad.png)
-
-## What needs improvement
-
-About 21.5% of the pooled car speech-energy-proxy frames and 21.6% of the street frames were used for noise updates. These reference-energy proxies are not manual speech labels. Their overlap with updates identifies cases to inspect for speech entering the noise estimate. It is a possible contributor to the mixed STOI results, not a proven explanation of every case.
-
-Next steps are listening review, VAD error annotation and a small parameter study on development data. Any later parameter selection will be documented and tested on previously unused material where possible.
-
-## Code, data and evidence
-
-- [Working code and instructions](https://github.com/yche0441/elec5305-project-550889472/tree/main/Project_Feedback_Two_NOIZEUS).
-- [Original native MATLAB results ZIP](Project_Feedback_Two_NOIZEUS/evidence/NOIZEUS_Results_20260913_120452.zip), including all signals.
-- [Per-case metrics](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/metrics.csv) and [paired comparisons](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/paired_comparisons.csv).
-- [Run status](Project_Feedback_Two_NOIZEUS/results/run_20260913_120452/RUN_STATUS.txt) and [independent review record](Project_Feedback_Two_NOIZEUS/review/CHECKED_RESULTS.json).
-- [Eight-paper short literature review](https://github.com/yche0441/elec5305-project-550889472/blob/main/Project_Feedback_Two_NOIZEUS/source_information/LITERATURE_REVIEW.md), [protocol](https://github.com/yche0441/elec5305-project-550889472/blob/main/Project_Feedback_Two_NOIZEUS/PROTOCOL.md) and [metric definitions](https://github.com/yche0441/elec5305-project-550889472/blob/main/Project_Feedback_Two_NOIZEUS/METRIC_GUIDE.md).
-
-The existing source is credited to LIU Ming / Pascal Scalart, and the corpus to NOIZEUS / Hu and Loizou. [Source details and references](https://github.com/yche0441/elec5305-project-550889472/blob/main/Project_Feedback_Two_NOIZEUS/source_information/SOURCE_AND_CHANGES.md). The original proposal records the initial plan; this progress page describes the revised experiment. The final report and video remain future deliverables.
-[Initial project proposal (PDF)](ELEC5305_Project_Proposal_Yulong_Chen.pdf)
-[Download the full Project Feedback Two report (PDF)](ELEC5305_Project_Feedback_Two_Yulong_Chen_550889472.pdf)
+All final-report comparisons use standard PySTOI 0.4.1. Original native MATLAB STOI results remain archived separately. The common TSNR code is credited to **LIU Ming / Pascal Scalart**, with its original licence preserved. Speech/noise inputs come from **NOIZEUS / Hu and Loizou**. The contribution is the controlled adaptation, verification, comparative experiments and interpretation; the inherited enhancer is not claimed as a new invention.

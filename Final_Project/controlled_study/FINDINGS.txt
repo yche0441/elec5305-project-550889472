@@ -1,0 +1,82 @@
+CONTROLLED LEVEL-CHANGE STUDY: RESULTS AND INTERPRETATION
+
+All 36 planned mixtures and 144 method rows completed. These are six reused
+sentences, with car/street noise averaged within each sentence. Results are
+descriptive paired effects; no independent36-case or overlapping-frame
+inference, no significance claim, and no new-speaker validation is implied.
+
+WHOLE-RECORD MEANS (INITIAL100 ms EXCLUDED)
+Profile      Method          SNR(dB)   standardSTOI
+constant     unprocessed      9.657733  0.867941
+constant     fixed           12.559196  0.879181
+constant     original VAD     12.650434  0.875268
+constant     selected VAD     12.618568  0.880362
+rise+6dB     unprocessed      5.361064  0.799265
+rise+6dB     fixed            7.910159  0.812887
+rise+6dB     original VAD      7.965548  0.812302
+rise+6dB     selected VAD      7.874275  0.813801
+fall-6dB     unprocessed     12.232858  0.907051
+fall-6dB     fixed           14.283851  0.903897
+fall-6dB     original VAD     14.428769  0.902396
+fall-6dB     selected VAD     14.426676  0.905909
+
+PAIRED METHOD CONTRASTS
+Profile      Contrast              deltaSNR  deltaSTOI  lateDeltaSNR
+constant     selected-fixed       +0.059372 +0.001180  +0.055218
+rise+6dB     selected-fixed       -0.035885 +0.000914  -0.057808
+fall-6dB     selected-fixed       +0.142825 +0.002011  +0.394906
+constant     selected-original    -0.031866 +0.005093  -0.101695
+rise+6dB     selected-original    -0.091274 +0.001499  -0.132073
+fall-6dB     selected-original    -0.002092 +0.003513  -0.032255
+
+1. The selected setting remains a trade-off, not a universally superior
+method. Its whole-record STOI is slightly above original VAD and fixed in all
+three profile means, but rising-noise SNR is below both. In the falling
+profile, even selected VAD STOI remains below the unprocessed mixture
+(0.905909 versus 0.907051), despite greater reference SNR.
+
+2. The controlled change provides a clearer answer to WHEN updating helps.
+After the ramp plus100 ms guard, both VAD methods perform zero updates in
+all 12 rising-noise cases. They label every such valid frame as speech,
+including 304 clean-energy non-speech-proxy frames. Their mean late estimate
+to injected-noise power ratios are -8.575 dB (original) and -8.675 dB
+(selected); the fixed estimator is -8.527 dB. The VAD's ratio test can close
+the noise-update gate when noise rises, so adaptation cannot catch up in
+this experiment. Gate closure and underestimation are directly visible in
+the traces; the broadband ratio is a diagnostic, not a spectral PSD score.
+
+3. Falling noise opens more update opportunities. Mean late update fractions
+are 34.665% original VAD and 17.597% selected VAD, versus 23.505% and 1.431% in
+the constant-added-gain profile. Falling-profile mean late tracking ratios
+are +2.178 dB original, +2.642 dB selected and +3.473 dB fixed. Updating
+reduces broadband overestimation here. Selected-fixed late SNR improves
+0.394906 dB. Compared with its constant-profile contrast, that paired
+late-SNR advantage increases 0.339688 dB; for rising noise it decreases
+0.113026 dB. This manipulation supports a directional adaptation limitation
+for these samples and settings, not general superiority of one method.
+
+4. Sentence variation is shown, not hidden. Selected-fixed falling-profile
+whole SNR is positive for all 6 sentence units (0.054825 to 0.293875 dB), and
+STOI is also positive for all 6 (0.000349 to 0.004096). Rising-profile SNR
+ranges -0.272107 to +0.049949 dB, and STOI -0.000803 to +0.003384. The negative
+rising mean SNR is driven largely by sp27; sp17/sp22 are identical to fixed
+under the selected gate. Do not convert these tiny descriptive STOI
+differences into claims of audible improvement or word-recognition gains.
+
+5. The preselected sp02/street/rising plot is an explanatory failure case,
+not a handpicked success: in its 109 late frames, both VADs update 0 times;
+27 frames meet the non-speech energy proxy. The plot shows estimate used
+before update, windowed actual injected-noise power, gates and update marks.
+Speech proxies are not manual annotations. The constant-gain noise already
+varies naturally; only the imposed level change is controlled.
+
+LIMITATIONS AND NEXT STEP
+This small within-realization intervention changes amplitude, not noise
+spectrum/type. It uses previous test sentences and provides diagnostic rather
+than independent predictive evidence. The initial 100 ms contains small clean
+leakage (worst clean-to-residual ratio -28.2625 dB), identical across matched
+profiles/methods. Existing threshold/hangover values were not optimized for
+these remixes. A future independent study could test a speech-presence-aware
+or minimum-statistics noise estimator that can recover from upward shifts;
+that is an untested proposal, not an implemented result. No listening study
+has been conducted for these outcomes.

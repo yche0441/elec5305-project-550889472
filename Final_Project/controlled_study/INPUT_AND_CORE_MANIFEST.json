@@ -1,0 +1,122 @@
+[
+  {
+    "path": "tsnr_enhance.m",
+    "source": "outputs/Final_Project_Study/tsnr_enhance.m",
+    "sha256": "85ef4d115f24dda5fb5a3f1b716c93d6ca0c48c8501d3ce6668e9e99c58bce84"
+  },
+  {
+    "path": "experiment_config.m",
+    "source": "outputs/Final_Project_Study/experiment_config.m",
+    "sha256": "d41109272d523cde8f82a9f43f52393a8838b7336008ccb6d800cf4c0e3783eb"
+  },
+  {
+    "path": "measure_snr.m",
+    "source": "outputs/Final_Project_Study/measure_snr.m",
+    "sha256": "b3435ae1d875a7e14c9a4596a7dd0d1ea99cc86552b3b60e8e9bf1de85a7c66b"
+  },
+  {
+    "path": "pair_diagnostics.m",
+    "source": "outputs/Final_Project_Study/pair_diagnostics.m",
+    "sha256": "da84cc6f28900f848b58e8511f809e990aa48349181ff57e0b16f06847a5de65"
+  },
+  {
+    "path": "license.txt",
+    "source": "outputs/Final_Project_Study/license.txt",
+    "sha256": "305a73ba4a12f23445b45c49d6f049e4e205e25acad9e25db85fb65c639f2635"
+  },
+  {
+    "path": "SELECTION.json",
+    "source": "outputs/Final_Project_Study/SELECTION.json",
+    "sha256": "179da6adc500d26fa6a8d8f972521d2a6103853b49bf7f834cc1b40dcc5762e9"
+  },
+  {
+    "path": "data/clean/sp02.wav",
+    "source": "outputs/Final_Project_Study/data/clean/sp02.wav",
+    "sha256": "a95d7dbea657df0c3e47d81d3f914784f895af7c837c79df811221ca71828017"
+  },
+  {
+    "path": "data/clean/sp07.wav",
+    "source": "outputs/Final_Project_Study/data/clean/sp07.wav",
+    "sha256": "fdf80f84402a2b2e09af12ab699aed07e511b189cf55e001613a59e7acc9af69"
+  },
+  {
+    "path": "data/clean/sp12.wav",
+    "source": "outputs/Final_Project_Study/data/clean/sp12.wav",
+    "sha256": "8bb319d9a3abeb89bdfd16dc042f9414df7fa7648ff446c0ef1174f099995416"
+  },
+  {
+    "path": "data/clean/sp17.wav",
+    "source": "outputs/Final_Project_Study/data/clean/sp17.wav",
+    "sha256": "5298994ed7385670dda954171b0da237baa03aa9a5bc7a8793ea49cf565f3325"
+  },
+  {
+    "path": "data/clean/sp22.wav",
+    "source": "outputs/Final_Project_Study/data/clean/sp22.wav",
+    "sha256": "f0fdd94bd3a06b24238137d51a92e064dffa4a8c31d4a0fc8c21116380c7d67d"
+  },
+  {
+    "path": "data/clean/sp27.wav",
+    "source": "outputs/Final_Project_Study/data/clean/sp27.wav",
+    "sha256": "c4832fc9fa4b8615126ca17345878fed8558feccfcac9bc61dcd0211caaef4b8"
+  },
+  {
+    "path": "data/car/10dB/sp02_car_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/car/10dB/sp02_car_sn10.wav",
+    "sha256": "23ad89169ef1e16a6802c0fe0de8aeb891b7c7c80e9ffdbc7000be69e64c7a3c"
+  },
+  {
+    "path": "data/street/10dB/sp02_street_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/street/10dB/sp02_street_sn10.wav",
+    "sha256": "a0b4d3f4b1d960aaa6ad705891ca2236c269547d7119a0e7a124dcf8f8050012"
+  },
+  {
+    "path": "data/car/10dB/sp07_car_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/car/10dB/sp07_car_sn10.wav",
+    "sha256": "e3b80844ce86ae14cc085a3d39ae7daaaf3b912c05db610be83cc671ac6053b3"
+  },
+  {
+    "path": "data/street/10dB/sp07_street_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/street/10dB/sp07_street_sn10.wav",
+    "sha256": "d6b16a9b6a216f672a5f1860145610e73f5f56413b736c6356357ca964dccc91"
+  },
+  {
+    "path": "data/car/10dB/sp12_car_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/car/10dB/sp12_car_sn10.wav",
+    "sha256": "d5fca34f557a98325243b11fd1c39678d415f6ee78aa70ca0040025e6deb949c"
+  },
+  {
+    "path": "data/street/10dB/sp12_street_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/street/10dB/sp12_street_sn10.wav",
+    "sha256": "0fcbd41ef488757ae4480c5ec8e829abf176e388242e211d2d79e7ace7ce1bff"
+  },
+  {
+    "path": "data/car/10dB/sp17_car_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/car/10dB/sp17_car_sn10.wav",
+    "sha256": "fd077606238fa3d70854ae63dcd02527fe9f2df258107621fbb22e8516e30a65"
+  },
+  {
+    "path": "data/street/10dB/sp17_street_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/street/10dB/sp17_street_sn10.wav",
+    "sha256": "e9109176f75117c38f72461602a54bf55af351e1c25a1dde51482e8ac1e343b1"
+  },
+  {
+    "path": "data/car/10dB/sp22_car_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/car/10dB/sp22_car_sn10.wav",
+    "sha256": "9dcb2e38620eb3616f2dd890af63c9c553ba8e82a421141f78e43e7154d65724"
+  },
+  {
+    "path": "data/street/10dB/sp22_street_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/street/10dB/sp22_street_sn10.wav",
+    "sha256": "fa5c16e543cb417a91174f51febf9eb12fd2b6123a55d0efb895b60c17502f4c"
+  },
+  {
+    "path": "data/car/10dB/sp27_car_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/car/10dB/sp27_car_sn10.wav",
+    "sha256": "1287dd0d660b8b47cc546f81c06a8fc5aac1859d6226b532aa064cd675a97327"
+  },
+  {
+    "path": "data/street/10dB/sp27_street_sn10.wav",
+    "source": "outputs/Final_Project_Study/data/street/10dB/sp27_street_sn10.wav",
+    "sha256": "045c2e2bce3e99b6a7e58f0b80578949ec7a5f8138a0758a9966452b96eef93b"
+  }
+]

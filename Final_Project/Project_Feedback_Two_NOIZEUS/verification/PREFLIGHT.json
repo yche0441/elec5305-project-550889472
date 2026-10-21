@@ -1,0 +1,20 @@
+{
+  "runtime": "Python/NumPy/SciPy",
+  "native_MATLAB_new_experiment_run": false,
+  "source_TSNR_max_abs_error_against_uploaded_MATLAB_output": 4.996003610813204e-16,
+  "identity_relative_errors": {
+    "sp01": 2.5153031685090756e-16,
+    "sp06": 2.556065016131012e-16,
+    "sp11": 2.61500395254778e-16,
+    "sp16": 2.632545833266544e-16,
+    "sp21": 2.566933854357692e-16,
+    "sp26": 2.62846034222008e-16
+  },
+  "development_cases_checked": 16,
+  "frozen_update_max_abs_error": 0.0,
+  "development_noise_updates_exercised": 1619,
+  "silent_input_passed": true,
+  "held_out_enhancement_scores_computed": false,
+  "parameters_changed_after_checks": false,
+  "status": "PREFLIGHT_PASSED; native MATLAB gates still required"
+}

@@ -1,0 +1,30 @@
+{
+  "logged_utc": "2026-10-14T03:51:39.880474+00:00",
+  "implementation_amendments": [
+    {
+      "issue": "First MATLAB launch failed at the first rows assignment because MATLAB empty-field struct initialization is incompatible with direct indexed assignment of populated fields.",
+      "fix": "Initialize rows/checks from first record, then use orderfields for subsequent records.",
+      "results_seen_before_fix": "No completed case, no saved results, no metric scoring or outcome inspection.",
+      "design_changed": false
+    },
+    {
+      "logged_utc": "2026-10-14T03:52:58.438603+00:00",
+      "issue": "New diagnostic window expression used loop variable pi rather than mathematical pi. Primary enhancement core is a separate unchanged function and is unaffected. Discovered because fixed-method tracking ratios did not differ by exactly6dB across matched late profiles.",
+      "fix": "Rename profile loop index so explicit Hann window uses mathematical pi; rerun all cases and verify primary SNR/STOI unchanged.",
+      "design_changed": false,
+      "results_seen_before_fix": "All primary metrics; diagnostic bug repaired solely for correctness, no profile/method/sample selection or tuning."
+    }
+  ],
+  "environment_amendments": [
+    {
+      "issue": "Bundled Python has no scipy or pystoi in its base site-packages.",
+      "fix": "Install exact prior metric versions numpy2.3.5 scipy1.18.1 pystoi0.4.1 in an isolated local dependency directory; no metric change."
+    }
+  ],
+  "final_outcome": {
+    "all_verification_gates": "PASS",
+    "all_primary_metrics_unchanged_after_diagnostic_repair": true,
+    "completed_cases": 36,
+    "completed_method_rows": 144
+  }
+}

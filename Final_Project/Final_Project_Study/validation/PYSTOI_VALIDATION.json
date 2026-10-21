@@ -1,0 +1,47 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-10-05T12:33:22.938193+00:00",
+  "pystoi_version": "0.4.1",
+  "scipy_version": "1.18.1",
+  "numpy_version": "2.3.5",
+  "python_version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "native_matlab_version": "26.1.0.3346908 (R2026a) Update 5",
+  "source_mat_sha256": "2c187803e7210e816b8eb7f8f66c548a92a8973f02c7b0c4456bbf93fec5c74d",
+  "source_archive": "/Users/richard/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/ELEC5305_Feedback_Two_NOIZEUS_Update/github_upload/Project_Feedback_Two_NOIZEUS/evidence/NOIZEUS_Results_20260913_120452.zip",
+  "interval": "MATLAB samples 801:end; Python array[800:]",
+  "call": "pystoi.stoi(clean,processed,8000,extended=False)",
+  "rows": 144,
+  "by_method": {
+    "unprocessed": {
+      "rows": 48,
+      "max_abs_difference": 0.01845319385702937,
+      "mean_abs_difference": 0.002853117699112964,
+      "mean_signed_difference": 0.0012144875113968094
+    },
+    "fixed": {
+      "rows": 48,
+      "max_abs_difference": 0.011968754940793858,
+      "mean_abs_difference": 0.0027681386050030453,
+      "mean_signed_difference": -2.3110817917794634e-05
+    },
+    "vad": {
+      "rows": 48,
+      "max_abs_difference": 0.01739244200119139,
+      "mean_abs_difference": 0.0029434913134185558,
+      "mean_signed_difference": 8.676134317713603e-05
+    }
+  },
+  "overall_max_abs_difference": 0.01845319385702937,
+  "overall_mean_abs_difference": 0.0028549158725115218,
+  "worst_case": {
+    "CaseID": "sp16_street_5dB",
+    "Method": "unprocessed",
+    "NativeMATLABSTOI": 0.775737711069703,
+    "PySTOI": 0.7941909049267324,
+    "Difference": 0.01845319385702937,
+    "AbsoluteDifference": 0.01845319385702937
+  },
+  "max_abs_paired_difference_error": 0.005423687060397531,
+  "paired_direction_changes": 1,
+  "scope": "Comparison on all 144 saved original native MATLAB outputs; no new signal-processing experiment run; standard STOI, not ESTOI."
+}

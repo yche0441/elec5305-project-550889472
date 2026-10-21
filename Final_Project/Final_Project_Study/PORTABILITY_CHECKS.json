@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "scope": "Static portability and dependency checks plus native fixture/Python bridge smoke checks; no study recomputation",
+  "runner_changes": "Only absolute source reference replaced by root/reference_v1; Python path replaced by ELEC5305_PYTHON or python3",
+  "executed_runner_preserved": true,
+  "algorithm_and_helper_files_match_original_source": {
+    "tsnr_enhance.m": true,
+    "experiment_config.m": true,
+    "pair_diagnostics.m": true,
+    "verify_core.m": true,
+    "measure_snr.m": true
+  },
+  "python_bridge_syntax": "valid",
+  "data_wav_count": 72,
+  "matched_clean_noisy_pairs": 64,
+  "original_manifest_hashes_match": 54,
+  "reference_fixtures": 9,
+  "reference_fixture_total_bytes": 2925209,
+  "validation_rows": 144,
+  "portable_runner_sha256": "59dcb43a10e8b8cf67a137632e9101e133ab2541d311158f1493465f4a5e4032",
+  "smoke_checks": {
+    "status": "PASS",
+    "MATLAB_scope": "verify_core(reference_v1, unchanged experiment_config) only; no parameter grid or new test repeated",
+    "MATLAB_version": "26.1.0.3312084 (R2026a) Update 4",
+    "MATLAB_log": "PORTABLE_MATLAB_SMOKE_LOG.txt",
+    "LegacyTSNRMaxAbsError": 2.7756e-16,
+    "IdentityMaxRelativeError": 2.6396e-16,
+    "FrozenUpdateMaxAbsError": 0,
+    "CrossLanguageFixedMaxAbsError": 4.8225e-16,
+    "CrossLanguageVADMaxAbsError": 4.8225e-16,
+    "SNRKnownError": 0,
+    "Python_scope": "stoi_bridge.py on existing metric_input.mat using ELEC5305_PYTHON",
+    "Python_log": "PORTABLE_PYTHON_SMOKE_LOG.txt",
+    "Python_STOI": 0.9750183774463179,
+    "matches_last_saved_test_row": true,
+    "row": {
+      "Utterance": "sp27",
+      "Noise": "street",
+      "NominalSNR_dB": "15",
+      "Method": "vad_selected"
+    },
+    "startup_warning": "MATLAB reported an unrelated missing saved user path; verification completed successfully."
+  }
+}

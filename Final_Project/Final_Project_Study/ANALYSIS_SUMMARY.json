@@ -1,0 +1,45 @@
+{
+  "fixed": {
+    "cases": 48,
+    "snr": 10.651368556802145,
+    "stoi": 0.8142152724214955,
+    "proxy_update": 0.0,
+    "updates": 0.0
+  },
+  "unprocessed": {
+    "cases": 48,
+    "snr": 7.196654760821461,
+    "stoi": 0.8102281627252332,
+    "proxy_update": 0.0,
+    "updates": 0.0
+  },
+  "vad_original": {
+    "cases": 48,
+    "snr": 10.656027754613165,
+    "stoi": 0.8095263410544149,
+    "proxy_update": 0.15956014362657092,
+    "updates": 0.27360588709948874
+  },
+  "vad_selected": {
+    "cases": 48,
+    "snr": 10.714953759052248,
+    "stoi": 0.81357062701326,
+    "proxy_update": 0.027378815080789945,
+    "updates": 0.04851814762080458
+  },
+  "selected_minus_vad_original": {
+    "mean_snr": 0.0589260044390833,
+    "mean_stoi": 0.0040442859588451065,
+    "snr_wins": 26,
+    "stoi_wins": 33,
+    "both_wins": 19
+  },
+  "selected_minus_fixed": {
+    "mean_snr": 0.06358520225010256,
+    "mean_stoi": -0.000644645408235484,
+    "snr_wins": 31,
+    "stoi_wins": 16,
+    "both_wins": 14
+  },
+  "new_test_initial_clean_to_noise_max_dB": -27.00890746381689
+}

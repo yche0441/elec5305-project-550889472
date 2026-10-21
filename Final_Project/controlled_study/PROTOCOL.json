@@ -1,0 +1,81 @@
+{
+  "protocol_id": "controlled-level-change-v1-20261014",
+  "saved_before_execution_utc": "2026-10-14T03:47:41.258258+00:00",
+  "purpose": "Within each matched clean/noise realization, measure how a prescribed noise-level change changes fixed versus frozen VAD updating.",
+  "prior_evidence": "Exploratory diagnostic extension motivated by previously viewed development and test outcomes. Six sentences were already used in the prior test; this is NOT an independent validation set or a new benchmark score.",
+  "utterances": [
+    "sp02",
+    "sp07",
+    "sp12",
+    "sp17",
+    "sp22",
+    "sp27"
+  ],
+  "noise_types": [
+    "car",
+    "street"
+  ],
+  "source_nominal_snr_dB": 10,
+  "counts": {
+    "matched_speech_noise_pairs": 12,
+    "profiles_per_pair": 3,
+    "mixtures": 36,
+    "methods": 4,
+    "metric_rows": 144,
+    "sentence_units": 6
+  },
+  "residual": "n = original_noisy - clean from aligned NOIZEUS 10 dB pairs. Residual includes any source quantization/scaling discrepancy. No time alignment or gain fitting. Copy original inputs; retain float64 arrays for processing/scoring.",
+  "profiles": {
+    "constant": 0,
+    "rise_6dB": 6,
+    "fall_6dB": -6
+  },
+  "profile_construction": "Let N be length and K=800 (0.10 s). MATLAB changeStart=K+floor((N-K)/2)+1. Samples1:changeStart-1 retain gain1. Starting at changeStart, apply a400-sample (50 ms) linear-in-dB ramp including both0and target endpoints, then hold target gain. y_profile=s+gain*n. This controls added level variation, not intrinsic noise stationarity. Constant remixes must be exactly the original WAV samples.",
+  "frozen_processing": {
+    "methods": [
+      "unprocessed",
+      "fixed",
+      "vad_original",
+      "vad_selected"
+    ],
+    "vad_original": {
+      "threshold_dB": 3,
+      "hangoverFrames": 5
+    },
+    "vad_selected": {
+      "threshold_dB": 1,
+      "hangoverFrames": 10
+    },
+    "noiseSmoothing": 0.95,
+    "core": "Byte-identical tsnr_enhance.m; all other settings from byte-identical experiment_config.m. No oracle VAD, parameter search, output normalization, resampling or delay fitting."
+  },
+  "primary_metrics": {
+    "interval": "MATLAB samples801:N",
+    "SNR": "10log10(sum(s^2)/sum((out-s)^2)); no alignment/gain fit",
+    "STOI": "pystoi standard extended=False on unquantized doubles; batch Python after MATLAB"
+  },
+  "secondary_diagnostics": {
+    "post_interval": "changeStart+400+800:N (after ramp plus100 ms guard); global SNR on this segment only; no short-segment STOI",
+    "tracking": "Existing trace.noisePower is sum(D) used BEFORE current frame update. Compare with sum(abs(FFT(window*known_injected_noise))^2) for that same original-support valid frame. Report10log10(estimate/instantaneous injected power), weighted aggregate bias and median absolute frame error. This is a broadband realization-based diagnostic, NOT true expected noise PSD estimation accuracy. Late frames start at/after post_interval firstsample.",
+    "update_proxies": "Original clean-energy proxies retained: speech>=-30dB relative to peak valid clean-frame energy, non-speech<=-40dB; middle region unlabelled. They are neither manual VAD annotations nor a perceptual test."
+  },
+  "paired_summary": "For each sentence, average its two noise-type results for each profile/method; show all6 sentence values, mean, min/max. Main method contrasts selected-original and selected-fixed; changed-minus-constant contrasts describe sensitivity to the prescribed level manipulation. The36 mixtures/overlapping frames are NOT independent experimental units. No significance tests, formal confidence intervals or generalization claims.",
+  "preselected_diagnostic_example": {
+    "utterance": "sp02",
+    "noise": "street",
+    "profile": "rise_6dB",
+    "reason": "First sentence, street condition, rising stress profile selected before scoring; not a best-case choice."
+  },
+  "verification_gates": [
+    "Input and core SHA256 manifest",
+    "Profile prefix sample-identical; shared initial PSD exactly equal across profiles and methods",
+    "No change in pre-transition estimate/decision/update traces",
+    "Output prefixes agree with at least2window-length exclusion before transition",
+    "identity mode reconstructs input within1e-12",
+    "fixed output independent of VAD thresholds",
+    "Constant profile same as original source waveform and prior10dB test outputs/metrics",
+    "All finite outputs, dimensions and frame alignment checked",
+    "Original deliverables left unchanged"
+  ],
+  "stopping_rule": "Run exactly36specified mixtures and4methods; no outcome-driven redesign or retuning. Fix implementation errors only with recorded amendment; publish all cases, including failures."
+}

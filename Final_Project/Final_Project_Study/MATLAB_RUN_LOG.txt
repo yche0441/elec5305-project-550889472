@@ -1,0 +1,8 @@
+[警告: 名称不存在或不是目录: /Users/richard/Desktop/SGCC/强化题库] 
+{错误使用 assert
+Native STOI required.
+
+出错 run_final_study (第 5 行)
+assert(~isempty(which('stoi')),'Native STOI required.');
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

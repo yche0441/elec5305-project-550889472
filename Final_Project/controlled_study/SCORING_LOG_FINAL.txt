@@ -1,0 +1,236 @@
+{
+  "checks": {
+    "input_and_core_sha256": "PASS",
+    "protocol_sha256": "PASS",
+    "constant_profile_vs_prior_max_abs_STOI": 4.440892098500626e-16,
+    "constant_profile_vs_prior_max_abs_SNR_dB": 0.0,
+    "independent_python_SNR_max_abs_difference": 5.861977570020827e-14,
+    "independent_windowed_noise_power_max_relative_error": 5.059622949527191e-15,
+    "independent_estimate_before_update_recurrence_max_relative_error": 7.497960591784526e-15,
+    "fixed_late_tracking_ratio_changes_exactly_opposite_6dB_manipulation": "PASS",
+    "identity_max_abs_error": 1.66533453693773e-16,
+    "mixture_prefix_initial_PSD_trace_output_invariance": "PASS in MATLAB for all36cases",
+    "initial_clean_to_noise_max_dB": -28.2624951671517,
+    "maximum_mixture_peak": 0.460726273561472,
+    "finite_outputs_scores_and_no_STOI_warnings": true,
+    "scored_without_quantization": true
+  },
+  "profile_means": [
+    {
+      "profile": "constant",
+      "method": "unprocessed",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 9.65773298027632,
+        "sd": 0.12719401132153252,
+        "minimum": 9.468829097377885,
+        "maximum": 9.84609595124957
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.8679411629018595,
+        "sd": 0.039480356152480044,
+        "minimum": 0.8075650628765042,
+        "maximum": 0.9108073453296597
+      }
+    },
+    {
+      "profile": "constant",
+      "method": "fixed",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 12.559195839510574,
+        "sd": 0.5750606315427642,
+        "minimum": 11.906880783444599,
+        "maximum": 13.4136505826351
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.8791814838976899,
+        "sd": 0.028528020416813096,
+        "minimum": 0.828790207248022,
+        "maximum": 0.9112070385999859
+      }
+    },
+    {
+      "profile": "constant",
+      "method": "vad_original",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 12.65043408381284,
+        "sd": 0.6563710954064023,
+        "minimum": 11.835144234031599,
+        "maximum": 13.54797227476095
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.8752684269590018,
+        "sd": 0.03235175974032046,
+        "minimum": 0.8186209185571809,
+        "maximum": 0.9123433116244077
+      }
+    },
+    {
+      "profile": "constant",
+      "method": "vad_selected",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 12.61856766461216,
+        "sd": 0.6361590070610982,
+        "minimum": 11.93053441171125,
+        "maximum": 13.538485950632701
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.8803615596049285,
+        "sd": 0.029302694598294873,
+        "minimum": 0.8289799705325329,
+        "maximum": 0.9146817354737244
+      }
+    },
+    {
+      "profile": "rise_6dB",
+      "method": "unprocessed",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 5.361063815938624,
+        "sd": 0.5090205697879668,
+        "minimum": 4.820768149195665,
+        "maximum": 6.153915352985255
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.7992654829569436,
+        "sd": 0.046429501482079055,
+        "minimum": 0.730683267354326,
+        "maximum": 0.8567864130684373
+      }
+    },
+    {
+      "profile": "rise_6dB",
+      "method": "fixed",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 7.91015931531665,
+        "sd": 1.170088253927634,
+        "minimum": 6.27140847405056,
+        "maximum": 9.268374008065354
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.8128873962566652,
+        "sd": 0.040619090888443767,
+        "minimum": 0.74757731870084,
+        "maximum": 0.8668227307991498
+      }
+    },
+    {
+      "profile": "rise_6dB",
+      "method": "vad_original",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 7.965548277437397,
+        "sd": 1.0600991825901138,
+        "minimum": 6.31967078918144,
+        "maximum": 9.212797518608586
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.81230246388307,
+        "sd": 0.04060482308948127,
+        "minimum": 0.7490728341054034,
+        "maximum": 0.8694636147921984
+      }
+    },
+    {
+      "profile": "rise_6dB",
+      "method": "vad_selected",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 7.874274511246978,
+        "sd": 1.136390466644105,
+        "minimum": 6.27140847405056,
+        "maximum": 9.268374008065354
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.8138013018033042,
+        "sd": 0.04160725171611665,
+        "minimum": 0.74757731870084,
+        "maximum": 0.8702066127027175
+      }
+    },
+    {
+      "profile": "fall_6dB",
+      "method": "unprocessed",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 12.232857752890316,
+        "sd": 0.7014627137974964,
+        "minimum": 11.209780617506,
+        "maximum": 13.11833370244825
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.9070506664140722,
+        "sd": 0.030048969789210574,
+        "minimum": 0.8685429184578468,
+        "maximum": 0.9392952444195952
+      }
+    },
+    {
+      "profile": "fall_6dB",
+      "method": "fixed",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 14.283851075810558,
+        "sd": 0.9620175035825114,
+        "minimum": 13.1496649162883,
+        "maximum": 15.6187711922714
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.9038973806785866,
+        "sd": 0.022810326393742253,
+        "minimum": 0.8703198942783998,
+        "maximum": 0.9338857560170831
+      }
+    },
+    {
+      "profile": "fall_6dB",
+      "method": "vad_original",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 14.42876852584721,
+        "sd": 1.0825591813807496,
+        "minimum": 12.9561284730853,
+        "maximum": 15.7460245279775
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.902396237000652,
+        "sd": 0.025278935012022476,
+        "minimum": 0.8670980321751128,
+        "maximum": 0.9328046974659017
+      }
+    },
+    {
+      "profile": "fall_6dB",
+      "method": "vad_selected",
+      "SNR_dB": {
+        "n": 6,
+        "mean": 14.426676165735591,
+        "sd": 0.9940428117929988,
+        "minimum": 13.2337953217857,
+        "maximum": 15.7718575317344
+      },
+      "STOI": {
+        "n": 6,
+        "mean": 0.9059088112123664,
+        "sd": 0.023120188133466463,
+        "minimum": 0.870856772153956,
+        "maximum": 0.9359397398834759
+      }
+    }
+  ]
+}

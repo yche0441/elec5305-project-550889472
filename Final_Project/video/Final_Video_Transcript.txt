@@ -1,0 +1,20 @@
+PART 01
+Hello, my name is Yulong Chen. This is my project. This project asks when voice activity detection helps Wiener speech enhancement update its noise estimate. The trade-off is simple: updating can follow changing noise, but speech mistakenly included in the estimate may also be suppressed.
+
+PART 02
+The shared two-step noise reduction algorithm comes from an existing implementation, credited in the report. My work is the controlled adaptation, verification, experiments and analysis. Fixed estimation and both VAD settings share the same processing and reconstruction. Only the noise update rule changes. Clean speech is used for evaluation, never as an input to the enhancer.
+
+PART 03
+The original VAD uses a 3 dB threshold and a five-frame hangover. I compared nine settings on 16 development conditions. The highest mean STOI came from a threshold of 1 dB and hangover of ten frames. This more cautious setting was then frozen for 48 conditions using six sentences. The speakers overlap earlier material. These are repeated conditions, not 48 independent speakers, and no retuning followed this test.
+
+PART 04
+This demonstration runs the predetermined example: sentence sp02, street noise, at nominal five decibels. The program recomputes four outputs and verifies their scores against saved results. The upper panels show this fresh run. SNR measures waveform error against clean speech. STOI predicts intelligibility; it is not a percentage of words understood. Here, processing improves SNR but reduces STOI. The selected setting is not best.
+
+PART 05
+The lower panels show stored means over all 48 conditions, not a live rerun. Selected VAD improves mean STOI over original VAD by about 0.004. Fixed estimation still has slightly higher mean STOI. The fraction of reference speech-proxy frames used for updates falls from about 16% to 3%. This suggests stronger speech protection, with fewer opportunities to track noise. The small effects are checked sentence by sentence, rather than treating repeated noise conditions as independent observations.
+
+PART 06
+To test that trade-off more directly, I added 36 matched mixtures. The speech and base noise remain the same; only the noise level is held constant, raised six decibels or lowered six decibels. Parameters stay frozen. After the rise, neither VAD updates in the late interval: higher energy can keep the speech gate closed to updates. After the fall, updates resume and the selected method shows small advantages over fixed estimation. These constructed, previously used sentences are a mechanism diagnostic, not an independent generalisation test.
+
+PART 07
+My conclusion is that careful noise updates reduce one type of error, but they do not solve noise tracking in every situation. All main comparisons use the same standard Python STOI implementation. Effects are small, sentence outcomes vary, and subjective listening quality was not evaluated. More independent speakers and longer, genuinely changing recordings are needed. Thank you.

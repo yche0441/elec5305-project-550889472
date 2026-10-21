@@ -1,0 +1,7 @@
+COMPLETE
+26.1.0.3312084 (R2026a) Update 4
+Case sp02, street, nominal 5 dB (predetermined).
+4 fresh SNR and PySTOI pairs matched saved results within 1e-8.
+48-condition bars use stored, previously completed study; not a new full run.
+Common playback gain 1, 24-bit WAV, 8000 Hz.
+No subjective listening was performed or claimed by this demo.

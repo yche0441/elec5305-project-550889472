@@ -1,0 +1,5 @@
+numpy==2.3.5
+scipy==1.18.1
+pystoi==0.4.1
+pandas==3.0.6
+matplotlib==3.11.2

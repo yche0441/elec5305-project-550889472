@@ -1,0 +1,41 @@
+期末项目视频：正式版内容与操作说明
+
+视频已经完成，时长 5 分 24 秒，带英文字幕。正式视频、字幕和实际录音转录位于上一级 video 文件夹。English_Read_Aloud.txt、SCRIPT_CONTENT.json 和 Teleprompter.html 已更新为实际正式配音内容，不需要再次录音。
+
+七段内容：
+
+00:00  1 · Research question
+研究问题：更新噪声估计与保护语音之间的取舍。
+
+00:28  2 · What I changed
+处理流程：固定估计、原 VAD 和选定 VAD 共用同一 TSNR 增强与重建。
+
+01:08  3 · Fair parameter selection
+开发集选择 1 dB 阈值和 10 帧 hangover，再冻结参数测试。
+
+01:57  4 · Run the code
+实际 MATLAB 运行录屏与新计算的单例结果；下方全研究均值为保存结果。
+
+02:49  5 · Read the full-study result
+48 个条件的保存均值、语音代理帧更新比例及逐句检查。
+
+03:47  6 · Stronger evidence: matched noise changes
+36 个匹配混合条件及噪声升降后的更新行为；这是机制诊断。
+
+04:43  7 · Conclusion
+谨慎更新的条件性收益、局限与后续研究。
+
+复现演示：
+- 在 MATLAB 打开上一级 START_HERE.m 并运行：重新计算一个预先指定的例子，核对四种输出的 SNR/STOI。
+- play_demo_audio：依次播放四段使用同一增益的真实输入/输出音频。网站也提供这些音频。
+- show_controlled_results：展示已完成受控实验的保存图，并非重新计算所有条件。
+
+解释时保持准确：
+- 视频里的 MATLAB 录屏是实际运行；上方单例图来自该次计算，下方是此前完成的 48 条件均值。
+- 选定 VAD 的平均 STOI 高于原 VAD，但略低于固定估计；不能说所有情况下都更好。
+- 噪声上升后的“没有更新”特指过渡和等待区间后的 late interval。
+- 36 个受控混合条件复用六个测试句子，是机制诊断，不是全新的独立泛化测试。
+- 主要比较统一使用标准 PySTOI；历史原生 MATLAB 分数单独保留。
+- 音频示例不等于主观听音实验，没有编造听感评分。
+
+老师可能追问的问题见 Tutor问答_中文.txt。
