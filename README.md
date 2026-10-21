@@ -2,7 +2,7 @@
 
 **ELEC5305 Final Project · Yulong Chen · SID 550889472 · 21 October 2026**
 
-[Project website](https://yche0441.github.io/elec5305-project-550889472/) · [Final report](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Final video](Final_Project/video/index.html) · [Working code and reproduction instructions](Final_Project/README.txt)
+[Project website](https://yche0441.github.io/elec5305-project-550889472/) · [Final report](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Final video](https://yche0441.github.io/elec5305-project-550889472/Final_Project/video/index.html) · [Working code and reproduction instructions](Final_Project/README.txt)
 
 This project studies the trade-off between tracking noise and protecting speech in a shared two-step noise-reduction (TSNR) Wiener enhancer. The contribution is a controlled adaptation, reproducibility checks, a frozen parameter study, new-sentence testing and a matched noise-level experiment. The common TSNR method derives from the credited implementation by LIU Ming / Pascal Scalart.
 
@@ -28,7 +28,7 @@ The [complete reproduction guide](Final_Project/README.txt) covers the full para
 
 [Download the final project report](ELEC5305_Final_Project_Yulong_Chen.pdf).
 
-[Watch the final demonstration (5 min 24 sec)](Final_Project/video/index.html), with English captions and an actual MATLAB run. [Download the MP4](Final_Project/video/ELEC5305_Final_Project_Video.mp4), [SRT captions](Final_Project/video/ELEC5305_Final_Project_English.srt), or [spoken transcript](Final_Project/video/Final_Video_Transcript.txt). The recording distinguishes the freshly computed single example from the stored full-study and controlled-study results.
+[Watch the final demonstration (5 min 24 sec)](https://yche0441.github.io/elec5305-project-550889472/Final_Project/video/index.html), with English captions and an actual MATLAB run. [Download the MP4](Final_Project/video/ELEC5305_Final_Project_Video.mp4), [SRT captions](Final_Project/video/ELEC5305_Final_Project_English.srt), or [spoken transcript](Final_Project/video/Final_Video_Transcript.txt). The recording distinguishes the freshly computed single example from the stored full-study and controlled-study results.
 
 ## Data, limitations and earlier work
 
