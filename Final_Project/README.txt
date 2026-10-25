@@ -1,6 +1,12 @@
 ELEC5305 Final Project — Yulong Chen, SID 550889472
 When does VAD-guided noise updating help Wiener speech enhancement?
-Final release, 21 October 2026
+Final release, 25 October 2026
+
+REPORT REVISION
+The 25 October report clarifies the Wiener/STFT theory, reconstruction check,
+research contribution, literature comparisons and practical interpretation.
+All experiment data, numerical findings, code and the demonstration video
+remain unchanged from the checked 21 October release.
 
 QUICK DEMONSTRATION
 Extract the complete package, keeping its subfolders together. Open START_HERE.m

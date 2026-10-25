@@ -1,6 +1,6 @@
 # When does VAD-guided noise updating help Wiener speech enhancement?
 
-**ELEC5305 Final Project · Yulong Chen · SID 550889472 · 21 October 2026**
+**ELEC5305 Final Project · Yulong Chen · SID 550889472 · 25 October 2026**
 
 [Project website](https://yche0441.github.io/elec5305-project-550889472/) · [Final report](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Final video](https://yche0441.github.io/elec5305-project-550889472/Final_Project/video/index.html) · [Working code and reproduction instructions](Final_Project/README.txt)
 

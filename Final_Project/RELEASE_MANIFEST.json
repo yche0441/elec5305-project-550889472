@@ -1,5 +1,5 @@
 {
-  "release": "ELEC5305 final release 2026-10-21",
+  "release": "ELEC5305 final release 2026-10-25",
   "scope": "Working code, saved evidence, final report and completed demonstration video with English captions and spoken transcript",
   "video": {
     "path": "video/ELEC5305_Final_Project_Video.mp4",
@@ -1186,8 +1186,8 @@
     },
     {
       "path": "README.txt",
-      "bytes": 6497,
-      "sha256": "99f108b541787b2f2d1d504e804125c87ad096e8a3f520f3912cacc7eb7c4c44"
+      "bytes": 6796,
+      "sha256": "3fa665e465165a62b6dbe636b17059b25f375ea2a2488f7544da5e1741b2702f"
     },
     {
       "path": "RUN_PARAMETER_STUDY.m",
@@ -1536,13 +1536,13 @@
     },
     {
       "path": "report/ELEC5305_Final_Project_Yulong_Chen.docx",
-      "bytes": 1131234,
-      "sha256": "1ed69b145264cc865b477ec459804828538586866a16a95fa5e320bc31f0fb11"
+      "bytes": 1131833,
+      "sha256": "5d46819ea388e644b35d0f6f8537caf1b8977ab303e2958626da3848efd4bfad"
     },
     {
       "path": "report/ELEC5305_Final_Project_Yulong_Chen.pdf",
-      "bytes": 1194011,
-      "sha256": "a68c2c82109c2165cc0d0329d1bf677a11d210e11ba54838753391c81e6f0bf0"
+      "bytes": 1195730,
+      "sha256": "a9bcd36262460f1b0d1366350269a0a3e2e691581c38b1480d7cbf16eb774f6e"
     },
     {
       "path": "requirements.txt",
@@ -1574,5 +1574,6 @@
       "bytes": 7272,
       "sha256": "bb8aab298d960769e325c5794cf8d20346e4c68450717fb9f1eb751e2069cf09"
     }
-  ]
+  ],
+  "report_revision": "Theory, literature positioning, contribution and interpretation clarified; numerical results, executable code and video unchanged."
 }
