@@ -112,3 +112,22 @@ enhancement algorithms", doi:10.1016/j.specom.2006.12.006.
 Original WAVs are copied unchanged; transformed waveforms are controlled
 remixes saved in the MAT results, not newly recorded environmental audio.
 No new licence or ownership is claimed for corpus audio.
+
+NOVEMBER REPORT FIGURE AND INTERPRETATION
+The retrospective paired rise/fall illustration uses the same sp02/street input
+and the saved frame_diagnostics.csv, with no enhancement or scoring rerun.
+The rise example was fixed in the original protocol; the matched fall panel
+was added for explanation after inspecting the completed results.
+figures/paired_tracking.png and .svg are the displayed outputs.
+figures/paired_tracking_validation.json records plot validation, and
+figures/paired_tracking_caption.txt gives the measurement interpretation.
+Rebuild with Python, NumPy, pandas and Matplotlib, from this folder:
+    python3 build_paired_tracking_figure.py
+This writes only figures/ outputs; existing results and protocols are preserved.
+
+The existing sentence_profile_interactions.csv subtracts each sentence
+unit's constant-profile selected-minus-fixed contrast from its changed-profile
+contrast. Averaged across the six units, the fall adds +0.08345 dB whole SNR,
++0.000831 STOI and +0.33969 dB late SNR. These additional effects differ
+from the within-fall advantages of +0.1428 dB, +0.002011 and +0.3949 dB.
+This is a descriptive interaction analysis, not a significance test.

@@ -4,7 +4,7 @@ title: ELEC5305 Final Project
 
 # When does VAD-guided noise updating help Wiener speech enhancement?
 
-**Yulong Chen · SID 550889472 · ELEC5305 · 25 October 2026**
+**Yulong Chen · SID 550889472 · ELEC5305 · 4 November 2026**
 
 [Final report (PDF)](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Final video](Final_Project/video/index.html) · [GitHub repository](https://github.com/yche0441/elec5305-project-550889472) · [Code and running instructions](Final_Project/README.txt)
 
@@ -31,9 +31,11 @@ The added experiment holds the speech and base noise fixed and compares constant
 
 ![Paired effects in all six sentence units](Final_Project/controlled_study/paired_effects.png)
 
-After the rise, neither energy-VAD setting updates in the late interval. The energy increase can keep the speech gate closed to noise updates. After the fall, updates resume; selected VAD has small mean advantages over fixed estimation: **+0.143 dB SNR** and **+0.00201 STOI**. This asymmetry helps explain why “adaptive” does not necessarily mean better tracking.
+After the rise, neither energy-VAD setting updates in the late interval. The energy increase can keep the speech gate closed to noise updates. After the fall, updates resume; selected VAD has small mean advantages over fixed estimation: **+0.143 dB SNR** and **+0.00201 STOI**. These are within-profile advantages. Subtracting the selected-minus-fixed contrast under constant added gain isolates the extra effect associated with the level change: **+0.0835 dB whole-record SNR**, **+0.000831 STOI** and **+0.3397 dB late-interval SNR** for the fall. Five of six sentence units have a positive additional STOI effect; the within-fall STOI contrast is positive in all six. This distinction prevents the baseline advantage from being attributed entirely to the noise decrease.
 
-![Predetermined example of injected and estimated noise power](Final_Project/controlled_study/tracking_example.png)
+![Matched rise and fall for the same sp02 street-noise input](Final_Project/controlled_study/figures/paired_tracking.png)
+
+The original protocol specified the sp02/street/rise example. The added fall panel uses the same sentence and base noise as a retrospective mechanism illustration. Both panels come from the completed experiment; no enhancement parameters or results were changed.
 
 These measurements support a qualified conclusion: cautious updating limits speech contamination, but may miss opportunities to follow changing noise. STOI is an intelligibility predictor, not a percentage of words understood or a subjective quality rating.
 

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-14T03:58:25.193613+00:00",
+  "generated_utc": "2026-11-03T23:23:46.959346+00:00",
   "files": [
     {
       "path": "ANALYSIS_SUMMARY.json",
@@ -38,8 +38,8 @@
     },
     {
       "path": "README.txt",
-      "bytes": 6818,
-      "sha256": "2efc30ae776d81304fa5b6c06d3346beac8db08c817ab6a698c5326d80e71a69"
+      "bytes": 8003,
+      "sha256": "f6c03854b6af8f66aa449690b386c346393b3206621e6a091037ebc84e424bfe"
     },
     {
       "path": "RUN_HISTORY.json",
@@ -55,6 +55,11 @@
       "path": "SELECTION.json",
       "bytes": 128,
       "sha256": "179da6adc500d26fa6a8d8f972521d2a6103853b49bf7f834cc1b40dcc5762e9"
+    },
+    {
+      "path": "build_paired_tracking_figure.py",
+      "bytes": 11289,
+      "sha256": "44ac476d209a4ae13d6c8d4d78ba9f369b55409eed32cff9fc27565b610af7dc"
     },
     {
       "path": "data/car/10dB/sp02_car_sn10.wav",
@@ -150,6 +155,26 @@
       "path": "experiment_config.m",
       "bytes": 773,
       "sha256": "d41109272d523cde8f82a9f43f52393a8838b7336008ccb6d800cf4c0e3783eb"
+    },
+    {
+      "path": "figures/paired_tracking.png",
+      "bytes": 208612,
+      "sha256": "3348d0374703e00a65fdd084371217da9fa39f089ad16680b0b2872c43fd2377"
+    },
+    {
+      "path": "figures/paired_tracking.svg",
+      "bytes": 56552,
+      "sha256": "66fa136ac7720a8d8db677ce4839d0180b69afc14d56b5e7843790bb64261cac"
+    },
+    {
+      "path": "figures/paired_tracking_caption.txt",
+      "bytes": 837,
+      "sha256": "429d98dc7eeddfde200c37998a920ba48bdc350aaca9fa6736be16b5f1e57257"
+    },
+    {
+      "path": "figures/paired_tracking_validation.json",
+      "bytes": 2408,
+      "sha256": "451f28e13f037c2072cd9ddaf56b397f8f97dc712e34dc9f9802969352f5978b"
     },
     {
       "path": "frame_diagnostics.csv",
@@ -257,5 +282,6 @@
       "sha256": "9b95bebe22cfafa6846a7d6a6d9fb6df0488bae1166e4ebfddc96e5b4a03bfd2"
     }
   ],
-  "validation": "All numerical and visual checks passed. Full details in ANALYSIS_SUMMARY.json."
+  "validation": "All numerical and visual checks passed. Full details in ANALYSIS_SUMMARY.json.",
+  "revision": "Paired changed-minus-constant interpretation, parameter rationale, inherited gain-constraint explanation and matched rise/fall tracking figure. Experimental signals, numerical scores, enhancement code and video unchanged."
 }

@@ -1,6 +1,6 @@
 # When does VAD-guided noise updating help Wiener speech enhancement?
 
-**ELEC5305 Final Project · Yulong Chen · SID 550889472 · 25 October 2026**
+**ELEC5305 Final Project · Yulong Chen · SID 550889472 · 4 November 2026**
 
 [Project website](https://yche0441.github.io/elec5305-project-550889472/) · [Final report](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Final video](https://yche0441.github.io/elec5305-project-550889472/Final_Project/video/index.html) · [Working code and reproduction instructions](Final_Project/README.txt)
 
@@ -10,7 +10,7 @@ This project studies the trade-off between tracking noise and protecting speech 
 
 - On 48 conditions from six new sentences, selected VAD improved mean standard STOI over original VAD by **0.00404**, but remained **0.00064 below fixed estimation**. Selected-minus-fixed mean reference SNR was **+0.0636 dB**. These are small descriptive differences.
 - A new **36-mixture matched diagnostic** holds the speech and base noise fixed and varies only the noise level: constant, +6 dB or -6 dB. All parameters remain frozen; previously used sentences make this a mechanism diagnostic, not a new generalisation test.
-- After the +6 dB rise, neither VAD updates in the late interval. Increased energy can prevent an energy-based detector from recognising a safe noise-update opportunity. After the -6 dB fall, updating resumes; selected-minus-fixed whole-record SNR is **+0.143 dB** and STOI **+0.00201**, averaged across sentence units.
+- After the +6 dB rise, neither VAD updates in the late interval. Increased energy can prevent an energy-based detector from recognising a safe noise-update opportunity. After the -6 dB fall, updating resumes; selected-minus-fixed whole-record SNR is **+0.143 dB** and STOI **+0.00201**, averaged across sentence units. Subtracting the same selected-minus-fixed contrast under constant added noise gain gives the additional fall-versus-constant effect: **+0.0835 dB SNR** and **+0.000831 STOI**. The within-profile advantage and the change-specific effect answer different questions.
 - Cautious gating reduces speech entering the noise update, but does not provide universal noise tracking. SNR, STOI and subjective quality are different quantities; no listener study is claimed.
 
 All main-report STOI values use **standard PySTOI 0.4.1, `extended=False`**. Original native MATLAB STOI scores are preserved as historical evidence and are not mixed into the main comparisons.

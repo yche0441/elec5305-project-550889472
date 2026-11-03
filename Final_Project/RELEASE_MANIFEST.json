@@ -1,5 +1,5 @@
 {
-  "release": "ELEC5305 final release 2026-10-25",
+  "release": "ELEC5305 final release 2026-11-04",
   "scope": "Working code, saved evidence, final report and completed demonstration video with English captions and spoken transcript",
   "video": {
     "path": "video/ELEC5305_Final_Project_Video.mp4",
@@ -1186,8 +1186,8 @@
     },
     {
       "path": "README.txt",
-      "bytes": 6796,
-      "sha256": "3fa665e465165a62b6dbe636b17059b25f375ea2a2488f7544da5e1741b2702f"
+      "bytes": 6959,
+      "sha256": "4de89b2451372c13a40554af773ffc6aa59bef6787b63cd8a4e0c9b68effa468"
     },
     {
       "path": "RUN_PARAMETER_STUDY.m",
@@ -1201,8 +1201,8 @@
     },
     {
       "path": "VALIDATION_SUMMARY.txt",
-      "bytes": 1167,
-      "sha256": "f61a945495dd6ec03947c5f14fd7710a1d238e7dbf088601be77505e8dac2d93"
+      "bytes": 2115,
+      "sha256": "82d4924389da0077253e810d303dc570e098caf71c39cc36d8b1697d66711054"
     },
     {
       "path": "check_environment.m",
@@ -1216,8 +1216,8 @@
     },
     {
       "path": "controlled_study/DELIVERY_MANIFEST.json",
-      "bytes": 8245,
-      "sha256": "91c4dab4d058d377bcb1d1d153bb9e6b60c13f10d721777f819e62af80ac9310"
+      "bytes": 9321,
+      "sha256": "266a1a606ce565d937c1dd8162692cc336d5b0c668d735f1198453f6c579edf9"
     },
     {
       "path": "controlled_study/FINDINGS.txt",
@@ -1251,8 +1251,8 @@
     },
     {
       "path": "controlled_study/README.txt",
-      "bytes": 6818,
-      "sha256": "2efc30ae776d81304fa5b6c06d3346beac8db08c817ab6a698c5326d80e71a69"
+      "bytes": 8003,
+      "sha256": "f6c03854b6af8f66aa449690b386c346393b3206621e6a091037ebc84e424bfe"
     },
     {
       "path": "controlled_study/RUN_HISTORY.json",
@@ -1268,6 +1268,11 @@
       "path": "controlled_study/SELECTION.json",
       "bytes": 128,
       "sha256": "179da6adc500d26fa6a8d8f972521d2a6103853b49bf7f834cc1b40dcc5762e9"
+    },
+    {
+      "path": "controlled_study/build_paired_tracking_figure.py",
+      "bytes": 11289,
+      "sha256": "44ac476d209a4ae13d6c8d4d78ba9f369b55409eed32cff9fc27565b610af7dc"
     },
     {
       "path": "controlled_study/data/car/10dB/sp02_car_sn10.wav",
@@ -1363,6 +1368,26 @@
       "path": "controlled_study/experiment_config.m",
       "bytes": 773,
       "sha256": "d41109272d523cde8f82a9f43f52393a8838b7336008ccb6d800cf4c0e3783eb"
+    },
+    {
+      "path": "controlled_study/figures/paired_tracking.png",
+      "bytes": 208612,
+      "sha256": "3348d0374703e00a65fdd084371217da9fa39f089ad16680b0b2872c43fd2377"
+    },
+    {
+      "path": "controlled_study/figures/paired_tracking.svg",
+      "bytes": 56552,
+      "sha256": "66fa136ac7720a8d8db677ce4839d0180b69afc14d56b5e7843790bb64261cac"
+    },
+    {
+      "path": "controlled_study/figures/paired_tracking_caption.txt",
+      "bytes": 837,
+      "sha256": "429d98dc7eeddfde200c37998a920ba48bdc350aaca9fa6736be16b5f1e57257"
+    },
+    {
+      "path": "controlled_study/figures/paired_tracking_validation.json",
+      "bytes": 2408,
+      "sha256": "451f28e13f037c2072cd9ddaf56b397f8f97dc712e34dc9f9802969352f5978b"
     },
     {
       "path": "controlled_study/frame_diagnostics.csv",
@@ -1536,13 +1561,13 @@
     },
     {
       "path": "report/ELEC5305_Final_Project_Yulong_Chen.docx",
-      "bytes": 1131833,
-      "sha256": "5d46819ea388e644b35d0f6f8537caf1b8977ab303e2958626da3848efd4bfad"
+      "bytes": 1327139,
+      "sha256": "10fd5ae1df78b209aaa14c5d569b18edf69574dd4e9cf5372e333807c8e52b13"
     },
     {
       "path": "report/ELEC5305_Final_Project_Yulong_Chen.pdf",
-      "bytes": 1195730,
-      "sha256": "a9bcd36262460f1b0d1366350269a0a3e2e691581c38b1480d7cbf16eb774f6e"
+      "bytes": 1180241,
+      "sha256": "d9378957b8adc59a9cd68bf155e150651935075a5f0bf038bbc36aa3de27e1e3"
     },
     {
       "path": "requirements.txt",
@@ -1575,5 +1600,5 @@
       "sha256": "bb8aab298d960769e325c5794cf8d20346e4c68450717fb9f1eb751e2069cf09"
     }
   ],
-  "report_revision": "Theory, literature positioning, contribution and interpretation clarified; numerical results, executable code and video unchanged."
+  "report_revision": "Paired changed-minus-constant interpretation, parameter rationale, inherited gain-constraint explanation and matched rise/fall tracking figure. Experimental signals, numerical scores, enhancement code and video unchanged."
 }

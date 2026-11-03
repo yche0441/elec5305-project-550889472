@@ -1,21 +1,37 @@
-FINAL RELEASE VALIDATION — 14 October 2026
+FINAL RELEASE VALIDATION — 4 November 2026
 
-The original 114-file study, 99-file original project and complete controlled
-study are preserved byte-for-byte from their source deliverables.
+CURRENT REPORT AND DELIVERY CHECKS
+The report is 12 pages. The November revision clarifies method rationale and
+changed-minus-constant interpretation, and adds a paired rise/fall figure from
+the existing frame diagnostics. Rendered report and figure review is recorded
+with this release. No experimental signals or enhancement results were rerun.
 
-The packaged START_HERE demonstration executed successfully in MATLAB R2026a
-Update 4 with Python 3.12.14, NumPy 2.3.5, SciPy 1.18.1 and PySTOI 0.4.1.
+The original study, original project, controlled input/core files, saved numeric
+results and frozen protocol are byte-identical to the checked October release.
+The paired plotting helper and its validation are included in controlled_study.
+Both the nested controlled-study manifest and outer release manifest have been
+recomputed and all listed hashes checked. The complete ZIP is checked against
+the outer release manifest.
+
+COMPLETED DEMONSTRATION
+The final video is complete: 324.133 seconds (5 min 24 sec), with English
+captions, an actual MATLAB run and the actual spoken transcript. It is unchanged
+from the checked 21 October release. It distinguishes the freshly recomputed
+single example from stored full-study and controlled-study results.
+Video SHA256: 7448f1fbe66948b16e8b573f86b557e90bfa0e41243e240a2fac9366ef61441e
+No human listening evaluation is claimed.
+
+HISTORICAL NUMERICAL VERIFICATION
+The earlier packaged START_HERE demonstration executed successfully in MATLAB
+R2026a Update 4 with Python 3.12.14, NumPy 2.3.5, SciPy 1.18.1 and PySTOI 0.4.1.
 All four fresh SNR/STOI pairs matched the saved study within 1e-8. The four
-24-bit WAV files exactly match the previously checked same-gain outputs.
-Results and stored controlled-study figure display completed successfully.
+24-bit WAV files matched the previously checked same-gain outputs.
+Portable reanalysis reproduced all 144 original standard STOI scores exactly
+(maximum difference 0), with independent reference-SNR checks.
+Controlled-study numerical verification remains recorded in
+controlled_study/ANALYSIS_SUMMARY.json. These are historical execution checks,
+not claims that the full experiments were rerun on 4 November.
 
-The portable reanalysis was executed using package-relative default input paths.
-All 144 original standard STOI scores reproduced their validation reference
-exactly (maximum difference 0), with independent reference-SNR checks.
-
-The controlled-study verification is recorded in controlled_study/ANALYSIS_SUMMARY.json.
-The main report uses standard PySTOI consistently, while native MATLAB values
-remain available only as historical evidence.
-
-The English script, JSON source and HTML teleprompter contain the same 456 words.
-The recording itself is pending. No human listening evaluation is claimed.
+SUBMISSION STATUS
+Repository publication and Canvas submission are separate actions. Inclusion
+of files in this package does not itself indicate a new Canvas submission.

@@ -1,0 +1,72 @@
+{
+  "example": "sp02 / street",
+  "profiles": {
+    "rise_6dB": {
+      "change_start_s": 1.369875,
+      "ramp_end_s": 1.419875,
+      "late_start_sample_s": 1.519875,
+      "valid_frames": 251,
+      "late_frames": 109,
+      "late_low_energy_proxy_frames": 27,
+      "initial_broadband_estimate": 4.58199439582939,
+      "max_injected_noise_power_relative_error": 4.615120678229504e-15,
+      "methods": {
+        "fixed": {
+          "late_updates": 0,
+          "total_updates": 0,
+          "max_recurrence_relative_error": 0.0
+        },
+        "vad_original": {
+          "late_updates": 0,
+          "total_updates": 15,
+          "max_recurrence_relative_error": 1.922970884141963e-15
+        },
+        "vad_selected": {
+          "late_updates": 0,
+          "total_updates": 5,
+          "max_recurrence_relative_error": 1.6333402715471359e-15
+        }
+      }
+    },
+    "fall_6dB": {
+      "change_start_s": 1.369875,
+      "ramp_end_s": 1.419875,
+      "late_start_sample_s": 1.519875,
+      "valid_frames": 251,
+      "late_frames": 109,
+      "late_low_energy_proxy_frames": 27,
+      "initial_broadband_estimate": 4.58199439582939,
+      "max_injected_noise_power_relative_error": 4.0982187224031e-15,
+      "methods": {
+        "fixed": {
+          "late_updates": 0,
+          "total_updates": 0,
+          "max_recurrence_relative_error": 0.0
+        },
+        "vad_original": {
+          "late_updates": 31,
+          "total_updates": 46,
+          "max_recurrence_relative_error": 3.3188389329105002e-15
+        },
+        "vad_selected": {
+          "late_updates": 11,
+          "total_updates": 16,
+          "max_recurrence_relative_error": 2.2071381461630197e-15
+        }
+      }
+    }
+  },
+  "normalisation": "10 log10(frame broadband power / shared initial noise PSD sum)",
+  "input_sha256": {
+    "frame_diagnostics.csv": "4ee560e2424105fbd4d65efa5f1401bef02acb1406f9a016b710da42f317df9e",
+    "verification_cases.csv": "9b95bebe22cfafa6846a7d6a6d9fb6df0488bae1166e4ebfddc96e5b4a03bfd2",
+    "data/clean/sp02.wav": "a95d7dbea657df0c3e47d81d3f914784f895af7c837c79df811221ca71828017",
+    "data/street/10dB/sp02_street_sn10.wav": "a0b4d3f4b1d960aaa6ad705891ca2236c269547d7119a0e7a124dcf8f8050012"
+  },
+  "checks": {
+    "matched_prechange_estimates_exact": true,
+    "shared_initial_estimate_exact": true,
+    "no_MATLAB_rerun": true,
+    "no_parameter_changes": true
+  }
+}
