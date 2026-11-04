@@ -2,84 +2,86 @@
 title: ELEC5305 Final Project
 ---
 
-# When does VAD-guided noise updating help Wiener speech enhancement?
+# Noise tracking and speech protection in Wiener enhancement
 
 **Yulong Chen · SID 550889472 · ELEC5305 · 4 November 2026**
 
-[Final report (PDF)](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Final video](Final_Project/video/index.html) · [GitHub repository](https://github.com/yche0441/elec5305-project-550889472) · [Code and running instructions](Final_Project/README.txt)
+[Final report](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Supporting results](Final_Project/report/Supporting_Results.pdf) · [Recorded demonstration](Final_Project/video/index.html) · [GitHub repository](https://github.com/yche0441/elec5305-project-550889472) · [Code and instructions](Final_Project/README.txt)
 
-The project asks whether voice-activity detection can update a Wiener enhancer's noise estimate without suppressing useful speech. Fixed estimation, original VAD and a more cautious VAD setting share the same TSNR enhancement and reconstruction. The experiment changes the noise-update rule.
+Can a noise-update rule follow a rising background without suppressing useful speech? This project holds the TSNR Wiener enhancer fixed while comparing fixed estimation, two hard energy gates and a published soft speech-presence probability (SPP) tracker. It tests a response to the observed hard-gate failure, then checks both the recovery and its cost.
 
-## What the completed experiments show
+## From blocked updates to a tested alternative
 
-### 1. Frozen parameter comparison
+The earlier matched experiment showed that a broadband energy increase could keep the hard gate closed to noise updates. The follow-up uses a frequency-wise probability instead of an all-or-nothing frame decision. The published PSD-smoothing coefficient is **0.8**; a predeclared **0.95** version matches the hard gate's smoother. Both settings are frozen before testing, with identical inputs, initial PSDs, TSNR gain processing and reconstruction. This is an adaptation of Gerkmann and Hendriks' estimator on the common 10 ms frame grid, not a new estimator.
 
-Nine threshold/hangover combinations were compared on 16 development conditions. Threshold **1 dB** and hangover **10 frames** were selected, then frozen before testing six previously unused sentences under eight noise/SNR conditions each. This is a new-sentence test, not a new-speaker test.
+The confirmation set contains **18 additional sentences**, three from each of the **same six known speakers**. Two noise types and four nominal SNRs yield 144 constant-noise inputs. A matched rise or fall of 6 dB at nominal 10 dB adds 72 inputs. The earlier 36 diagnostic inputs are a separate regression group. In total, **252 inputs and six methods produce 1,512 retained result rows**.
 
-| 48-condition method | Mean reference SNR (dB) | Mean standard STOI |
+### Recovery improves noise tracking, with an intelligibility cost
+
+| New rise condition, SPP minus selected hard gate | SPP 0.8 | SPP 0.95 |
 | --- | ---: | ---: |
-| Unprocessed | 7.197 | 0.81023 |
-| Fixed noise estimate | 10.651 | 0.81422 |
-| Original VAD (3 dB, 5 frames) | 10.656 | 0.80953 |
-| Selected VAD (1 dB, 10 frames) | 10.715 | 0.81357 |
+| Late four-band noise-power error (dB), lower is better | −5.76163 | −4.01704 |
+| Whole-record reference SNR (dB) | +1.59304 | +1.38209 |
+| Late reference SNR (dB) | +2.04997 | +1.85994 |
+| Standard STOI | −0.0139782 | −0.00252280 |
 
-Selected VAD improves mean STOI over original VAD by **0.00404**. Fixed estimation retains slightly higher mean STOI. The changes are small and do not establish universal superiority. The six sentence units and leave-one-sentence-out checks are reported explicitly; the 48 conditions are not treated as 48 independent speakers.
+The rise-condition tracking error and whole-record reference SNR improve in all 18 sentence means and six speaker means for both variants. The default variant's mean STOI falls for all six speakers. Matching the slower smoother retains much of the SNR improvement with a smaller STOI loss. This supports a targeted tracking improvement, not an overall intelligibility or listening-quality improvement.
 
-### 2. Matched noise-level diagnostic
+![All six known-speaker effects for constant, rising and falling noise](Final_Project/spp_recovery/figures/recovery_paired_effects.png)
 
-The added experiment holds the speech and base noise fixed and compares constant noise level with a 6 dB rise or fall. It creates **36 mixtures × 4 methods**, with frozen settings and known injected noise. The six sentences were already used, so this is a mechanism diagnostic rather than a new independent generalisation test.
+Each point averages three sentences and two noises for one known speaker; red bars average the six points. Top and bottom rows share the same vertical scale for each metric. These panels use nominal 10 dB source mixtures. The full constant-noise benchmark also covers nominal 0, 5 and 15 dB: over its 144 inputs, default SPP changes SNR by −0.05915 dB and STOI by −0.0077954 against the selected gate. The matched-smoothing version changes them by +0.19929 dB and −0.0038978. The unchanged-noise cases therefore expose a cost that a rise-only demonstration would miss.
 
-![Paired effects in all six sentence units](Final_Project/controlled_study/paired_effects.png)
+![Preselected new-sentence example of recovered tracking and effective update weights](Final_Project/spp_recovery/figures/recovery_tracking.png)
 
-After the rise, neither energy-VAD setting updates in the late interval. The energy increase can keep the speech gate closed to noise updates. After the fall, updates resume; selected VAD has small mean advantages over fixed estimation: **+0.143 dB SNR** and **+0.00201 STOI**. These are within-profile advantages. Subtracting the selected-minus-fixed contrast under constant added gain isolates the extra effect associated with the level change: **+0.0835 dB whole-record SNR**, **+0.000831 STOI** and **+0.3397 dB late-interval SNR** for the fall. Five of six sentence units have a positive additional STOI effect; the within-fall STOI contrast is positive in all six. This distinction prevents the baseline advantage from being attributed entirely to the noise decrease.
+This **sp03 / street / +6 dB rise** example was specified before scoring. Powers refer to the same shared initial estimate. The soft tracker uses continuous binwise weights; these should not be interpreted as a hard gate's binary update-coverage fraction. Four-band error compares estimated and actually injected noise power over the same late interval. It is a finite-window diagnostic, not the true expected noise PSD or a perceptual measure.
 
-![Matched rise and fall for the same sp02 street-noise input](Final_Project/controlled_study/figures/paired_tracking.png)
+## Run and hear the new example
 
-The original protocol specified the sp02/street/rise example. The added fall panel uses the same sentence and base noise as a retrospective mechanism illustration. Both panels come from the completed experiment; no enhancement parameters or results were changed.
+Open [START_HERE.m](Final_Project/START_HERE.m) in MATLAB and press Run. It recomputes all six outputs from the source WAV files and checks fresh SNR, late SNR and band-power measurements against the saved results. Any STOI displayed by this quick MATLAB demo is explicitly labelled a **stored standard Python score**. The quick demo requires no generated waveform archive and no Python scoring installation.
 
-These measurements support a qualified conclusion: cautious updating limits speech contamination, but may miss opportunities to follow changing noise. STOI is an intelligibility predictor, not a percentage of words understood or a subjective quality rating.
+![New MATLAB example with fresh measurements](Final_Project/spp_recovery/demo/Recovery_Demo.png)
 
-## Watch the final demonstration
+The [demo folder](https://github.com/yche0441/elec5305-project-550889472/tree/main/Final_Project/spp_recovery/demo) contains the six input/output WAVs and clean reference, all sharing one gain. They let the reader inspect the outputs; no listener ratings or subjective conclusions are claimed. The complete computation and playback checks are saved in [DEMO_CHECK.json](Final_Project/spp_recovery/demo/DEMO_CHECK.json).
 
-The **5 min 24 sec** video explains the research question, method, parameter selection and results, and includes an actual MATLAB run. English captions are included in the picture. The single example is freshly computed; the full-study means and matched noise-change results are clearly identified as stored results.
+<details>
+<summary><strong>Play the seven same-gain examples</strong></summary>
+<p>All clips use one common playback gain. The clean reference is included for comparison and is never an input to the enhancer.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:16px 0">
+<div><p><strong>Noisy input</strong></p><audio controls preload="none" style="width:100%" aria-label="Noisy input" src="Final_Project/spp_recovery/demo/01_input.wav"></audio></div>
+<div><p><strong>Fixed noise estimate</strong></p><audio controls preload="none" style="width:100%" aria-label="Fixed noise estimate" src="Final_Project/spp_recovery/demo/02_fixed.wav"></audio></div>
+<div><p><strong>Original hard gate</strong></p><audio controls preload="none" style="width:100%" aria-label="Original hard gate" src="Final_Project/spp_recovery/demo/03_original_gate.wav"></audio></div>
+<div><p><strong>Selected hard gate</strong></p><audio controls preload="none" style="width:100%" aria-label="Selected hard gate" src="Final_Project/spp_recovery/demo/04_selected_gate.wav"></audio></div>
+<div><p><strong>Soft SPP 0.8</strong></p><audio controls preload="none" style="width:100%" aria-label="Soft SPP 0.8" src="Final_Project/spp_recovery/demo/05_spp_0_8.wav"></audio></div>
+<div><p><strong>Soft SPP 0.95</strong></p><audio controls preload="none" style="width:100%" aria-label="Soft SPP 0.95" src="Final_Project/spp_recovery/demo/06_spp_0_95.wav"></audio></div>
+<div><p><strong>Clean reference</strong></p><audio controls preload="none" style="width:100%" aria-label="Clean reference" src="Final_Project/spp_recovery/demo/07_clean_reference.wav"></audio></div>
+</div>
+</details>
 
-<video controls playsinline preload="metadata" style="width:100%;max-width:960px;aspect-ratio:16/9;background:#102031" aria-label="ELEC5305 final project demonstration"><source src="Final_Project/video/ELEC5305_Final_Project_Video.mp4" type="video/mp4">Your browser does not support the video player. Use the MP4 download link below.</video>
+## How the earlier work leads to this result
 
-[Open the video page](Final_Project/video/index.html) · [Download MP4](Final_Project/video/ELEC5305_Final_Project_Video.mp4) · [English SRT captions](Final_Project/video/ELEC5305_Final_Project_English.srt) · [Spoken transcript](Final_Project/video/Final_Video_Transcript.txt)
+The original parameter study compared nine threshold/hangover settings on development data. The selected 1 dB threshold and ten-frame hangover were frozen before the 48-condition new-sentence test. Mean STOI improved by **0.00404** over original VAD, but remained **0.00064 below fixed estimation**. Reduced speech-associated updating therefore did not establish a generally better enhancer.
 
-## See the code in action
+In the earlier 36-mixture diagnostic, neither gate made late updates in any of the 12 rising-noise pairs. Falling noise permitted renewed tracking. In the larger follow-up set, the selected gate has zero late updates in **32 of 36** rising cases, so the earlier all-case observation is not extended to every new input. The soft-tracker comparison tests the mechanism while retaining every input and outcome, including failures.
 
-Open [START_HERE.m](Final_Project/START_HERE.m) in MATLAB and press Run after installing the documented dependencies. It recomputes **sp02 / street / nominal 5 dB** and verifies the scores against the stored study. The upper panels are a fresh single-case run; the lower panels are stored means from all 48 conditions.
+[Supporting Results](Final_Project/report/Supporting_Results.pdf) preserves the older benchmark spectrogram, condition breakdown and sentence-sensitivity figure. The main report remains 12 pages. The earlier code and results remain available in the [parameter study](Final_Project/Final_Project_Study/README.txt), [standard-STOI replay](Final_Project/reanalysis/README_REANALYSIS.txt) and [controlled diagnostic](Final_Project/controlled_study/README.txt).
 
-![Predetermined live-demo example and stored study means](Final_Project/Final_Project_Video_Prep/demo_generated/Demo_Results.png)
+## Watch the completed recorded demonstration
 
-This example is intentionally retained even though selected VAD is not best: processing raises SNR but lowers STOI relative to the input. The following audio is illustrative only; all four clips share the same playback gain and no listener scores are claimed.
+The **5 min 24 sec** recording includes English captions and an actual MATLAB run. It covers the original hard-gate comparison and first matched noise-change experiment, distinguishing fresh example results from stored study means. The newer soft-tracker study is documented above and in report Sections 8–9, and can be rerun through the new demonstration; it is not part of the earlier narration.
 
-**Noisy input**
+<video controls playsinline preload="metadata" style="width:100%;max-width:960px;aspect-ratio:16/9;background:#102031" aria-label="Recorded ELEC5305 demonstration of the earlier hard-gate studies"><source src="Final_Project/video/ELEC5305_Final_Project_Video.mp4" type="video/mp4">Your browser does not support the video player. Use the MP4 download link below.</video>
 
-<audio controls preload="none" src="Final_Project/Final_Project_Video_Prep/demo_generated/01_noisy_input.wav"></audio>
+[Video page](Final_Project/video/index.html) · [MP4](Final_Project/video/ELEC5305_Final_Project_Video.mp4) · [English captions](Final_Project/video/ELEC5305_Final_Project_English.srt) · [Spoken transcript](Final_Project/video/Final_Video_Transcript.txt)
 
-**Fixed noise estimate**
+## Reproduce and inspect the evidence
 
-<audio controls preload="none" src="Final_Project/Final_Project_Video_Prep/demo_generated/02_fixed_noise_psd.wav"></audio>
-
-**Original VAD**
-
-<audio controls preload="none" src="Final_Project/Final_Project_Video_Prep/demo_generated/03_original_vad.wav"></audio>
-
-**Selected VAD**
-
-<audio controls preload="none" src="Final_Project/Final_Project_Video_Prep/demo_generated/04_selected_vad.wav"></audio>
-
-The four clips use the same gain so the relative levels are preserved. They are audio examples for inspection, not a completed subjective listening study.
-
-## Reproduce and review
-
-- [Final report](ELEC5305_Final_Project_Yulong_Chen.pdf).
-- [Code, dependency setup and complete reproduction instructions](Final_Project/README.txt).
-- [Frozen parameter study and protocol](Final_Project/Final_Project_Study/README.txt).
-- [Unified metric replay and sentence-level analysis](Final_Project/reanalysis/README_REANALYSIS.txt).
-- [Controlled experiment: protocol, complete results and checks](Final_Project/controlled_study/README.txt).
+- [12-page final report](ELEC5305_Final_Project_Yulong_Chen.pdf) and [supporting results](Final_Project/report/Supporting_Results.pdf).
+- [Complete package with all unquantized outputs](https://github.com/yche0441/elec5305-project-550889472/releases/download/final-recovery-2026-11-04/ELEC5305_Final_Project_Complete.zip).
+- [Quick and full running instructions](Final_Project/README.txt), [follow-up README](Final_Project/spp_recovery/README.txt), and [frozen protocol](Final_Project/spp_recovery/PROTOCOL.json).
+- [Every case score](Final_Project/spp_recovery/metrics.csv), [sentence contrasts](Final_Project/spp_recovery/sentence_paired_contrasts.csv), and [speaker contrasts](Final_Project/spp_recovery/speaker_paired_contrasts.csv).
+- [Independent numerical audit](Final_Project/spp_recovery/checks/README.txt) and [validation summary](Final_Project/VALIDATION_SUMMARY.txt).
 - [Original Feedback Two report](ELEC5305_Project_Feedback_Two_Yulong_Chen_550889472.pdf) and [unchanged original project](Project_Feedback_Two_NOIZEUS/README.md).
 
-All final-report comparisons use standard PySTOI 0.4.1. Original native MATLAB STOI results remain archived separately. The common TSNR code is credited to **LIU Ming / Pascal Scalart**, with its original licence preserved. Speech/noise inputs come from **NOIZEUS / Hu and Loizou**. The contribution is the controlled adaptation, verification, comparative experiments and interpretation; the inherited enhancer is not claimed as a new invention.
+The repository includes code, source WAVs, saved tables and the preselected trace. The complete release additionally includes approximately 250 MB of generated waveform chunks. The full MATLAB run regenerates them if the ordinary repository is downloaded. Standard PySTOI 0.4.1 is used consistently, without per-method delay or amplitude fitting. All old baseline waveforms are reproduced exactly.
+
+The TSNR implementation is credited to **LIU Ming / Pascal Scalart**, the soft-SPP estimator and safeguard to **Gerkmann and Hendriks**, and corpus audio to **NOIZEUS / Hu and Loizou**. Their licences and source provenance are retained. The contribution is controlled adaptation, verification and interpretation. These short sentences reuse known speakers, and the imposed level changes do not establish unseen-speaker generalisation or a subjective benefit.

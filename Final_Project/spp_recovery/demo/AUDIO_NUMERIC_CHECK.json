@@ -1,0 +1,72 @@
+{
+  "pass": true,
+  "common_gain": 1.9964176207813766,
+  "files": [
+    {
+      "file": "01_input.wav",
+      "rate": 8000,
+      "samples": 17967,
+      "duration_s": 2.245875,
+      "maximum_sample_error_to_common_gain_double": 1.1897466285770708e-07,
+      "peak": 0.9448376893997192,
+      "sha256": "6e2afb4f99ba57abd1506a992f8a3da60a2004e48dac21f060825e79e5cc4def"
+    },
+    {
+      "file": "02_fixed.wav",
+      "rate": 8000,
+      "samples": 17967,
+      "duration_s": 2.245875,
+      "maximum_sample_error_to_common_gain_double": 1.1896470675362356e-07,
+      "peak": 0.9499999284744263,
+      "sha256": "3302b6120ae89dad77aeadebd1c7c6082ef784700b1e65d5e41ac144cc1695c2"
+    },
+    {
+      "file": "03_original_gate.wav",
+      "rate": 8000,
+      "samples": 17967,
+      "duration_s": 2.245875,
+      "maximum_sample_error_to_common_gain_double": 1.1896391952179869e-07,
+      "peak": 0.945799708366394,
+      "sha256": "8d22366ac3c6c438903d617c247c9e2c27e8f3bae0be4e6851c2fdff7c6426fd"
+    },
+    {
+      "file": "04_selected_gate.wav",
+      "rate": 8000,
+      "samples": 17967,
+      "duration_s": 2.245875,
+      "maximum_sample_error_to_common_gain_double": 1.1896798877975012e-07,
+      "peak": 0.9499999284744263,
+      "sha256": "f6b352180956ee1bd53cf9ce72d82b1f8422eb40aec9cd0dbc57e2b50b93581c"
+    },
+    {
+      "file": "05_spp_0_8.wav",
+      "rate": 8000,
+      "samples": 17967,
+      "duration_s": 2.245875,
+      "maximum_sample_error_to_common_gain_double": 1.1897348969631266e-07,
+      "peak": 0.9294008016586304,
+      "sha256": "644aa0c1f2537327b3faf0289ea186c59dbc0e03464f7142bc6db7b799382ccc"
+    },
+    {
+      "file": "06_spp_0_95.wav",
+      "rate": 8000,
+      "samples": 17967,
+      "duration_s": 2.245875,
+      "maximum_sample_error_to_common_gain_double": 1.1897589033372721e-07,
+      "peak": 0.9458755254745483,
+      "sha256": "4cfd63b865e18550f11b1e0d8b55b5f456a044ce6f917525d19cb360743d9fac"
+    },
+    {
+      "file": "07_clean_reference.wav",
+      "rate": 8000,
+      "samples": 17967,
+      "duration_s": 2.245875,
+      "maximum_sample_error_to_common_gain_double": 1.1896090928997793e-07,
+      "peak": 0.8940255641937256,
+      "sha256": "bea44b96b49ad7975866fa0d3f7e7496ad3f8e8a53aed2927b3aacb94952eb6d"
+    }
+  ],
+  "scores_use_unquantized_doubles": true,
+  "subjective_evaluation": false,
+  "fresh_copy_had_no_saved_signals": true
+}

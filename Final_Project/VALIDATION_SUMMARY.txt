@@ -1,37 +1,42 @@
-FINAL RELEASE VALIDATION — 4 November 2026
+SOFT-TRACKER FOLLOW-UP VALIDATION — 4 November 2026
 
-CURRENT REPORT AND DELIVERY CHECKS
-The report is 12 pages. The November revision clarifies method rationale and
-changed-minus-constant interpretation, and adds a paired rise/fall figure from
-the existing frame diagnostics. Rendered report and figure review is recorded
-with this release. No experimental signals or enhancement results were rerun.
+CURRENT REPORT AND EXPERIMENT
+The main report has 12 pages. Two earlier detailed result pages are retained
+as Supporting_Results.pdf. The report and new figures were visually reviewed.
+The full new experiment ran in MATLAB R2026a Update 4 on 4 November Sydney time:
+216 new inputs plus 36 old diagnostic inputs, six methods and 1,512 method rows.
+New sentences belong to the same six known speakers. The default and matched
+SPP smoothers were frozen before scoring; no result-based selection was made.
 
-The original study, original project, controlled input/core files, saved numeric
-results and frozen protocol are byte-identical to the checked October release.
-The paired plotting helper and its validation are included in controlled_study.
-Both the nested controlled-study manifest and outer release manifest have been
-recomputed and all listed hashes checked. The complete ZIP is checked against
-the outer release manifest.
+NUMERICAL CHECKS
+All old 36-by-4 baseline waveforms are bit-identical to archived outputs.
+Independent Python scoring checks all SNR, late SNR, noise-update recurrences,
+effective weights and tracking diagnostics; all main STOI values use standard
+PySTOI 0.4.1, extended=False, on unquantized doubles. An independent audit also
+recomputes all sentence, speaker and paired summaries, and representative STOI.
+See spp_recovery/ANALYSIS_SUMMARY.json and spp_recovery/checks/ for exact errors.
+The quick demo separately recomputes the preselected new example from WAVs and
+checks its fresh SNR and tracking measures. Its STOI values are labelled stored.
 
-COMPLETED DEMONSTRATION
-The final video is complete: 324.133 seconds (5 min 24 sec), with English
-captions, an actual MATLAB run and the actual spoken transcript. It is unchanged
-from the checked 21 October release. It distinguishes the freshly recomputed
-single example from stored full-study and controlled-study results.
-Video SHA256: 7448f1fbe66948b16e8b573f86b557e90bfa0e41243e240a2fac9366ef61441e
-No human listening evaluation is claimed.
+EVIDENCE PRESERVATION AND DISTRIBUTION
+Original parameter-study, reanalysis and controlled-diagnostic evidence remains
+unchanged. Full delivery includes all new unquantized waveform chunks. The
+repository subset omits generated spp_recovery/signals/*.mat; the full MATLAB
+run regenerates them. The complete release ZIP includes those chunks.
+Each distribution has its own accurate nested and outer hash manifest.
 
-HISTORICAL NUMERICAL VERIFICATION
-The earlier packaged START_HERE demonstration executed successfully in MATLAB
-R2026a Update 4 with Python 3.12.14, NumPy 2.3.5, SciPy 1.18.1 and PySTOI 0.4.1.
-All four fresh SNR/STOI pairs matched the saved study within 1e-8. The four
-24-bit WAV files matched the previously checked same-gain outputs.
-Portable reanalysis reproduced all 144 original standard STOI scores exactly
-(maximum difference 0), with independent reference-SNR checks.
-Controlled-study numerical verification remains recorded in
-controlled_study/ANALYSIS_SUMMARY.json. These are historical execution checks,
-not claims that the full experiments were rerun on 4 November.
+COMPLETED RECORDED DEMONSTRATION
+The existing video is complete: 324.133 seconds (5 min 24 sec), with English
+captions and an actual MATLAB run. Its original narration and audio are unchanged.
+It covers the earlier hard-gate comparison and controlled experiment. The newer
+soft-tracker study is in report Sections 8–9 and the new runnable demonstration,
+not part of that earlier narration. Video SHA256: 7448f1fbe66948b16e8b573f86b557e90bfa0e41243e240a2fac9366ef61441e
+
+INTERPRETATION
+SPP improves rising-noise tracking and reference SNR but costs mean STOI.
+No universal enhancement benefit, subjective listening result or unseen-speaker
+generalisation is claimed. All outcomes, including constant-noise costs, remain.
 
 SUBMISSION STATUS
-Repository publication and Canvas submission are separate actions. Inclusion
-of files in this package does not itself indicate a new Canvas submission.
+GitHub publication, file upload and formal Canvas submission are separate.
+This package by itself does not indicate a new Canvas submission.

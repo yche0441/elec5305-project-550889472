@@ -1,0 +1,46 @@
+Scored and independently checked 12/252 inputs (new_confirmation_sp03.mat)
+Scored and independently checked 24/252 inputs (new_confirmation_sp04.mat)
+Scored and independently checked 36/252 inputs (new_confirmation_sp05.mat)
+Scored and independently checked 48/252 inputs (new_confirmation_sp08.mat)
+Scored and independently checked 60/252 inputs (new_confirmation_sp09.mat)
+Scored and independently checked 72/252 inputs (new_confirmation_sp10.mat)
+Scored and independently checked 84/252 inputs (new_confirmation_sp13.mat)
+Scored and independently checked 96/252 inputs (new_confirmation_sp14.mat)
+Scored and independently checked 108/252 inputs (new_confirmation_sp15.mat)
+Scored and independently checked 120/252 inputs (new_confirmation_sp18.mat)
+Scored and independently checked 132/252 inputs (new_confirmation_sp19.mat)
+Scored and independently checked 144/252 inputs (new_confirmation_sp20.mat)
+Scored and independently checked 156/252 inputs (new_confirmation_sp23.mat)
+Scored and independently checked 168/252 inputs (new_confirmation_sp24.mat)
+Scored and independently checked 180/252 inputs (new_confirmation_sp25.mat)
+Scored and independently checked 192/252 inputs (new_confirmation_sp28.mat)
+Scored and independently checked 204/252 inputs (new_confirmation_sp29.mat)
+Scored and independently checked 216/252 inputs (new_confirmation_sp30.mat)
+Scored and independently checked 222/252 inputs (old_diagnostic_sp02.mat)
+Scored and independently checked 228/252 inputs (old_diagnostic_sp07.mat)
+Scored and independently checked 234/252 inputs (old_diagnostic_sp12.mat)
+Scored and independently checked 240/252 inputs (old_diagnostic_sp17.mat)
+Scored and independently checked 246/252 inputs (old_diagnostic_sp22.mat)
+Scored and independently checked 252/252 inputs (old_diagnostic_sp27.mat)
+{
+  "execution_and_input_manifests": "PASS",
+  "protocol_hash": "PASS",
+  "unquantized_outputs": true,
+  "no_STOI_warnings": true,
+  "independent_SNR_max_abs_dB": 7.283063041541027e-14,
+  "independent_PostSNR_max_abs_dB": 5.684341886080802e-14,
+  "independent_noise_power_max_relative": 5.377231606170876e-15,
+  "independent_noise_recurrence_max_relative": 5.748367442095693e-15,
+  "independent_effective_weight_max_abs": 3.4916514124461173e-14,
+  "independent_diagnostic_max_abs": 4.689582056016661e-13,
+  "old_144_row_metric_regression": {
+    "SNR_dB": 0.0,
+    "STOI": 4.440892098500626e-16,
+    "PostSNR_dB": 0.0
+  },
+  "old_baseline_waveforms_max_abs": 0.0,
+  "identity_max_abs": 2.2204460492503099e-16,
+  "fixed_late_bias_exact_opposite_profile_change": "PASS",
+  "all_cases_retained": true
+}
+SCORING COMPLETE

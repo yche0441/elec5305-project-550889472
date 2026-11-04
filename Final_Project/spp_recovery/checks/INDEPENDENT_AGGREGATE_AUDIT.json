@@ -1,0 +1,241 @@
+{
+  "completed_utc": "2026-11-03T23:50:26.427193+00:00",
+  "status": "PASS",
+  "sentence_mean_max_abs_error": 4.973799150320701e-14,
+  "speaker_mean_max_abs_error": 4.973799150320701e-14,
+  "speaker_paired_contrast_max_abs_error": 4.085620730620576e-14,
+  "headlines": [
+    {
+      "set": "new_constant_benchmark",
+      "profile": "constant",
+      "contrast": "spp_default minus vad_selected",
+      "means": {
+        "LateBandError_dB": -1.0632340335144936,
+        "SNR_dB": -0.059147433323498845,
+        "STOI": -0.007795374696810441,
+        "PostSNR_dB": 0.04147322892801037
+      },
+      "speaker_count": 6,
+      "sentence_count": 18,
+      "case_count": 144,
+      "LateBandError_dB_improved": {
+        "speaker": 6,
+        "sentence": 18,
+        "case": 88
+      },
+      "SNR_dB_improved": {
+        "speaker": 2,
+        "sentence": 6,
+        "case": 56
+      },
+      "STOI_improved": {
+        "speaker": 1,
+        "sentence": 2,
+        "case": 38
+      }
+    },
+    {
+      "set": "new_constant_benchmark",
+      "profile": "constant",
+      "contrast": "spp_default minus fixed",
+      "means": {
+        "LateBandError_dB": -1.5526585061191576,
+        "SNR_dB": 0.06042784289248123,
+        "STOI": -0.007524223726365684,
+        "PostSNR_dB": 0.29079624242121366
+      },
+      "speaker_count": 6,
+      "sentence_count": 18,
+      "case_count": 144,
+      "LateBandError_dB_improved": {
+        "speaker": 6,
+        "sentence": 18,
+        "case": 95
+      },
+      "SNR_dB_improved": {
+        "speaker": 3,
+        "sentence": 8,
+        "case": 60
+      },
+      "STOI_improved": {
+        "speaker": 1,
+        "sentence": 2,
+        "case": 39
+      }
+    },
+    {
+      "set": "new_controlled_10dB",
+      "profile": "constant",
+      "contrast": "spp_default minus vad_selected",
+      "means": {
+        "LateBandError_dB": -1.7697820456404718,
+        "SNR_dB": 0.03839938913216387,
+        "STOI": -0.009812669527649953,
+        "PostSNR_dB": 0.08268319869394516
+      },
+      "speaker_count": 6,
+      "sentence_count": 18,
+      "case_count": 36,
+      "LateBandError_dB_improved": {
+        "speaker": 6,
+        "sentence": 16,
+        "case": 24
+      },
+      "SNR_dB_improved": {
+        "speaker": 2,
+        "sentence": 7,
+        "case": 11
+      },
+      "STOI_improved": {
+        "speaker": 1,
+        "sentence": 3,
+        "case": 6
+      }
+    },
+    {
+      "set": "new_controlled_10dB",
+      "profile": "fall_6dB",
+      "contrast": "spp_default minus vad_selected",
+      "means": {
+        "LateBandError_dB": -2.8338592956898285,
+        "SNR_dB": 0.13062615649556122,
+        "STOI": -0.0005838575310558871,
+        "PostSNR_dB": 1.0764614450754053
+      },
+      "speaker_count": 6,
+      "sentence_count": 18,
+      "case_count": 36,
+      "LateBandError_dB_improved": {
+        "speaker": 6,
+        "sentence": 16,
+        "case": 30
+      },
+      "SNR_dB_improved": {
+        "speaker": 3,
+        "sentence": 10,
+        "case": 20
+      },
+      "STOI_improved": {
+        "speaker": 4,
+        "sentence": 8,
+        "case": 18
+      }
+    },
+    {
+      "set": "new_controlled_10dB",
+      "profile": "rise_6dB",
+      "contrast": "spp_default minus vad_selected",
+      "means": {
+        "LateBandError_dB": -5.761626899252026,
+        "SNR_dB": 1.5930435373393363,
+        "STOI": -0.01397821864610869,
+        "PostSNR_dB": 2.049969435975125
+      },
+      "speaker_count": 6,
+      "sentence_count": 18,
+      "case_count": 36,
+      "LateBandError_dB_improved": {
+        "speaker": 6,
+        "sentence": 18,
+        "case": 35
+      },
+      "SNR_dB_improved": {
+        "speaker": 6,
+        "sentence": 18,
+        "case": 33
+      },
+      "STOI_improved": {
+        "speaker": 0,
+        "sentence": 1,
+        "case": 6
+      }
+    },
+    {
+      "set": "new_controlled_10dB",
+      "profile": "constant",
+      "contrast": "spp_default minus fixed",
+      "means": {
+        "LateBandError_dB": -2.2321209410346974,
+        "SNR_dB": 0.15118033620129992,
+        "STOI": -0.008652707005147394,
+        "PostSNR_dB": 0.28743993323692585
+      },
+      "speaker_count": 6,
+      "sentence_count": 18,
+      "case_count": 36,
+      "LateBandError_dB_improved": {
+        "speaker": 6,
+        "sentence": 16,
+        "case": 25
+      },
+      "SNR_dB_improved": {
+        "speaker": 2,
+        "sentence": 8,
+        "case": 11
+      },
+      "STOI_improved": {
+        "speaker": 1,
+        "sentence": 4,
+        "case": 8
+      }
+    },
+    {
+      "set": "new_controlled_10dB",
+      "profile": "fall_6dB",
+      "contrast": "spp_default minus fixed",
+      "means": {
+        "LateBandError_dB": -3.8881087043399725,
+        "SNR_dB": 0.32445559569468607,
+        "STOI": 0.0007695524841868881,
+        "PostSNR_dB": 1.5592632364866257
+      },
+      "speaker_count": 6,
+      "sentence_count": 18,
+      "case_count": 36,
+      "LateBandError_dB_improved": {
+        "speaker": 6,
+        "sentence": 16,
+        "case": 33
+      },
+      "SNR_dB_improved": {
+        "speaker": 4,
+        "sentence": 11,
+        "case": 23
+      },
+      "STOI_improved": {
+        "speaker": 4,
+        "sentence": 9,
+        "case": 18
+      }
+    },
+    {
+      "set": "new_controlled_10dB",
+      "profile": "rise_6dB",
+      "contrast": "spp_default minus fixed",
+      "means": {
+        "LateBandError_dB": -5.96299916855525,
+        "SNR_dB": 1.6713202633694897,
+        "STOI": -0.012282820568592664,
+        "PostSNR_dB": 2.17025000116103
+      },
+      "speaker_count": 6,
+      "sentence_count": 18,
+      "case_count": 36,
+      "LateBandError_dB_improved": {
+        "speaker": 6,
+        "sentence": 18,
+        "case": 36
+      },
+      "SNR_dB_improved": {
+        "speaker": 6,
+        "sentence": 18,
+        "case": 34
+      },
+      "STOI_improved": {
+        "speaker": 1,
+        "sentence": 1,
+        "case": 7
+      }
+    }
+  ]
+}

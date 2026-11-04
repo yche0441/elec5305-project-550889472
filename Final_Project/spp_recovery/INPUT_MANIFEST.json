@@ -1,0 +1,1442 @@
+[
+  {
+    "path": "data/clean/sp03.wav",
+    "sha256": "3cddcbfd20d1ef021b2b1a20cf9a7c7765e57b689929e01f86216c415957e71f",
+    "samples": 17967,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp04.wav",
+    "sha256": "c14c89c6f34d1c080bb733c6b92cca9f488c0c2e26ee5505eb87c25e3732d903",
+    "samples": 16928,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp05.wav",
+    "sha256": "7767553f8cf259aa9aed56ebe75006a9c40847df24f7a0a0197a1b8ca9312f94",
+    "samples": 17627,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp08.wav",
+    "sha256": "9f434e5348721b134fa33b478acda0bd89aa3a26070b4ac27af3a499d7958284",
+    "samples": 22764,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp09.wav",
+    "sha256": "45c261a0be431b9b83e104befb315d5efa246086cc3da6ea5468b0e1f7d439b1",
+    "samples": 24077,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp10.wav",
+    "sha256": "8ffb5304cf6d0e3e201d2c71c67702f5479d02e1afe86bdb6eac1796963c67b1",
+    "samples": 21371,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp13.wav",
+    "sha256": "97626b8fc489772e28901990f4cca805ec52c072eb42ac1202763d13f80b9592",
+    "samples": 20307,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp14.wav",
+    "sha256": "0c88a6d72d347e2f1ac58614a9f5adcf7877b17f2f5a4942f9ffca8cd34d0b41",
+    "samples": 23466,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp15.wav",
+    "sha256": "7fe1719a3d9cd28409a0014134cd36b66599a4d3a4787a6219d079d166442e94",
+    "samples": 23323,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp18.wav",
+    "sha256": "c703b8048f7678849516c3365ee6900c62926ec9431ffe1325c344dc2f34daf1",
+    "samples": 18269,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp19.wav",
+    "sha256": "81c3f987dd63727a4d886f54fe8932e42ed3767035b2b8ab6863cb4db6253ef4",
+    "samples": 21338,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp20.wav",
+    "sha256": "1bc8a27a3cfd4fbf37c93c80932b12cef6ae60c3bad4dbdfb7c487fba12ee469",
+    "samples": 20752,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp23.wav",
+    "sha256": "a7b6883e489e499a7a16f2bcac37c2652c805a18e70f156c12c512870a19325d",
+    "samples": 21209,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp24.wav",
+    "sha256": "56f7552f623d7fefb5c45baad8d3f50a68ee5f67e1042c3c036f1ada1e1f755d",
+    "samples": 27768,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp25.wav",
+    "sha256": "687b0e5acecacb29c009081e4c9b7e60a2f4bf19d944efc4b0146036041b87bb",
+    "samples": 23443,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp28.wav",
+    "sha256": "81fc4b92b773e32a1794a7c09978f7e1117d226a14210a87a003558e98170942",
+    "samples": 19487,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp29.wav",
+    "sha256": "76b19a1795b3fa2251f8c17beb75631dbd3227e959851c4e231578889da0a010",
+    "samples": 20409,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp30.wav",
+    "sha256": "1d87903cbeb4da735e838bfc4eb8491d0baad003eab64db1ee5be5eda7537438",
+    "samples": 21086,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp02.wav",
+    "sha256": "a95d7dbea657df0c3e47d81d3f914784f895af7c837c79df811221ca71828017",
+    "samples": 21119,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp07.wav",
+    "sha256": "fdf80f84402a2b2e09af12ab699aed07e511b189cf55e001613a59e7acc9af69",
+    "samples": 20115,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp12.wav",
+    "sha256": "8bb319d9a3abeb89bdfd16dc042f9414df7fa7648ff446c0ef1174f099995416",
+    "samples": 21982,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp17.wav",
+    "sha256": "5298994ed7385670dda954171b0da237baa03aa9a5bc7a8793ea49cf565f3325",
+    "samples": 19231,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp22.wav",
+    "sha256": "f0fdd94bd3a06b24238137d51a92e064dffa4a8c31d4a0fc8c21116380c7d67d",
+    "samples": 21582,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/clean/sp27.wav",
+    "sha256": "c4832fc9fa4b8615126ca17345878fed8558feccfcac9bc61dcd0211caaef4b8",
+    "samples": 20316,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp03_car_sn0.wav",
+    "sha256": "a26ffa63a21127fc8581bf3748ed3035d1e3c028a5a46caeb8eadf72a40bcdb2",
+    "samples": 17967,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp04_car_sn0.wav",
+    "sha256": "7acdc0a7d46d4ea52559479e3c0f3f070385b12fbce7acf39afbe7d09ede5f21",
+    "samples": 16928,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp05_car_sn0.wav",
+    "sha256": "840adf1dc26662174f1a7eb5b05254707507bd4ed316e152234c2bb9a47b18ee",
+    "samples": 17627,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp08_car_sn0.wav",
+    "sha256": "ba615026a027dbd9d59bbf9296efaa243f987b945a0ed84f1f9469fbcdca8bd2",
+    "samples": 22764,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp09_car_sn0.wav",
+    "sha256": "0bfdaf7e46687786d2661b9e4fe05b5ee7d56961b71d0fdc42335774f7741a20",
+    "samples": 24077,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp10_car_sn0.wav",
+    "sha256": "04654371205996ec337538edbbe573614eca1699a149894b952c557e98d5999f",
+    "samples": 21371,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp13_car_sn0.wav",
+    "sha256": "cbc5ed0c08e870efb88d6e5049a5c73186c15daf6e028dbbe1c653a04bdfda81",
+    "samples": 20307,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp14_car_sn0.wav",
+    "sha256": "1e0f6b3c37e2a87a27dc2f6165146094ae7ab39f3afdf7cb10a203a2a7200f79",
+    "samples": 23466,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp15_car_sn0.wav",
+    "sha256": "bd1b1d010e73dd0fc1ba1b32d075e63a3e7283ee14cc5c8f2934a3eec5644d42",
+    "samples": 23323,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp18_car_sn0.wav",
+    "sha256": "d4948faff6f74dfb770d3721ef5288fb31107af695d73fbe48bacff50a88dafe",
+    "samples": 18269,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp19_car_sn0.wav",
+    "sha256": "712d82a4b9cc95984dae366d23e4e07a7940f684ff89e4d4b0964af0a0f00ea6",
+    "samples": 21338,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp20_car_sn0.wav",
+    "sha256": "5c62f0f386187f0445d7143f05c6f74273c2bb52367f7cad0ad76e6413a5f95f",
+    "samples": 20752,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp23_car_sn0.wav",
+    "sha256": "7dfeb3e0f32c5ee537460004d2ea5606cada542cec6fbf1b6e098ea569d27c54",
+    "samples": 21209,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp24_car_sn0.wav",
+    "sha256": "7887ad61e0b11aec3156011cd76951f59b83b29489f5883cba9c5636aaebbfd8",
+    "samples": 27768,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp25_car_sn0.wav",
+    "sha256": "b1be330d1657641fde94468d778e3c9333c04d44085ab3b9399a792c37934c88",
+    "samples": 23443,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp28_car_sn0.wav",
+    "sha256": "b6a5097d4fe349f26220e932edcfce95bbf82ab59314d1aa1907a3974ec1ebe6",
+    "samples": 19487,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp29_car_sn0.wav",
+    "sha256": "8fa580aed21b0c557191e29c51216d3a44bc13db7d9e34e55c35a0117cfcf134",
+    "samples": 20409,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/0dB/sp30_car_sn0.wav",
+    "sha256": "8fb697d7fc8b0bf0ba57928130ae4497c9cbb36cd9c7f3b3e15e0c178e25d837",
+    "samples": 21086,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp03_car_sn5.wav",
+    "sha256": "b739cccf380622aa1140b78c602d700768f3af9928028318860e8464156a4a55",
+    "samples": 17967,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp04_car_sn5.wav",
+    "sha256": "607e84fab2ef7e29e2afd194b43edaad13cc9e95e61355c313cede0e8fd535c7",
+    "samples": 16928,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp05_car_sn5.wav",
+    "sha256": "69b36eeb5895cae31ef365fefb0ffb57cabce91a47a59da615a621dfe0fbcea0",
+    "samples": 17627,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp08_car_sn5.wav",
+    "sha256": "d83d881804b014a1700c41c73c5025f1c78b9f75037754e29272d1613c1e29c7",
+    "samples": 22764,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp09_car_sn5.wav",
+    "sha256": "51549e8b0c495fed9b7359bf81ef14ed16b21a0e4f4111a2d5db0ed1e41a6889",
+    "samples": 24077,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp10_car_sn5.wav",
+    "sha256": "28d76f05392949c0437fc7b05d819cf745054aee651912c440937117ab1074dd",
+    "samples": 21371,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp13_car_sn5.wav",
+    "sha256": "9b71993aad88526634c8078e687688605c035c50d563ae0fca3061e2611d4059",
+    "samples": 20307,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp14_car_sn5.wav",
+    "sha256": "8a31cdffddbeb59b0d564c64d71959629e85620eb557eb570838f4304ae910d2",
+    "samples": 23466,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp15_car_sn5.wav",
+    "sha256": "afc88869ca44e5e6352b8aca74c239017a13c2c41efef69e6b22b7f8aed53b87",
+    "samples": 23323,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp18_car_sn5.wav",
+    "sha256": "1d4074588ddea0290945085b969dc63f9440d709361040e2c013527cca410f3a",
+    "samples": 18269,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp19_car_sn5.wav",
+    "sha256": "efb20eb410b6dda7480314480b1eebde3d07cf76f4115f9ba92ad40fc036b85a",
+    "samples": 21338,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp20_car_sn5.wav",
+    "sha256": "3619b365b6228e9bd6f76727b75a75125392b53d2837f46bb1a804035017e296",
+    "samples": 20752,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp23_car_sn5.wav",
+    "sha256": "696891f1bfa92858356aec24fc73ce3394e06b32d696cf46fac0846a004d75b3",
+    "samples": 21209,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp24_car_sn5.wav",
+    "sha256": "ac8e0ccd068b91fb8e04975c9e6d894f3701fa71ace63daed00dc2d0a9d2c23e",
+    "samples": 27768,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp25_car_sn5.wav",
+    "sha256": "4f03ee682b6dfa2ca6f750697686d5580b21ccbeea9cfcdf8a0cd61462817766",
+    "samples": 23443,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp28_car_sn5.wav",
+    "sha256": "301fc11f423e898864fe1fd5fdc75a87584a8958363c54c0b01c8989ced7da3c",
+    "samples": 19487,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp29_car_sn5.wav",
+    "sha256": "8c35cfbfc0f0f8dd48f7e6093cf2c8c782fe05f0be9b0b8bf564e7787fd48b8f",
+    "samples": 20409,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/5dB/sp30_car_sn5.wav",
+    "sha256": "2bad3a8412c1ee382c0cedf93d5988a108b3fe8fc0e87268f00c9f6820f85f76",
+    "samples": 21086,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp03_car_sn10.wav",
+    "sha256": "f454ba732c7c12674194cc3a58b8a8df969608dcdf056335a1bd5bc490d47ade",
+    "samples": 17967,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp04_car_sn10.wav",
+    "sha256": "205d36ab417d19b6f570b5c054f30d78920be31b4f2138016ad5789c4dd10b4a",
+    "samples": 16928,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp05_car_sn10.wav",
+    "sha256": "5c720a11aca88e4b2032d127593a9da01e904214dd0788b275b2690a67363454",
+    "samples": 17627,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp08_car_sn10.wav",
+    "sha256": "3b4f4feba67ed7ebc81f7d8f79e3088a23ae486e4411cb43183af63dc7eadc19",
+    "samples": 22764,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp09_car_sn10.wav",
+    "sha256": "8b78648e8b3a73f8826c921f386144946b62ceac0c6f63d5f6e5785fdf8de215",
+    "samples": 24077,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp10_car_sn10.wav",
+    "sha256": "c30a5a2bef4372da96f9fd2c88e456f5bfdbbef5855732c62c64f373919bcffc",
+    "samples": 21371,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp13_car_sn10.wav",
+    "sha256": "d9d2ef2e82d46867f5699743961c7c314108ba517f4f1869de3ce431c884a2df",
+    "samples": 20307,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp14_car_sn10.wav",
+    "sha256": "20ebe307dc699458c606b58c14e86cb9ad356fb6e10b05ebeacb462bc4fdb9cf",
+    "samples": 23466,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp15_car_sn10.wav",
+    "sha256": "75fa1490c0fb458f907341af25f890ffa237468328afe8d47494e63e256eb3e8",
+    "samples": 23323,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp18_car_sn10.wav",
+    "sha256": "01aa6c53d7820cabefcec1dcb2fc91dc2dd2105a8e126f93adc2c1390ad5e468",
+    "samples": 18269,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp19_car_sn10.wav",
+    "sha256": "87ff468158b279613c71a5a7dee88924679bcecf7c6e3f6c23461d7191e1e163",
+    "samples": 21338,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp20_car_sn10.wav",
+    "sha256": "4a6538a8ccfe2206c52d5553e5c18fd00d95c9e6a5844330fda3af8712fc7b25",
+    "samples": 20752,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp23_car_sn10.wav",
+    "sha256": "a596331620b8ae395fc487c1d5775c3cc501ae4dba7e4c6cff56635ae6c61dd0",
+    "samples": 21209,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp24_car_sn10.wav",
+    "sha256": "0d3404be03d1bcf601d300e08194109e8948e9b9e3ce0fc36541ecb31b8237b0",
+    "samples": 27768,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp25_car_sn10.wav",
+    "sha256": "aef647d0e0f4e6923b57bb5740ce50d8baea999a7137c20911a7479632f4827f",
+    "samples": 23443,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp28_car_sn10.wav",
+    "sha256": "a3c336cf4e6f7e4850ed66b6bdb396927ad9d7cb023d8f04a9b8a7f3e0d3f91c",
+    "samples": 19487,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp29_car_sn10.wav",
+    "sha256": "344bcb939a775faa7f116e2d178b32b370521c87897b9892631f11b20c872faf",
+    "samples": 20409,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp30_car_sn10.wav",
+    "sha256": "0a9800b037d27eb8ec8a19b7f5cfcc57411970479a32078f7635dbb69aff91c7",
+    "samples": 21086,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp02_car_sn10.wav",
+    "sha256": "23ad89169ef1e16a6802c0fe0de8aeb891b7c7c80e9ffdbc7000be69e64c7a3c",
+    "samples": 21119,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp07_car_sn10.wav",
+    "sha256": "e3b80844ce86ae14cc085a3d39ae7daaaf3b912c05db610be83cc671ac6053b3",
+    "samples": 20115,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp12_car_sn10.wav",
+    "sha256": "d5fca34f557a98325243b11fd1c39678d415f6ee78aa70ca0040025e6deb949c",
+    "samples": 21982,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp17_car_sn10.wav",
+    "sha256": "fd077606238fa3d70854ae63dcd02527fe9f2df258107621fbb22e8516e30a65",
+    "samples": 19231,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp22_car_sn10.wav",
+    "sha256": "9dcb2e38620eb3616f2dd890af63c9c553ba8e82a421141f78e43e7154d65724",
+    "samples": 21582,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/10dB/sp27_car_sn10.wav",
+    "sha256": "1287dd0d660b8b47cc546f81c06a8fc5aac1859d6226b532aa064cd675a97327",
+    "samples": 20316,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp03_car_sn15.wav",
+    "sha256": "4a091d9c9325dce9a32c519e39986a55960d4c79bb5cb04f9092daf051a393ac",
+    "samples": 17967,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp04_car_sn15.wav",
+    "sha256": "11b4c9bbbae41e4085ad60d7607678a3cf94269010247b916e6635becb9708f6",
+    "samples": 16928,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp05_car_sn15.wav",
+    "sha256": "ada2118ece757f2a3f12a781ade3b559b5e022f28241eddfe208fecc10c3035b",
+    "samples": 17627,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp08_car_sn15.wav",
+    "sha256": "9faa276eb63c387d0fe2c5074637d871e2388ce18b74a217442d11692b70c2d0",
+    "samples": 22764,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp09_car_sn15.wav",
+    "sha256": "09ecc6b81186dc48099cc1c3ff6e2475750ebee3935fe4bbb944cf281addb41c",
+    "samples": 24077,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp10_car_sn15.wav",
+    "sha256": "015f1fbaff3441da1f910bbf31d01fa056f7b26a5d1c53feebcd977423648a2c",
+    "samples": 21371,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp13_car_sn15.wav",
+    "sha256": "b5118a699e52c6ef2e848430b5d34e8aeb6ec6e49ae8029405fde1555c460f96",
+    "samples": 20307,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp14_car_sn15.wav",
+    "sha256": "91fc839de65aa25855a21a308931688dca0f02f0a786afabae2f4b6c9f454d56",
+    "samples": 23466,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp15_car_sn15.wav",
+    "sha256": "df2f7930c5b9cf41d7f8ba1c5e85442ac30a712c2951f9dce0ff7931c605fad2",
+    "samples": 23323,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp18_car_sn15.wav",
+    "sha256": "631828f73fda8d3da62097c7180bace8a1a302c68644a09adeaeaeee98bb603a",
+    "samples": 18269,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp19_car_sn15.wav",
+    "sha256": "1f62bde1d1d1827b2430a800c97882303c14da556538f599df9906441332e9c7",
+    "samples": 21338,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp20_car_sn15.wav",
+    "sha256": "5819f38befa816976005fc38ec18c4b212ca99698866249a2e63725da55e5e0b",
+    "samples": 20752,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp23_car_sn15.wav",
+    "sha256": "8a665dd6c3694a7ad62f575a4f392b78a9d82363d19e58a7c800ec3ae7f90da2",
+    "samples": 21209,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp24_car_sn15.wav",
+    "sha256": "335d3941cfc10ee0f85648c1d8856a3eecf523e0eae9d477e45e5ed2ded2855e",
+    "samples": 27768,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp25_car_sn15.wav",
+    "sha256": "c80a90cef7736057d132f6605590bbcf41a40547a4942508b65b9713b681a4d4",
+    "samples": 23443,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp28_car_sn15.wav",
+    "sha256": "16ad50920ec90c9340d171e521dcf8b6829c8d057dae4f767942e211eff47236",
+    "samples": 19487,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp29_car_sn15.wav",
+    "sha256": "bf362567d112601fbd6c88ef50c4e945e7d4439c3a5467ca3a05da3055eb0f13",
+    "samples": 20409,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/car/15dB/sp30_car_sn15.wav",
+    "sha256": "177692279f9c1ac3f3b340fe363c59f5d032e6e3c215818eaba0fcc863886d8e",
+    "samples": 21086,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp03_street_sn0.wav",
+    "sha256": "c181efbde8d79adadbf78757834f23644850b842ee2769c99bd0a97e3af6022e",
+    "samples": 17967,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp04_street_sn0.wav",
+    "sha256": "8adaf2a3ee3a9b8cb5f36defd93882c5fcb194134d200bea4d2091f1b90605ad",
+    "samples": 16928,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp05_street_sn0.wav",
+    "sha256": "cd8937d36851fefeee45135ff4fa5874a0a8692d16b52de39dd18de7a918ae42",
+    "samples": 17627,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp08_street_sn0.wav",
+    "sha256": "7c344bf9750eb1a1ab7b45a5e255a5e38d79ef72ec16046f477e0c3a51bfa530",
+    "samples": 22764,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp09_street_sn0.wav",
+    "sha256": "493c8fd949e7a918477a2a2d58f89a4308fa2dbbb265f9184ed0df0ad642b196",
+    "samples": 24077,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp10_street_sn0.wav",
+    "sha256": "cebe0a134ffa12e569c33945517162dc5e3a9227d7d47690bcd8ae3017eadf6a",
+    "samples": 21371,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp13_street_sn0.wav",
+    "sha256": "a41960debe1c1307665cc1f959d749a33263da737273b1d25bcab9c4629ec0ca",
+    "samples": 20307,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp14_street_sn0.wav",
+    "sha256": "0b66e7b3e29dce1217dd5bc589afe990c1315e3298319470fa05057f4d6e5f19",
+    "samples": 23466,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp15_street_sn0.wav",
+    "sha256": "b07c828e73eb3a9f11845c13420e8afeecc576ec48187a8210212e0910c6078c",
+    "samples": 23323,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp18_street_sn0.wav",
+    "sha256": "5c77f011b2e1bf218e3d3c677a98528436737769e9dd0b0893dc15839fb74bce",
+    "samples": 18269,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp19_street_sn0.wav",
+    "sha256": "5c6222469f53d3ba6f647de6e697af8dd08340959037a5cf6a7e022ac6a36e71",
+    "samples": 21338,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp20_street_sn0.wav",
+    "sha256": "943198ab564528309646ceb625e22ef3fb54c0dbf1a9df0b2fe97943b1273d59",
+    "samples": 20752,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp23_street_sn0.wav",
+    "sha256": "64b80dbbc5752615a19edf4ee9631d08b3545537cb8cb493986bc3ac30f6eaac",
+    "samples": 21209,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp24_street_sn0.wav",
+    "sha256": "30169bd549ec229d9ef8533d85c6480e462d1a8473eac10b1c08fb42e4abe80b",
+    "samples": 27768,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp25_street_sn0.wav",
+    "sha256": "75780443bb7373dbad36c6139dc1016e4955af235b9dd720f4f40d293fd730fb",
+    "samples": 23443,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp28_street_sn0.wav",
+    "sha256": "199a12e1a97020f0f7e3472219be82ca5af8ad1ba3e663dac76a15d99ed3e1fc",
+    "samples": 19487,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp29_street_sn0.wav",
+    "sha256": "fadc965493a7a5d1c98e56c220df989d83018c126acfe3aa39b5a532b772472c",
+    "samples": 20409,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/0dB/sp30_street_sn0.wav",
+    "sha256": "5b1ba907408a6372c84a897385ae99b8dd9d0b5eeccc028e77ebf1b24c7ad651",
+    "samples": 21086,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp03_street_sn5.wav",
+    "sha256": "73d6c53251eb2235b843f40a8204a249fbbf15d83866aae7f6336b1ec6ab1d54",
+    "samples": 17967,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp04_street_sn5.wav",
+    "sha256": "320955493e7998125aed13bbec64adfc9d3b7feaf8fb120b2de26fef5afdb4d4",
+    "samples": 16928,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp05_street_sn5.wav",
+    "sha256": "83533500779682d61d63209bc73759fa9ddddcf2eca7655149e9dbb1a585803d",
+    "samples": 17627,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp08_street_sn5.wav",
+    "sha256": "087e9a987adb43feb5e0eb71631325e8e262618d1889c927acda8ec789b5dca0",
+    "samples": 22764,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp09_street_sn5.wav",
+    "sha256": "3d4ab5c42d6aa7fba06a91c66917557a2f510019f8b867951e96783af05206cd",
+    "samples": 24077,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp10_street_sn5.wav",
+    "sha256": "138aea99897b87be14f8c5869ec8e7705673b0789a0e25ae7918e1e3149652cd",
+    "samples": 21371,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp13_street_sn5.wav",
+    "sha256": "5909546f1c595aae2f73a079ec049cb37c80bae38fc331c98f82d5548ba8337e",
+    "samples": 20307,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp14_street_sn5.wav",
+    "sha256": "84bc9d6be940aa49af19bf9c5f5a3b7bc4057a2fa955af37317fadd4f6812559",
+    "samples": 23466,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp15_street_sn5.wav",
+    "sha256": "b43dc942f675e31416f01888bf1ccab21e44ae3d98a61c1600731e21379dff63",
+    "samples": 23323,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp18_street_sn5.wav",
+    "sha256": "aed27dc8620fd98ab4e16e39252e63f6d6de52e6aba3885639716515b5c96520",
+    "samples": 18269,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp19_street_sn5.wav",
+    "sha256": "35d86db708b49029a4e3db8ac5d2ef359d868ae87c748aec1f2856e89d8ae295",
+    "samples": 21338,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp20_street_sn5.wav",
+    "sha256": "0ae1f154cc30c9ca4f0db0b98c2209d397e554df9e6874e963adc52b6ca9dd4e",
+    "samples": 20752,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp23_street_sn5.wav",
+    "sha256": "c3bcf9970142814df7f90dae1b320160d72ca738ad29bfebb6b1f6f60d05bd6f",
+    "samples": 21209,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp24_street_sn5.wav",
+    "sha256": "797f07537a8659aa89a6203d1c97f714f6041742203ce60b7ef451f2ee75c759",
+    "samples": 27768,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp25_street_sn5.wav",
+    "sha256": "d10491a7f47cdd8a9d5526977dd9bc354a3343aed1e36d60d720d966a44a7cb6",
+    "samples": 23443,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp28_street_sn5.wav",
+    "sha256": "9a774c77279ca6b138e2a59616356c40e0f1ae46051e11409c7b7bcca8ff2413",
+    "samples": 19487,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp29_street_sn5.wav",
+    "sha256": "ceabe119e926196a1cd2485955f8928e73504da4c98db86d11d587cccaddfccf",
+    "samples": 20409,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/5dB/sp30_street_sn5.wav",
+    "sha256": "5de535853f933420e7e68b1057059e11ccd0381aae21b3e64b8089bd44db6b92",
+    "samples": 21086,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp03_street_sn10.wav",
+    "sha256": "4336bad330abbd7df7752ced3d0ddb80bdb5467013522eeabc66d98efe0038a7",
+    "samples": 17967,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp04_street_sn10.wav",
+    "sha256": "c53b98f2b0ffe7d95d4deb979bf65f1adfda7e88f20a0609a5f0e5c4c60cae02",
+    "samples": 16928,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp05_street_sn10.wav",
+    "sha256": "9a23f442bae1eb5ae8fd742da80086e42b368fa685b44e76c057ff1ff702a0e6",
+    "samples": 17627,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp08_street_sn10.wav",
+    "sha256": "f0215bec53c87e0433a10dc565442309875caa9d15f3bba377cc088290e0bfc0",
+    "samples": 22764,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp09_street_sn10.wav",
+    "sha256": "7a30f095bb641ae87e9117fc2d34ebb0fd60e047f03308fc7f5821eb3a170ffd",
+    "samples": 24077,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp10_street_sn10.wav",
+    "sha256": "0e1b6e44bc44083e2dc7b83d09c9d12c5a5958d5b8554be23373d4a0a114f73a",
+    "samples": 21371,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp13_street_sn10.wav",
+    "sha256": "fcc85b43d1d8e3ce439ed2338f6e19507383563e0d65356218e5fbc6fbe29e82",
+    "samples": 20307,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp14_street_sn10.wav",
+    "sha256": "7808fce039a91ba54fdfaca76916121a02988d113b5e90d613b0720303b93788",
+    "samples": 23466,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp15_street_sn10.wav",
+    "sha256": "d35531d5b7492cf84b5e178ab75eabeb0de6e4c77f3cb8c5abba56cd9d45fdfd",
+    "samples": 23323,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp18_street_sn10.wav",
+    "sha256": "1483b3bc7670faa5e018d0b297bf67bb51332bf8dd926a526f59c9a978a56dbb",
+    "samples": 18269,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp19_street_sn10.wav",
+    "sha256": "a0ec172170c080af8a689157e38ae572d86c4aa6925ea94ee33613f5fd25ea3f",
+    "samples": 21338,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp20_street_sn10.wav",
+    "sha256": "e9752d69aca19d8751a888fd1f1dd079cd77fb4a3892c446fe7a9e1651d33456",
+    "samples": 20752,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp23_street_sn10.wav",
+    "sha256": "b7479e84a0bc7b455bb6988467fce8d82a29f4fb12685adcb8d9b7591c0fcc22",
+    "samples": 21209,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp24_street_sn10.wav",
+    "sha256": "e788426f34770b1e5381fc6fe22c1cdc55be84414e9cbb7775e31e302ce562b7",
+    "samples": 27768,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp25_street_sn10.wav",
+    "sha256": "473b7f27b9d94d038c01a4832cd229fbfc93a51c2dea01eb9f27464b8bde08d9",
+    "samples": 23443,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp28_street_sn10.wav",
+    "sha256": "b7b62157592aca52421b738ca6ccfc33abc94322ac6d9cc8be03105f92d4ad56",
+    "samples": 19487,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp29_street_sn10.wav",
+    "sha256": "0cccf5b9239335bc95ba681b80752c5f4eb6bf42085e0a3e94bde5982bf9ce56",
+    "samples": 20409,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp30_street_sn10.wav",
+    "sha256": "ed472083e6daa81989908d142345396acf5e1d0882fb2d9a8bb8e45bd0e3e996",
+    "samples": 21086,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp02_street_sn10.wav",
+    "sha256": "a0b4d3f4b1d960aaa6ad705891ca2236c269547d7119a0e7a124dcf8f8050012",
+    "samples": 21119,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp07_street_sn10.wav",
+    "sha256": "d6b16a9b6a216f672a5f1860145610e73f5f56413b736c6356357ca964dccc91",
+    "samples": 20115,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp12_street_sn10.wav",
+    "sha256": "0fcbd41ef488757ae4480c5ec8e829abf176e388242e211d2d79e7ace7ce1bff",
+    "samples": 21982,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp17_street_sn10.wav",
+    "sha256": "e9109176f75117c38f72461602a54bf55af351e1c25a1dde51482e8ac1e343b1",
+    "samples": 19231,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp22_street_sn10.wav",
+    "sha256": "fa5c16e543cb417a91174f51febf9eb12fd2b6123a55d0efb895b60c17502f4c",
+    "samples": 21582,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/10dB/sp27_street_sn10.wav",
+    "sha256": "045c2e2bce3e99b6a7e58f0b80578949ec7a5f8138a0758a9966452b96eef93b",
+    "samples": 20316,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp03_street_sn15.wav",
+    "sha256": "e97abd0431755d3502e209eae2caaaee5eea2dcd1e8fcb312289a1c17f8aa9e8",
+    "samples": 17967,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp04_street_sn15.wav",
+    "sha256": "20fff0c18abdfc7cf78569617fec399b267714f53980b0a96265347ca4a28904",
+    "samples": 16928,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp05_street_sn15.wav",
+    "sha256": "3e5e815fd4491438a793e921b36932555eb8075a79ad7290cfd9cad3ef57e831",
+    "samples": 17627,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp08_street_sn15.wav",
+    "sha256": "0dab3f0a11bfcfa6b0e036b06335187c2e0b13ac743020a8fc99951e796bbac4",
+    "samples": 22764,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp09_street_sn15.wav",
+    "sha256": "0f7f514f513f1628476004230c5e467b224b3d845c066ae1e238e98473313e27",
+    "samples": 24077,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp10_street_sn15.wav",
+    "sha256": "ed58b19da39244b73393262eadf0cf591543c86b90c8e8928ee19c33f06baabd",
+    "samples": 21371,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp13_street_sn15.wav",
+    "sha256": "612f03570071f2052da5c0a0a8e2fb8e2abeac67c76dcc63a3a4f9e0cdfb2d40",
+    "samples": 20307,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp14_street_sn15.wav",
+    "sha256": "d1701796cffdf230cb4ca00c633ef0c6eeca3403829bb38bb3233dfafc8eda01",
+    "samples": 23466,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp15_street_sn15.wav",
+    "sha256": "88471c2c64a2ded41d61f114be83b7eaa3cf6d1450b686493aaa6dfeaf90fb64",
+    "samples": 23323,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp18_street_sn15.wav",
+    "sha256": "a08ef679c21c4bf9314d315990840acaa156220ea96b30162654cdaaf36537ad",
+    "samples": 18269,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp19_street_sn15.wav",
+    "sha256": "58ccf63dad1e1b1c886ab20be61884002eef7ab165fd9828dc8a14780a4af11a",
+    "samples": 21338,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp20_street_sn15.wav",
+    "sha256": "1405d8acccf7a330bb456c6d823d82b7670be81888943fa035961c04ec300a02",
+    "samples": 20752,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp23_street_sn15.wav",
+    "sha256": "fca24f432a76f96cf221c8a484580b3f8d23a9452cec84a39f82c1fa5eb1e511",
+    "samples": 21209,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp24_street_sn15.wav",
+    "sha256": "b6c2495a19e40bf89e92ea11725f9476bef048e817c6d5460be7e7e370b7f755",
+    "samples": 27768,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp25_street_sn15.wav",
+    "sha256": "bab14c5582a356cdcc13b755956295ef048653b51f53f5e40412f002ce695a4a",
+    "samples": 23443,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp28_street_sn15.wav",
+    "sha256": "86dd954dc1573902b800b08545f60eaa2f91adce9335499dddfa5f5c18e7c0ac",
+    "samples": 19487,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp29_street_sn15.wav",
+    "sha256": "24963e0eaf9f01014a22e8c438963b880113d733413da54df773ea09e90e6797",
+    "samples": 20409,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  },
+  {
+    "path": "data/street/15dB/sp30_street_sn15.wav",
+    "sha256": "600dd80016630effdb5360fe208f611aa18b14e8c2684376154082a4396a0169",
+    "samples": 21086,
+    "rate": 8000,
+    "channels": 1,
+    "width": 2
+  }
+]

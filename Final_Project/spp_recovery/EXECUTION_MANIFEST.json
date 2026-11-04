@@ -1,0 +1,74 @@
+[
+  {
+    "path": "INPUT_MANIFEST.json",
+    "sha256": "912621cf24215a39757fdc02d714954a0a1feb3c2fa98c4453beead9d6677c0b"
+  },
+  {
+    "path": "PROTOCOL.json",
+    "sha256": "2fd3da7d25845be14b21e2ad6e4b115ce7350f4e372dbfdc394e8b510a29d6ea"
+  },
+  {
+    "path": "PROTOCOL_CLARIFICATIONS.json",
+    "sha256": "8110267f4ebb3ae82a0685eda546e73ca2eb5bd9800b04b913af5793a0a4a16b"
+  },
+  {
+    "path": "PROTOCOL_SHA256.txt",
+    "sha256": "c28b67eef410daf4244d5faeb2d3cc4f686b185c68a87fe91c1a57c23163565a"
+  },
+  {
+    "path": "SOURCE_ARCHIVE_MANIFEST.json",
+    "sha256": "7b94cfda0104f029de78b28f2777f41a306f70ed249fab81835463ba610f652c"
+  },
+  {
+    "path": "SPP_SOURCE_AND_PARAMETERS.json",
+    "sha256": "3297ecf0560a615f0d48dd587d3337ba62ac88ae7035afad1433c2d320606a72"
+  },
+  {
+    "path": "SYNTHETIC_UNIT_CHECK.json",
+    "sha256": "9b44f0b7c797094b30ee669885f2909998b8bafdff2a5e186ad14bb583444944"
+  },
+  {
+    "path": "experiment_config.m",
+    "sha256": "d41109272d523cde8f82a9f43f52393a8838b7336008ccb6d800cf4c0e3783eb"
+  },
+  {
+    "path": "measure_snr.m",
+    "sha256": "b3435ae1d875a7e14c9a4596a7dd0d1ea99cc86552b3b60e8e9bf1de85a7c66b"
+  },
+  {
+    "path": "noise_psd_spp_update.m",
+    "sha256": "cb1ced79ff4c87b349a17b2aa7f3d5b866417a7782d9b45ac2cdb715525ec5ca"
+  },
+  {
+    "path": "pair_diagnostics.m",
+    "sha256": "da84cc6f28900f848b58e8511f809e990aa48349181ff57e0b16f06847a5de65"
+  },
+  {
+    "path": "regression_metrics.csv",
+    "sha256": "e223950b18e456eb3f145d968be736ab72dddbbcf6f1c3e0ea78198321561318"
+  },
+  {
+    "path": "regression_reference.mat",
+    "sha256": "14d141ed6cabfb367abb7aeea1f53205ae0a94375eb29a8cbabc53c35cb7e9ce"
+  },
+  {
+    "path": "run_recovery_study.m",
+    "sha256": "b74fc75b46e1d0c51410c9457feb9ea545664ea128db2e0ae8ab59e65dca203f"
+  },
+  {
+    "path": "tsnr_enhance.m",
+    "sha256": "7ff7b2cad479c57e4ba4f881f07798ef9f8717eac4a613fcddd5b37c68671b44"
+  },
+  {
+    "path": "validation_reference/baseline_config_reference.m",
+    "sha256": "ad27e72aa40dd97d3c11c22772f9b8a3e5d24d4af96d444aa86cb72c14d872cf"
+  },
+  {
+    "path": "validation_reference/tsnr_enhance_reference_snapshot.m",
+    "sha256": "ee89012f3df7e3b08e949c81c10e7198fb33b26824d1be72b5006962383cd247"
+  },
+  {
+    "path": "verify_spp_synthetic.m",
+    "sha256": "1a6ba357baf7959e5919e22f42117ea9e75638ef7ad9d6d47c6f7f50804217bc"
+  }
+]

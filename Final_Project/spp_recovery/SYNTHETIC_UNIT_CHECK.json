@@ -1,0 +1,14 @@
+{
+  "syntheticOnly": true,
+  "baselineBitIdentical": true,
+  "originalTraceFieldsBitIdentical": true,
+  "legacyBitIdentical": true,
+  "explicitRecurrencePassed": true,
+  "stagnationSafeguardPassed": true,
+  "afterEnhancementCausalStatePassed": true,
+  "calibrationAndPaddingFrozen": true,
+  "binwiseRecurrenceTracePassed": true,
+  "conjugateSymmetryPassed": true,
+  "matlabVersion": "26.1.0.3312084 (R2026a) Update 4",
+  "pass": true
+}

@@ -1,0 +1,266 @@
+SOFT-TRACKER RECOVERY STUDY
+All outcomes retained; no test-set tuning or inferential confidence claims.
+18 additional sentences, same six known speakers; old six sentences reported separately.
+
+new_controlled_10dB
+  constant: spp_default minus vad_selected
+    LateBandError_dB: -1.76978205; improved 16/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.37663647; improved 11/18 sentences, 5/6 speakers
+    SNR_dB: +0.03839939; improved 7/18 sentences, 2/6 speakers
+    STOI: -0.00981267; improved 3/18 sentences, 1/6 speakers
+    PostSNR_dB: +0.08268320; improved 9/18 sentences, 4/6 speakers
+    LateTrackingBias_dB: +1.36687202
+    SpeechProxyMeanWeight: +0.13473396
+    Both SNR and STOI improve: {'case': 3, 'sentence': 2, 'speaker': 1}
+  rise_6dB: spp_default minus vad_selected
+    LateBandError_dB: -5.76162690; improved 18/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.48685974; improved 17/18 sentences, 6/6 speakers
+    SNR_dB: +1.59304354; improved 18/18 sentences, 6/6 speakers
+    STOI: -0.01397822; improved 1/18 sentences, 0/6 speakers
+    PostSNR_dB: +2.04996944; improved 17/18 sentences, 6/6 speakers
+    LateTrackingBias_dB: +5.95126688
+    SpeechProxyMeanWeight: +0.13636648
+    Both SNR and STOI improve: {'case': 6, 'sentence': 1, 'speaker': 0}
+  fall_6dB: spp_default minus vad_selected
+    LateBandError_dB: -2.83385930; improved 16/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -2.37249406; improved 14/18 sentences, 5/6 speakers
+    SNR_dB: +0.13062616; improved 10/18 sentences, 3/6 speakers
+    STOI: -0.00058386; improved 8/18 sentences, 4/6 speakers
+    PostSNR_dB: +1.07646145; improved 15/18 sentences, 5/6 speakers
+    LateTrackingBias_dB: -2.29560545
+    SpeechProxyMeanWeight: +0.12934610
+    Both SNR and STOI improve: {'case': 15, 'sentence': 7, 'speaker': 3}
+  constant: spp_default minus fixed
+    LateBandError_dB: -2.23212094; improved 16/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -1.58115666; improved 13/18 sentences, 5/6 speakers
+    SNR_dB: +0.15118034; improved 8/18 sentences, 2/6 speakers
+    STOI: -0.00865271; improved 4/18 sentences, 1/6 speakers
+    PostSNR_dB: +0.28743993; improved 9/18 sentences, 4/6 speakers
+    LateTrackingBias_dB: +0.78765572
+    SpeechProxyMeanWeight: +0.13553047
+    Both SNR and STOI improve: {'case': 4, 'sentence': 3, 'speaker': 1}
+  rise_6dB: spp_default minus fixed
+    LateBandError_dB: -5.96299917; improved 18/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.70566720; improved 17/18 sentences, 6/6 speakers
+    SNR_dB: +1.67132026; improved 18/18 sentences, 6/6 speakers
+    STOI: -0.01228282; improved 1/18 sentences, 1/6 speakers
+    PostSNR_dB: +2.17025000; improved 17/18 sentences, 6/6 speakers
+    LateTrackingBias_dB: +5.55878395
+    SpeechProxyMeanWeight: +0.13673768
+    Both SNR and STOI improve: {'case': 7, 'sentence': 1, 'speaker': 1}
+  fall_6dB: spp_default minus fixed
+    LateBandError_dB: -3.88810870; improved 16/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -7.76527060; improved 15/18 sentences, 6/6 speakers
+    SNR_dB: +0.32445560; improved 11/18 sentences, 4/6 speakers
+    STOI: +0.00076955; improved 9/18 sentences, 4/6 speakers
+    PostSNR_dB: +1.55926324; improved 15/18 sentences, 5/6 speakers
+    LateTrackingBias_dB: -3.49513565
+    SpeechProxyMeanWeight: +0.13081435
+    Both SNR and STOI improve: {'case': 16, 'sentence': 8, 'speaker': 3}
+  constant: spp_matched minus vad_selected
+    LateBandError_dB: -1.59442970; improved 17/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.47711403; improved 16/18 sentences, 5/6 speakers
+    SNR_dB: +0.36185759; improved 14/18 sentences, 5/6 speakers
+    STOI: -0.00360378; improved 6/18 sentences, 2/6 speakers
+    PostSNR_dB: +0.41753967; improved 13/18 sentences, 5/6 speakers
+    LateTrackingBias_dB: +0.95701801
+    SpeechProxyMeanWeight: +0.03271166
+    Both SNR and STOI improve: {'case': 9, 'sentence': 6, 'speaker': 2}
+  rise_6dB: spp_matched minus vad_selected
+    LateBandError_dB: -4.01704180; improved 18/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.34564472; improved 18/18 sentences, 6/6 speakers
+    SNR_dB: +1.38209134; improved 18/18 sentences, 6/6 speakers
+    STOI: -0.00252280; improved 9/18 sentences, 1/6 speakers
+    PostSNR_dB: +1.85994221; improved 18/18 sentences, 6/6 speakers
+    LateTrackingBias_dB: +3.82264923
+    SpeechProxyMeanWeight: +0.03124400
+    Both SNR and STOI improve: {'case': 17, 'sentence': 9, 'speaker': 1}
+  fall_6dB: spp_matched minus vad_selected
+    LateBandError_dB: -1.71740861; improved 17/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -2.10069565; improved 16/18 sentences, 6/6 speakers
+    SNR_dB: +0.28789661; improved 12/18 sentences, 6/6 speakers
+    STOI: +0.00009772; improved 9/18 sentences, 3/6 speakers
+    PostSNR_dB: +0.58494021; improved 14/18 sentences, 5/6 speakers
+    LateTrackingBias_dB: -1.17003682
+    SpeechProxyMeanWeight: +0.03217226
+    Both SNR and STOI improve: {'case': 14, 'sentence': 9, 'speaker': 3}
+  constant: spp_default minus spp_matched
+    LateBandError_dB: -0.17535235; improved 10/18 sentences, 3/6 speakers
+    LateSpectralNRMSE: +0.10047756; improved 6/18 sentences, 1/6 speakers
+    SNR_dB: -0.32345820; improved 4/18 sentences, 1/6 speakers
+    STOI: -0.00620889; improved 1/18 sentences, 0/6 speakers
+    PostSNR_dB: -0.33485647; improved 4/18 sentences, 1/6 speakers
+    LateTrackingBias_dB: +0.40985401
+    SpeechProxyMeanWeight: +0.10202230
+    Both SNR and STOI improve: {'case': 3, 'sentence': 0, 'speaker': 0}
+  rise_6dB: spp_default minus spp_matched
+    LateBandError_dB: -1.74458510; improved 17/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.14121501; improved 17/18 sentences, 5/6 speakers
+    SNR_dB: +0.21095220; improved 6/18 sentences, 2/6 speakers
+    STOI: -0.01145541; improved 1/18 sentences, 0/6 speakers
+    PostSNR_dB: +0.19002723; improved 8/18 sentences, 2/6 speakers
+    LateTrackingBias_dB: +2.12861765
+    SpeechProxyMeanWeight: +0.10512248
+    Both SNR and STOI improve: {'case': 2, 'sentence': 0, 'speaker': 0}
+  fall_6dB: spp_default minus spp_matched
+    LateBandError_dB: -1.11645068; improved 16/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.27179842; improved 13/18 sentences, 4/6 speakers
+    SNR_dB: -0.15727045; improved 5/18 sentences, 1/6 speakers
+    STOI: -0.00068157; improved 11/18 sentences, 3/6 speakers
+    PostSNR_dB: +0.49152123; improved 14/18 sentences, 5/6 speakers
+    LateTrackingBias_dB: -1.12556864
+    SpeechProxyMeanWeight: +0.09717384
+    Both SNR and STOI improve: {'case': 10, 'sentence': 5, 'speaker': 1}
+
+new_constant_benchmark
+  constant: spp_default minus vad_selected
+    LateBandError_dB: -1.06323403; improved 18/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.22985469; improved 12/18 sentences, 5/6 speakers
+    SNR_dB: -0.05914743; improved 6/18 sentences, 2/6 speakers
+    STOI: -0.00779537; improved 2/18 sentences, 1/6 speakers
+    PostSNR_dB: +0.04147323; improved 10/18 sentences, 2/6 speakers
+    LateTrackingBias_dB: +0.78825838
+    SpeechProxyMeanWeight: +0.13819366
+    Both SNR and STOI improve: {'case': 24, 'sentence': 2, 'speaker': 1}
+  constant: spp_default minus fixed
+    LateBandError_dB: -1.55265851; improved 18/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -1.17644406; improved 14/18 sentences, 6/6 speakers
+    SNR_dB: +0.06042784; improved 8/18 sentences, 3/6 speakers
+    STOI: -0.00752422; improved 2/18 sentences, 1/6 speakers
+    PostSNR_dB: +0.29079624; improved 10/18 sentences, 5/6 speakers
+    LateTrackingBias_dB: +0.07028786
+    SpeechProxyMeanWeight: +0.13985329
+    Both SNR and STOI improve: {'case': 26, 'sentence': 2, 'speaker': 1}
+  constant: spp_matched minus vad_selected
+    LateBandError_dB: -0.89293545; improved 18/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.29778601; improved 18/18 sentences, 6/6 speakers
+    SNR_dB: +0.19929233; improved 12/18 sentences, 5/6 speakers
+    STOI: -0.00389775; improved 4/18 sentences, 1/6 speakers
+    PostSNR_dB: +0.18591451; improved 12/18 sentences, 6/6 speakers
+    LateTrackingBias_dB: +0.60931345
+    SpeechProxyMeanWeight: +0.03321110
+    Both SNR and STOI improve: {'case': 34, 'sentence': 4, 'speaker': 1}
+  constant: spp_default minus spp_matched
+    LateBandError_dB: -0.17029858; improved 13/18 sentences, 6/6 speakers
+    LateSpectralNRMSE: +0.06793132; improved 7/18 sentences, 1/6 speakers
+    SNR_dB: -0.25843976; improved 3/18 sentences, 1/6 speakers
+    STOI: -0.00389762; improved 4/18 sentences, 0/6 speakers
+    PostSNR_dB: -0.14444128; improved 6/18 sentences, 1/6 speakers
+    LateTrackingBias_dB: +0.17894493
+    SpeechProxyMeanWeight: +0.10498256
+    Both SNR and STOI improve: {'case': 16, 'sentence': 1, 'speaker': 0}
+
+old_diagnostic_10dB
+  constant: spp_default minus vad_selected
+    LateBandError_dB: -1.75085985; improved 6/6 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.02232218; improved 4/6 sentences, 4/6 speakers
+    SNR_dB: +0.19873096; improved 2/6 sentences, 2/6 speakers
+    STOI: -0.01787476; improved 0/6 sentences, 0/6 speakers
+    PostSNR_dB: +0.38654851; improved 3/6 sentences, 3/6 speakers
+    LateTrackingBias_dB: +2.18977061
+    SpeechProxyMeanWeight: +0.13229777
+    Both SNR and STOI improve: {'case': 2, 'sentence': 0, 'speaker': 0}
+  rise_6dB: spp_default minus vad_selected
+    LateBandError_dB: -6.75076478; improved 6/6 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.42705939; improved 6/6 sentences, 6/6 speakers
+    SNR_dB: +2.11966801; improved 6/6 sentences, 6/6 speakers
+    STOI: -0.01734611; improved 0/6 sentences, 0/6 speakers
+    PostSNR_dB: +3.10671801; improved 6/6 sentences, 6/6 speakers
+    LateTrackingBias_dB: +6.99292816
+    SpeechProxyMeanWeight: +0.13178903
+    Both SNR and STOI improve: {'case': 2, 'sentence': 0, 'speaker': 0}
+  fall_6dB: spp_default minus vad_selected
+    LateBandError_dB: -2.02646939; improved 5/6 sentences, 5/6 speakers
+    LateSpectralNRMSE: -0.23565072; improved 4/6 sentences, 4/6 speakers
+    SNR_dB: -0.08556294; improved 3/6 sentences, 3/6 speakers
+    STOI: -0.01008737; improved 2/6 sentences, 2/6 speakers
+    PostSNR_dB: +0.53657186; improved 3/6 sentences, 3/6 speakers
+    LateTrackingBias_dB: -1.35577360
+    SpeechProxyMeanWeight: +0.12848869
+    Both SNR and STOI improve: {'case': 2, 'sentence': 2, 'speaker': 2}
+  constant: spp_default minus fixed
+    LateBandError_dB: -1.79939811; improved 6/6 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.05708401; improved 5/6 sentences, 5/6 speakers
+    SNR_dB: +0.25810279; improved 2/6 sentences, 2/6 speakers
+    STOI: -0.01669468; improved 0/6 sentences, 0/6 speakers
+    PostSNR_dB: +0.44176668; improved 3/6 sentences, 3/6 speakers
+    LateTrackingBias_dB: +2.00356013
+    SpeechProxyMeanWeight: +0.13264880
+    Both SNR and STOI improve: {'case': 2, 'sentence': 0, 'speaker': 0}
+  rise_6dB: spp_default minus fixed
+    LateBandError_dB: -6.76223632; improved 6/6 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.41747503; improved 6/6 sentences, 6/6 speakers
+    SNR_dB: +2.08378320; improved 6/6 sentences, 6/6 speakers
+    STOI: -0.01643220; improved 0/6 sentences, 0/6 speakers
+    PostSNR_dB: +3.04890985; improved 6/6 sentences, 6/6 speakers
+    LateTrackingBias_dB: +6.84573267
+    SpeechProxyMeanWeight: +0.13209949
+    Both SNR and STOI improve: {'case': 2, 'sentence': 0, 'speaker': 0}
+  fall_6dB: spp_default minus fixed
+    LateBandError_dB: -2.64963914; improved 5/6 sentences, 5/6 speakers
+    LateSpectralNRMSE: -1.06974003; improved 5/6 sentences, 5/6 speakers
+    SNR_dB: +0.05726215; improved 3/6 sentences, 3/6 speakers
+    STOI: -0.00807594; improved 2/6 sentences, 2/6 speakers
+    PostSNR_dB: +0.93147833; improved 4/6 sentences, 4/6 speakers
+    LateTrackingBias_dB: -2.18640261
+    SpeechProxyMeanWeight: +0.12959559
+    Both SNR and STOI improve: {'case': 3, 'sentence': 2, 'speaker': 2}
+  constant: spp_matched minus vad_selected
+    LateBandError_dB: -1.26379984; improved 6/6 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.09878381; improved 5/6 sentences, 5/6 speakers
+    SNR_dB: +0.29629293; improved 5/6 sentences, 5/6 speakers
+    STOI: -0.00861501; improved 2/6 sentences, 2/6 speakers
+    PostSNR_dB: +0.35192922; improved 5/6 sentences, 5/6 speakers
+    LateTrackingBias_dB: +1.34404758
+    SpeechProxyMeanWeight: +0.03193861
+    Both SNR and STOI improve: {'case': 2, 'sentence': 2, 'speaker': 2}
+  rise_6dB: spp_matched minus vad_selected
+    LateBandError_dB: -4.20148375; improved 6/6 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.23186031; improved 6/6 sentences, 6/6 speakers
+    SNR_dB: +1.55118784; improved 6/6 sentences, 6/6 speakers
+    STOI: -0.00509691; improved 1/6 sentences, 1/6 speakers
+    PostSNR_dB: +2.41968129; improved 6/6 sentences, 6/6 speakers
+    LateTrackingBias_dB: +4.22591920
+    SpeechProxyMeanWeight: +0.02977327
+    Both SNR and STOI improve: {'case': 4, 'sentence': 1, 'speaker': 1}
+  fall_6dB: spp_matched minus vad_selected
+    LateBandError_dB: -1.26315597; improved 5/6 sentences, 5/6 speakers
+    LateSpectralNRMSE: -0.49020638; improved 5/6 sentences, 5/6 speakers
+    SNR_dB: +0.17631210; improved 5/6 sentences, 5/6 speakers
+    STOI: -0.00565669; improved 3/6 sentences, 3/6 speakers
+    PostSNR_dB: +0.22219018; improved 4/6 sentences, 4/6 speakers
+    LateTrackingBias_dB: -0.75889223
+    SpeechProxyMeanWeight: +0.03159218
+    Both SNR and STOI improve: {'case': 4, 'sentence': 3, 'speaker': 3}
+  constant: spp_default minus spp_matched
+    LateBandError_dB: -0.48706001; improved 5/6 sentences, 5/6 speakers
+    LateSpectralNRMSE: +0.07646163; improved 2/6 sentences, 2/6 speakers
+    SNR_dB: -0.09756196; improved 1/6 sentences, 1/6 speakers
+    STOI: -0.00925975; improved 1/6 sentences, 1/6 speakers
+    PostSNR_dB: +0.03461929; improved 1/6 sentences, 1/6 speakers
+    LateTrackingBias_dB: +0.84572303
+    SpeechProxyMeanWeight: +0.10035916
+    Both SNR and STOI improve: {'case': 1, 'sentence': 0, 'speaker': 0}
+  rise_6dB: spp_default minus spp_matched
+    LateBandError_dB: -2.54928103; improved 6/6 sentences, 6/6 speakers
+    LateSpectralNRMSE: -0.19519908; improved 6/6 sentences, 6/6 speakers
+    SNR_dB: +0.56848017; improved 4/6 sentences, 4/6 speakers
+    STOI: -0.01224920; improved 0/6 sentences, 0/6 speakers
+    PostSNR_dB: +0.68703672; improved 4/6 sentences, 4/6 speakers
+    LateTrackingBias_dB: +2.76700896
+    SpeechProxyMeanWeight: +0.10201576
+    Both SNR and STOI improve: {'case': 1, 'sentence': 0, 'speaker': 0}
+  fall_6dB: spp_default minus spp_matched
+    LateBandError_dB: -0.76331342; improved 5/6 sentences, 5/6 speakers
+    LateSpectralNRMSE: +0.25455566; improved 2/6 sentences, 2/6 speakers
+    SNR_dB: -0.26187504; improved 0/6 sentences, 0/6 speakers
+    STOI: -0.00443068; improved 1/6 sentences, 1/6 speakers
+    PostSNR_dB: +0.31438168; improved 4/6 sentences, 4/6 speakers
+    LateTrackingBias_dB: -0.59688137
+    SpeechProxyMeanWeight: +0.09689651
+    Both SNR and STOI improve: {'case': 2, 'sentence': 0, 'speaker': 0}
+
+Primary endpoint is late four-band absolute log-power error on new rise cases. It compares finite-window realized noise power, not expected PSD or listening quality.
+Default SPP retains source coefficients on the project 10 ms hop; .95 is a predeclared PSD-smoothing ablation.
+Metrics use means within sentence and then within the six speakers. No new-speaker generalisation or subjective listening claim.
+Checks: {"execution_and_input_manifests": "PASS", "protocol_hash": "PASS", "unquantized_outputs": true, "no_STOI_warnings": true, "independent_SNR_max_abs_dB": 7.283063041541027e-14, "independent_PostSNR_max_abs_dB": 5.684341886080802e-14, "independent_noise_power_max_relative": 5.377231606170876e-15, "independent_noise_recurrence_max_relative": 5.748367442095693e-15, "independent_effective_weight_max_abs": 3.4916514124461173e-14, "independent_diagnostic_max_abs": 4.689582056016661e-13, "old_144_row_metric_regression": {"SNR_dB": 0.0, "STOI": 4.440892098500626e-16, "PostSNR_dB": 0.0}, "old_baseline_waveforms_max_abs": 0.0, "identity_max_abs": 2.2204460492503099e-16, "fixed_late_bias_exact_opposite_profile_change": "PASS", "all_cases_retained": true}

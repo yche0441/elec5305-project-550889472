@@ -1,0 +1,14 @@
+[
+  {
+    "file": "independent_result_audit.py",
+    "source_sha256": "b5d0a1de4cc2f5087a87bd50b31f06f3d63a23797a5d3a2137a11885f486d65a",
+    "packaged_sha256": "c1b1f59f37a20bbdf99c33d34befc859d35c1cdf2549b924ffeae0b19db22cb9",
+    "change": "Root lookup points to enclosing spp_recovery directory; numerical audit logic unchanged."
+  },
+  {
+    "file": "independent_aggregate_audit.py",
+    "source_sha256": "4616fdbe1836e288677f9a6fbfff0384360b5fe1764aa5fd4631be6ebc90f573",
+    "packaged_sha256": "f369ad301baaf25f962bcce6c4d2f45143769fe30c00d587e10af31de7237b0c",
+    "change": "Root lookup points to enclosing spp_recovery directory; numerical audit logic unchanged."
+  }
+]

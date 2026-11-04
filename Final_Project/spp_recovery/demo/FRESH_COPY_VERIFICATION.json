@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "fresh_copy_contains_spaces": true,
+  "fresh_copy_source_inputs": [
+    "data/clean/sp03.wav",
+    "data/street/10dB/sp03_street_sn10.wav"
+  ],
+  "fresh_copy_had_no_saved_signal_MATs_at_launch": true,
+  "fresh_outputs_bit_identical_to_frozen_preselected_case": true,
+  "MATLAB_exit_code": 0,
+  "fresh_demo_source_sha256": "f769af31d83797f002f92b4133efba80a909c4f8b1bd672764464759afc79cb6",
+  "comparison_performed_after_fresh_computation": true
+}

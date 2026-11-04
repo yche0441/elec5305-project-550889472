@@ -1,0 +1,57 @@
+{
+  "Status": "PASS",
+  "Case": "new_confirmation/sp03/street/10dB/rise_6dB",
+  "FreshComputationFromSourceWAV": true,
+  "NoSavedSignalsLoaded": true,
+  "MATLABVersion": "26.1.0.3312084 (R2026a) Update 4",
+  "CompletedUTC": "2026-11-03 23:56:37",
+  "Methods": [
+    "unprocessed",
+    "fixed",
+    "vad_original",
+    "vad_selected",
+    "spp_default",
+    "spp_matched"
+  ],
+  "FreshSNR_dB": [
+    6.5199427817739686,
+    10.196739873035376,
+    10.766851658073712,
+    10.423516062483708,
+    12.290611210163041,
+    11.250452248815293
+  ],
+  "FreshPostSNR_dB": [
+    -1.1262025838636842,
+    2.9109093777175472,
+    3.3847290751464021,
+    3.0839727358892737,
+    4.6305253477752819,
+    4.1070747708279063
+  ],
+  "FreshLateBandError_dB": [
+    null,
+    3.998595087308817,
+    2.7444957509682313,
+    3.6397319415266391,
+    0.7931872328600017,
+    1.9088672168749554
+  ],
+  "StoredStandardPythonSTOI": [
+    0.819840547641454,
+    0.823433644749042,
+    0.815230816857228,
+    0.820362852406326,
+    0.825901579546792,
+    0.825475191164023
+  ],
+  "STOINote": "Stored standard pystoi scores, not recomputed by this MATLAB demo",
+  "MaxAbsSNRDifferenceFromSaved": 4.0856207306205761E-14,
+  "MaxAbsPostSNRDifferenceFromSaved": 4.2188474935755949E-15,
+  "MaxAbsBandErrorDifferenceFromSaved": 4.6629367034256575E-15,
+  "PlaybackCommonGain": 1.9964176207813766,
+  "PlaybackPeakAcrossAllClips": 0.95,
+  "PlaybackBitsPerSample": 24,
+  "SubjectiveListeningEvaluated": false,
+  "OldBaselines": "Full-study regression verified unchanged waveforms for all old baseline cases"
+}

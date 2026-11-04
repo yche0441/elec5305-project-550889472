@@ -1,0 +1,3 @@
+NOIZEUS paired clean/noisy speech corpus, Hu and Loizou (2007).
+Source: https://ecs.utdallas.edu/loizou/speech/noizeus/
+Selected WAVs extracted without modification from the existing local complete corpus archives. SHA256 archives and selected WAVs retained. Dataset availability for research and attribution are described at the source; this folder does not relicense the audio under the TSNR code licence. No new speaker recordings are claimed.

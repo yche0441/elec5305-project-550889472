@@ -1,0 +1,1 @@
+All seven WAV files use one common gain 1.9964176207813766, chosen from all six method outputs and the clean reference so the largest playback peak is 0.95. They are 24-bit playback copies. Numerical scores use unquantized outputs in Recovery_Demo_Signals.mat. No separate output normalisation, subjective listening ratings or perceptual superiority claims are made.

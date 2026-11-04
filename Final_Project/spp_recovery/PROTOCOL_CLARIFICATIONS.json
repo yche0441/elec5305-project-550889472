@@ -1,0 +1,11 @@
+[
+  {
+    "recorded_utc": "2026-11-03T23:44:23.175140+00:00",
+    "before_corpus_execution": true,
+    "type": "wording clarification from independent prelaunch audit",
+    "original_phrase": "invalid/calibration/padded frames freeze all estimator states",
+    "clarification": "Noise PSD and soft-SPP probability history freeze on invalid/calibration/padded frames. The inherited TSNR magnitude and hard-gate hangover state evolution remain unchanged to preserve baseline behavior.",
+    "parameter_or_analysis_change": false,
+    "undefined_proxy_average": "A mean update weight is NaN when a diagnostic proxy has zero frames; retain zero count. Primary output scores and tracking metrics must be finite."
+  }
+]

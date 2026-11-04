@@ -1,0 +1,38 @@
+[
+  {
+    "name": "clean.zip",
+    "sha256": "47507c64fc78d50a62dca8052afb35d58c40818a8f2c259f81c589e084561cb7"
+  },
+  {
+    "name": "car_0dB.zip",
+    "sha256": "cf48b491d097b83d897a66db19a552c740d18226eb5bfdeb23bf2abf3e248506"
+  },
+  {
+    "name": "car_5dB.zip",
+    "sha256": "af5d642c738b79be127d4757d604a0c28e2839a793527fc5f9fbcca04ba6689b"
+  },
+  {
+    "name": "car_10dB.zip",
+    "sha256": "572f99ef163657a1ce7f898040c86b134f6ace95f4535f26a0ffc821c2acab0b"
+  },
+  {
+    "name": "car_15dB.zip",
+    "sha256": "ed7ebb86cae7e32fe3dcdffcb5b8b8468e7c87ec0cc9d92f53047c96431fb3ac"
+  },
+  {
+    "name": "street_0dB.zip",
+    "sha256": "ada3f170b692eed8ce1b1d514f9623285ced5856df183f0243424cf6e7821b45"
+  },
+  {
+    "name": "street_5dB.zip",
+    "sha256": "0bc0adb655e3fae5a566c69f88db119e8fc85f4c934a9d0211bf7038d41c5378"
+  },
+  {
+    "name": "street_10dB.zip",
+    "sha256": "5bbbf0fa385ff2837f502e37f5a9790909b2f2ce36ddf9471de7ddbbc262fd89"
+  },
+  {
+    "name": "street_15dB.zip",
+    "sha256": "aaecc4014a73f1454242cb15d625d966eb051521ccb8e112d5b3fe08bb0b7d9e"
+  }
+]

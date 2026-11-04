@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-04",
+  "method": "Fixed-prior soft speech presence probability noise PSD estimator",
+  "authors": [
+    "Timo Gerkmann",
+    "Richard C. Hendriks"
+  ],
+  "paper_doi": "10.1109/TASL.2011.2180896",
+  "author_code_url": "https://fiona.uni-hamburg.de/11888f86/noisepowproposed.m",
+  "author_code_sha256": "a5cc2dd68393e3e1e5e10f99c829359887ade29e6b2b5115ee547ad12d195ab1",
+  "author_code_version": "v1.0 October 2011",
+  "licence": "BSD-style three-condition; full author header retained",
+  "main_parameters": {
+    "alphaPSD": 0.8,
+    "alphaSPP": 0.9,
+    "prior_speech": 0.5,
+    "fixed_prior_SNR_dB": 15,
+    "stagnation_threshold": 0.99,
+    "stagnation_cap": 0.99,
+    "initial_smoothed_SPP": 0.5
+  },
+  "ablation": {
+    "alphaPSD": 0.95,
+    "other_parameters": "identical"
+  },
+  "common_hop_ms": 10,
+  "author_driver_hop_ms": 16,
+  "physical_time_constants_preserved": false,
+  "integration_differences": [
+    "Project common STFT and initial PSD retained",
+    "Noise PSD and SPP history update after enhancement only on valid post-calibration nonpadded frames",
+    "No retuning from author fixed prior/default coefficients",
+    "Full FFT bin arrays instead of author one-sided driver"
+  ],
+  "claim_scope": "Existing-estimator adaptation, controlled comparison and analysis; no new algorithm claim"
+}

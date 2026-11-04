@@ -1,0 +1,175 @@
+{
+  "protocol_id": "soft-tracker-recovery-v1-20261104",
+  "recorded_before_execution_utc": "2026-11-03T23:41:09.668289+00:00",
+  "question": "Does a literature-based soft speech-presence probability noise tracker recover from the upward-noise update blockage of hard energy VAD, and what speech-distortion or intelligibility cost accompanies recovery?",
+  "context": "Follow-up motivated by previously observed hard-gate failure. The old six sentences are diagnostic/regression only. Eighteen additional sentences have not been used in previous selection/evaluation identified in the local experiment records. They belong to the same six NOIZEUS speakers, not independent new speakers. No claim of external preregistration.",
+  "new_sentence_ids": [
+    "sp03",
+    "sp04",
+    "sp05",
+    "sp08",
+    "sp09",
+    "sp10",
+    "sp13",
+    "sp14",
+    "sp15",
+    "sp18",
+    "sp19",
+    "sp20",
+    "sp23",
+    "sp24",
+    "sp25",
+    "sp28",
+    "sp29",
+    "sp30"
+  ],
+  "old_diagnostic_ids": [
+    "sp02",
+    "sp07",
+    "sp12",
+    "sp17",
+    "sp22",
+    "sp27"
+  ],
+  "speaker_blocks": {
+    "CH": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "DE": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "JE": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "KI": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "SI": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "TI": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "new_design": {
+    "noises": [
+      "car",
+      "street"
+    ],
+    "constant_nominal_SNR_dB": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "additional_10dB_profiles": [
+      "rise_6dB",
+      "fall_6dB"
+    ],
+    "unique_inputs": 216,
+    "sentence_units": 18,
+    "known_speaker_units": 6
+  },
+  "old_design": {
+    "noises": [
+      "car",
+      "street"
+    ],
+    "nominal_SNR_dB": 10,
+    "profiles": [
+      "constant",
+      "rise_6dB",
+      "fall_6dB"
+    ],
+    "unique_inputs": 36
+  },
+  "methods": [
+    "unprocessed",
+    "fixed",
+    "vad_original",
+    "vad_selected",
+    "spp_default",
+    "spp_matched"
+  ],
+  "frozen_settings": {
+    "shared_TSNR": "Existing 8 kHz, 200-sample Hann convention,80-sample hop,400FFT,initial0.10s PSD,DD0.99,gain floor0.15 and inherited gain constraint; same amplitude-preserving synthesis; update after enhancement; invalid/calibration/padded frames freeze all estimator states.",
+    "vad_original": {
+      "threshold_dB": 3,
+      "hangover_frames": 5,
+      "alpha_PSD": 0.95
+    },
+    "vad_selected": {
+      "threshold_dB": 1,
+      "hangover_frames": 10,
+      "alpha_PSD": 0.95
+    },
+    "spp_default": {
+      "source": "Gerkmann and Hendriks 2012, official noisepowproposed.m",
+      "prior_speech_probability": 0.5,
+      "active_SNR_dB": 15,
+      "alpha_PSD": 0.8,
+      "alpha_probability": 0.9,
+      "initial_mean_probability": 0.5,
+      "stagnation_threshold": 0.99,
+      "stagnation_cap": 0.99,
+      "exp_cap": 200
+    },
+    "spp_matched": {
+      "difference_from_spp_default": "Only alpha_PSD=0.95, matching hard gate smoother; predeclared rate ablation, not another selection candidate."
+    },
+    "time_constant_caveat": "Author example uses 16ms hop; coefficients are retained on this shared 10ms hop. This is an explicitly adapted tracker, not exact whole-system reproduction. The matched-alpha ablation isolates the PSD-smoothing coefficient effect within the same new framing."
+  },
+  "primary_comparison": "On new rise_6dB cases compare spp_default versus vad_selected in late four-band absolute log-power error. Also report comparison with fixed and spp_matched; no result-based choice of final method.",
+  "band_error": "For one-sided FFT bins with DC/Nyquist weight1 and other bins weight2, use bands [0,500),[500,1000),[1000,2000),[2000,4000]. Sum estimate-before-update and known injected-noise periodogram over identical late frames within each band. Take mean over4bands of abs(10log10(sum_est/sum_noise)). This is finite-window realized-noise band-power agreement, not expected PSD truth. Report signed broadband bias and spectral NRMSE as secondary diagnostics; no per-bin logarithmic floor fitting.",
+  "spectral_NRMSE": "L2 norm of difference between late time-mean one-sided estimated and injected-noise periodograms divided by L2 norm of time-mean injected-noise periodogram. Finite-window diagnostic; not a perceptual metric.",
+  "secondary_outcomes": [
+    "Reference SNR and standard pystoi0.4.1 extended=False on unquantized samples801:N",
+    "Late reference SNR after ramp+100ms",
+    "Constant0/5/10/15dB andfall outcomes to expose degradation",
+    "Effective update weight mean over valid,speech-proxy and low-energy-proxy frames; binary update coverage is not compared between hard and soft methods"
+  ],
+  "profile_construction": "Same as previous controlled study: source residual=noisy-clean, shared first100ms, halfway through remaining samples start400-sample linear-in-dB ramp to+/-6dB, then hold. Constant source remixes must be exact. No normalization, delay fitting, clipping or reference input to enhancer.",
+  "aggregation": "For constant benchmark average8noise/SNR cases within sentence. For each controlledprofile average2noises within sentence. Then average3new sentences within each known speaker; report6speaker points and grandmean. Also publish18sentence and allcase outcomes. Old6sentences separate. No population significance, confidenceinterval or unseen-speaker claim.",
+  "preselected_trace": {
+    "cohort": "new",
+    "utterance": "sp03",
+    "noise": "street",
+    "nominalSNR_dB": 10,
+    "profile": "rise_6dB",
+    "reason": "First unused sentence and same street/rise condition as earlier diagnostic; chosen before scoring."
+  },
+  "checks": [
+    "Frozen protocol and input/core hashes before execution",
+    "Source recurrence match on synthetic periodograms and independent Python reconstruction",
+    "Oldbaseline waveform/metric regression against archived36cases",
+    "SharedinitialPSD/prefix and fixed independence from VADthresholds",
+    "Unity reconstruction <1e-12",
+    "All252mixtures and1512methodrows retained, finite outputs and no STOI warnings",
+    "Rerun fresh extracted package selected example and verify savedresults"
+  ],
+  "stopping_rule": "Exactly252inputs and6methods, no parametersearch or redesign after viewing new outcomes. Implementation bugs may be corrected with recorded amendment and complete affected rerun; preserve run history. Publish improvements, degradations and inconclusive outcomes."
+}

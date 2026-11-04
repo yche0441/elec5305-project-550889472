@@ -1,0 +1,219 @@
+{
+  "completed_utc": "2026-11-03T23:49:33.524975+00:00",
+  "status": "PASS",
+  "input_cases": 252,
+  "methods_per_case": 6,
+  "metric_rows": 1512,
+  "cohort_input_counts": {
+    "new_confirmation": 216,
+    "old_diagnostic": 36
+  },
+  "unseen_sentences": 18,
+  "known_speakers": 6,
+  "all_output_arrays_finite": true,
+  "all_primary_scores_and_defined_tracking_metrics_finite": true,
+  "manifest_checks": {
+    "INPUT_MANIFEST.json": 180,
+    "EXECUTION_MANIFEST.json": 18
+  },
+  "all_snr_max_abs_difference_dB": 7.283063041541027e-14,
+  "all_post_snr_max_abs_difference_dB": 5.684341886080802e-14,
+  "old36_baseline_waveforms_max_abs_difference": 0.0,
+  "old144_method_snr_max_abs_difference_dB": 0.0,
+  "preselected_band_checks": {
+    "fixed": {
+      "band_bias_dB": [
+        -6.609857922905195,
+        -3.854708088034821,
+        0.6138705132356869,
+        -4.915943825059562
+      ],
+      "band_error_dB": 3.998595087308816,
+      "max_csv_disagreement": 8.43769498715119e-15,
+      "late_frames": 90
+    },
+    "vad_original": {
+      "band_bias_dB": [
+        -4.347940806301498,
+        -2.820538316591339,
+        -0.731878322475734,
+        -3.077625558504357
+      ],
+      "band_error_dB": 2.744495750968232,
+      "max_csv_disagreement": 7.105427357601002e-15,
+      "late_frames": 90
+    },
+    "vad_selected": {
+      "band_bias_dB": [
+        -6.783155163420222,
+        -3.634391892166679,
+        -0.07412133392475015,
+        -4.067259376594904
+      ],
+      "band_error_dB": 3.639731941526639,
+      "max_csv_disagreement": 7.993605777301127e-15,
+      "late_frames": 90
+    },
+    "spp_default": {
+      "band_bias_dB": [
+        -0.41899676905765876,
+        0.535284286069751,
+        0.4150231369826778,
+        -1.8034447393299182
+      ],
+      "band_error_dB": 0.7931872328600014,
+      "max_csv_disagreement": 1.7763568394002505e-15,
+      "late_frames": 90
+    },
+    "spp_matched": {
+      "band_bias_dB": [
+        -3.7269679716516144,
+        -1.182675163040676,
+        -0.1682880296657513,
+        -2.557537703141779
+      ],
+      "band_error_dB": 1.9088672168749552,
+      "max_csv_disagreement": 5.773159728050814e-15,
+      "late_frames": 90
+    }
+  },
+  "independent_spp_recurrence_checks": {
+    "spp_default": {
+      "psd_relative_l2": 1.4886876295574508e-15,
+      "probability_abs": 7.1236350152048544e-12,
+      "weight_abs": 1.4247283908197517e-12,
+      "mean_state_abs": 1.4160894679093872e-12,
+      "periodogram_relative_l2": 4.921695199964701e-16,
+      "cap_decisions_exact": true,
+      "frames": 228,
+      "valid_frames": 212
+    },
+    "spp_matched": {
+      "psd_relative_l2": 7.113409576457008e-16,
+      "probability_abs": 8.04534217024866e-12,
+      "weight_abs": 4.0226849629121375e-13,
+      "mean_state_abs": 1.3725132141928498e-12,
+      "periodogram_relative_l2": 4.921695199964701e-16,
+      "cap_decisions_exact": true,
+      "frames": 228,
+      "valid_frames": 212
+    }
+  },
+  "stoi_sample_checks": [
+    {
+      "case": 46,
+      "utterance": "sp03",
+      "profile": "rise_6dB",
+      "method": "unprocessed",
+      "value": 0.8198405476414538,
+      "abs_difference": 2.220446049250313e-16,
+      "warnings": 0
+    },
+    {
+      "case": 46,
+      "utterance": "sp03",
+      "profile": "rise_6dB",
+      "method": "fixed",
+      "value": 0.8234336447490418,
+      "abs_difference": 2.220446049250313e-16,
+      "warnings": 0
+    },
+    {
+      "case": 46,
+      "utterance": "sp03",
+      "profile": "rise_6dB",
+      "method": "vad_original",
+      "value": 0.8152308168572283,
+      "abs_difference": 3.3306690738754696e-16,
+      "warnings": 0
+    },
+    {
+      "case": 46,
+      "utterance": "sp03",
+      "profile": "rise_6dB",
+      "method": "vad_selected",
+      "value": 0.8203628524063256,
+      "abs_difference": 4.440892098500626e-16,
+      "warnings": 0
+    },
+    {
+      "case": 46,
+      "utterance": "sp03",
+      "profile": "rise_6dB",
+      "method": "spp_default",
+      "value": 0.8259015795467924,
+      "abs_difference": 4.440892098500626e-16,
+      "warnings": 0
+    },
+    {
+      "case": 46,
+      "utterance": "sp03",
+      "profile": "rise_6dB",
+      "method": "spp_matched",
+      "value": 0.8254751911640227,
+      "abs_difference": 3.3306690738754696e-16,
+      "warnings": 0
+    },
+    {
+      "case": 6,
+      "utterance": "sp02",
+      "profile": "fall_6dB",
+      "method": "unprocessed",
+      "value": 0.9190678652735378,
+      "abs_difference": 2.220446049250313e-16,
+      "warnings": 0
+    },
+    {
+      "case": 6,
+      "utterance": "sp02",
+      "profile": "fall_6dB",
+      "method": "fixed",
+      "value": 0.8957160161495779,
+      "abs_difference": 1.1102230246251565e-16,
+      "warnings": 0
+    },
+    {
+      "case": 6,
+      "utterance": "sp02",
+      "profile": "fall_6dB",
+      "method": "vad_original",
+      "value": 0.8862719856181629,
+      "abs_difference": 1.1102230246251565e-16,
+      "warnings": 0
+    },
+    {
+      "case": 6,
+      "utterance": "sp02",
+      "profile": "fall_6dB",
+      "method": "vad_selected",
+      "value": 0.9020834105030776,
+      "abs_difference": 4.440892098500626e-16,
+      "warnings": 0
+    },
+    {
+      "case": 6,
+      "utterance": "sp02",
+      "profile": "fall_6dB",
+      "method": "spp_default",
+      "value": 0.867583898033505,
+      "abs_difference": 0.0,
+      "warnings": 0
+    },
+    {
+      "case": 6,
+      "utterance": "sp02",
+      "profile": "fall_6dB",
+      "method": "spp_matched",
+      "value": 0.8799309326517015,
+      "abs_difference": 4.440892098500626e-16,
+      "warnings": 0
+    }
+  ],
+  "stoi_pending": false,
+  "limits": [
+    "New sentences share previously observed speakers.",
+    "Late band-power error uses coarse sums against finite-window realized noise; not expected PSD truth.",
+    "Adaptation or tracking improvement does not alone establish perceptual or intelligibility gain.",
+    "Old diagnostic rows are not included in new confirmation inference."
+  ]
+}

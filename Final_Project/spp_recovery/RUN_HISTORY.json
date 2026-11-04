@@ -1,0 +1,14 @@
+[
+  {
+    "recorded_utc": "2026-11-03T23:45:28.958116+00:00",
+    "corpus_cases_processed_before_fix": 0,
+    "bug": "Loop variable pi shadowed MATLAB numeric constant before first case.",
+    "fix": "Rename profile loop index to profileIndex; no parameter or analysis change."
+  },
+  {
+    "recorded_utc": "2026-11-03T23:46:12.776192+00:00",
+    "completed_cases_before_fix": 0,
+    "bug": "MATLAB dissimilar-structure assignment on initially fieldless diagnostics array.",
+    "fix": "Initialize diagnostics to six identical fielded structs on first method, then assign subsequent values. No algorithm, parameter, comparison or metric change."
+  }
+]
