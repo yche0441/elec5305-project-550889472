@@ -1,4 +1,4 @@
-SOFT-TRACKER FOLLOW-UP VALIDATION — 4 November 2026
+PROJECT VALIDATION AND VIDEO UPDATE — 5 November 2026
 
 CURRENT REPORT AND EXPERIMENT
 The main report has 12 pages. Two earlier detailed result pages are retained
@@ -26,11 +26,27 @@ run regenerates them. The complete release ZIP includes those chunks.
 Each distribution has its own accurate nested and outer hash manifest.
 
 COMPLETED RECORDED DEMONSTRATION
-The existing video is complete: 324.133 seconds (5 min 24 sec), with English
-captions and an actual MATLAB run. Its original narration and audio are unchanged.
-It covers the earlier hard-gate comparison and controlled experiment. The newer
-soft-tracker study is in report Sections 8–9 and the new runnable demonstration,
-not part of that earlier narration. Video SHA256: 7448f1fbe66948b16e8b573f86b557e90bfa0e41243e240a2fac9366ef61441e
+The completed video is 391.3667 seconds (6 min 31 sec), 1920 × 1080 at
+30 frames per second. Eight chapters have burned-in English captions, an
+SRT file, chapter markers and a matching spoken transcript. Original chapters
+1–6 retain their decoded pictures and source narration. Their MATLAB screen
+capture shows the actual earlier sp02 / street / nominal 5 dB run; full-study
+means and controlled diagnostics are labelled as stored results.
+
+New recorded narration presents the soft-SPP follow-up in result figures
+and summary cards, followed by the updated conclusion. It covers 18 additional
+sentences from the same six known speakers, the frozen 0.8/0.95 smoothing
+comparison, and the tracking/SNR benefit with STOI costs. The new soft-SPP
+results are shown as recorded experiment results; START_HERE.m separately
+recomputes the new sp03 example.
+
+The assembled file passes full video/audio decoding checks. Captions have
+at most two lines; the maximum caption rate is 16.09 characters per second.
+Narration uses the presenter’s recordings, with no synthesized voice and
+no speed or pitch changes. A single audio encode prevents accumulated
+segment-timing drift.
+Video SHA256: 4a31387982e2734597650bb17bc62c522dbeada69352e46ea28e7d2bdecf12fa
+Unchanged main-report SHA256: 7d486d66dfb9f5c3ce340ce10767fb172e73f09d036c23ea1ca91cb31b91ed43
 
 INTERPRETATION
 SPP improves rising-noise tracking and reference SNR but costs mean STOI.

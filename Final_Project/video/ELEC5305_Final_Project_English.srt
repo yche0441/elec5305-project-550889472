@@ -280,46 +280,119 @@ a mechanism diagnostic,
 not an independent generalisation test.
 
 64
-00:04:44,043 --> 00:04:47,513
-My conclusion is that
-careful noise updates
+00:04:44,133 --> 00:04:47,723
+Then, I tested a soft
+probability method
 
 65
-00:04:47,513 --> 00:04:49,733
-reduce one type of error,
+00:04:47,723 --> 00:04:50,083
+for updating the noise estimate.
 
 66
-00:04:50,313 --> 00:04:54,093
-but they do not solve noise tracking
-in every situation.
+00:04:50,763 --> 00:04:53,383
+The method comes
+from published work.
 
 67
-00:04:54,893 --> 00:04:58,313
-All main comparisons
-use the same standard
+00:04:54,243 --> 00:04:57,423
+I fixed the settings
+before testing eighteen
 
 68
-00:04:58,313 --> 00:05:01,873
-Python STOI implementation.
+00:04:57,423 --> 00:05:01,333
+additional sentences
+from the same six speakers.
 
 69
-00:05:02,453 --> 00:05:05,893
-Effects are small,
-sentence outcomes vary,
+00:05:02,083 --> 00:05:04,483
+I tested constant noise,
 
 70
-00:05:05,893 --> 00:05:11,593
-and subjective listening
-quality was not evaluated.
+00:05:05,023 --> 00:05:09,583
+a six-decibel rise,
+and a six-decibel fall.
 
 71
-00:05:12,373 --> 00:05:15,393
-More independent speakers and longer,
+00:05:09,933 --> 00:05:12,283
+I also tested a slower version
 
 72
-00:05:16,713 --> 00:05:19,793
-genuinely changing recordings are needed.
+00:05:12,283 --> 00:05:16,333
+with the same smoothing factor
+as the original gate.
 
 73
-00:05:20,373 --> 00:05:21,233
+00:05:17,483 --> 00:05:21,723
+For rising noise,
+the standard version reduced
+
+74
+00:05:21,723 --> 00:05:24,683
+the late noise-power error by
+
+75
+00:05:24,683 --> 00:05:28,533
+about 5.76 decibels,
+
+76
+00:05:28,983 --> 00:05:34,283
+and improved SNR
+by 1.59 decibels.
+
+77
+00:05:34,983 --> 00:05:40,233
+However, STOI fell
+by about 0.014.
+
+78
+00:05:41,703 --> 00:05:45,783
+The slower version kept
+much of the SNR benefit,
+
+79
+00:05:46,383 --> 00:05:49,333
+with a smaller STOI loss.
+
+80
+00:05:50,323 --> 00:05:53,983
+So, better noise tracking
+did not automatically
+
+81
+00:05:53,983 --> 00:05:59,033
+mean better predicted intelligibility.
+
+82
+00:06:01,650 --> 00:06:04,050
+My final conclusion is that
+
+83
+00:06:04,050 --> 00:06:07,350
+noise tracking and speech protection
+
+84
+00:06:07,350 --> 00:06:10,100
+must be evaluated together.
+
+85
+00:06:10,710 --> 00:06:14,130
+This project therefore provides
+a controlled comparison
+
+86
+00:06:14,130 --> 00:06:18,800
+and an explanation of the trade-off.
+
+87
+00:06:19,410 --> 00:06:23,500
+It does not claim
+a universally better method.
+
+88
+00:06:24,750 --> 00:06:29,350
+Subjective listening quality
+was not evaluated.
+
+89
+00:06:29,800 --> 00:06:30,600
 Thank you.

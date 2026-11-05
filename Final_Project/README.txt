@@ -1,6 +1,6 @@
 ELEC5305 Final Project — Yulong Chen, SID 550889472
 Noise tracking and speech protection in Wiener enhancement
-Soft-tracker follow-up release, 4 November 2026
+Final video release, 5 November 2026
 
 LATEST INVESTIGATION
 The report now completes a diagnosis–intervention–verification cycle. A
@@ -21,7 +21,7 @@ MATLAB run does not require Python or the generated signals/*.mat archive.
 The demo saves a figure, checks and same-gain WAVs in spp_recovery/demo.
 
 Open RUN_ORIGINAL_DEMO.m for the earlier four-output example shown in the
-completed recorded video. That earlier demo checks its Python dependencies
+first six chapters of the completed video. That earlier demo checks its Python dependencies
 and computes fresh SNR/STOI for its original predetermined example. Its lower
 panels are stored 48-condition means rather than a live full-study rerun.
 
@@ -44,7 +44,7 @@ regression_reference.mat and preselected_trace.mat. Generated follow-up
 signals/*.mat are omitted from that repository copy. The complete release ZIP
 additionally includes all roughly 250 MB of those unquantized chunks, allowing
 scoring replay without rerunning enhancement:
-https://github.com/yche0441/elec5305-project-550889472/releases/download/final-recovery-2026-11-04/ELEC5305_Final_Project_Complete.zip
+https://github.com/yche0441/elec5305-project-550889472/releases/download/final-video-2026-11-05/ELEC5305_Final_Project_Complete.zip
 
 MAIN FINDINGS
 For new rising-noise inputs, default SPP versus selected hard gate changes
@@ -67,10 +67,14 @@ WHAT IS INCLUDED
   180 source WAVs, all result tables, figures, unquantized examples, runnable
   demo and independent numerical checks. The full ZIP also includes all
   generated waveform chunks; the repository version regenerates those.
-- video: completed 5 min 24 sec recording, English captions and transcript.
-  It covers the earlier hard-gate and first controlled experiments. The new
-  soft-tracker findings are in report Sections 8–9 and the new runnable demo;
-  they are not described as part of the earlier recorded narration.
+- video: completed 6 min 31 sec recording, English captions, eight chapter
+  markers and the matching spoken transcript. The original six chapters
+  retain the actual earlier MATLAB run and stored full-study results. New
+  recorded narration presents the soft-SPP follow-up through figures and
+  result cards: 18 additional sentences from the same six known speakers,
+  SPP 0.8 versus the predeclared 0.95 smoother, and tracking/SNR gains with
+  STOI costs. The final conclusion evaluates tracking and speech protection
+  together. START_HERE.m separately runs the new sp03 soft-SPP example.
 - Final_Project_Study: preserved original parameter study and results.
 - Final_Project_Video_Prep: preserved earlier demonstration and same-gain audio.
 - Project_Feedback_Two_NOIZEUS: original source, inputs, results and licences.

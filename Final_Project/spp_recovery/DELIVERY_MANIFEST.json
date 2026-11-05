@@ -1,9 +1,11 @@
 {
-  "release": "soft-tracker-recovery-v1-20261104",
+  "release": "final-video-2026-11-05",
+  "scientific_snapshot": "soft-tracker-recovery-v1-20261104",
   "distribution": "github-source-and-result-subset",
-  "generated_utc": "2026-11-04T00:04:45.404816+00:00",
+  "generated_utc": "2026-11-05T00:33:05.834581+00:00",
   "unquantized_signal_chunks_included": false,
-  "complete_package_url": "https://github.com/yche0441/elec5305-project-550889472/releases/download/final-recovery-2026-11-04/ELEC5305_Final_Project_Complete.zip",
+  "complete_package_url": "https://github.com/yche0441/elec5305-project-550889472/releases/download/final-video-2026-11-05/ELEC5305_Final_Project_Complete.zip",
+  "scientific_evidence_unchanged": true,
   "files": [
     {
       "path": "ANALYSIS_SUMMARY.json",

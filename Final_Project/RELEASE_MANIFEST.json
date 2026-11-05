@@ -1,9 +1,11 @@
 {
-  "release": "ELEC5305 soft-tracker follow-up 2026-11-04",
+  "release": "ELEC5305 final video update 2026-11-05",
+  "tag": "final-video-2026-11-05",
   "distribution": "github-source-and-result-subset",
-  "scope": "Updated 12-page report, supporting results, runnable code, frozen experiments and completed earlier-stage video",
-  "generated_utc": "2026-11-04T00:04:45.461222+00:00",
-  "complete_package_url": "https://github.com/yche0441/elec5305-project-550889472/releases/download/final-recovery-2026-11-04/ELEC5305_Final_Project_Complete.zip",
+  "scope": "Unchanged 12-page report, supporting results, code and frozen experiments; completed video now includes the soft-probability follow-up and final conclusion.",
+  "generated_utc": "2026-11-05T00:33:05.834581+00:00",
+  "complete_package_url": "https://github.com/yche0441/elec5305-project-550889472/releases/download/final-video-2026-11-05/ELEC5305_Final_Project_Complete.zip",
+  "baseline_release_manifest_sha256": "e133c5070e0bd4872f4e16d756f1a26f0fe06469e384c65a0cb81acc96d34f30",
   "new_study": {
     "new_inputs": 216,
     "old_diagnostic_inputs": 36,
@@ -11,15 +13,21 @@
     "method_rows": 1512,
     "new_sentences": 18,
     "known_speakers": 6,
-    "unquantized_signal_chunks_included": false
+    "unquantized_signal_chunks_included": false,
+    "scientific_evidence_unchanged": true
+  },
+  "report": {
+    "path": "report/ELEC5305_Final_Project_Yulong_Chen.pdf",
+    "sha256": "7d486d66dfb9f5c3ce340ce10767fb172e73f09d036c23ea1ca91cb31b91ed43",
+    "unchanged": true
   },
   "video": {
     "path": "video/ELEC5305_Final_Project_Video.mp4",
-    "duration_seconds": 324.1333333333333,
-    "sha256": "7448f1fbe66948b16e8b573f86b557e90bfa0e41243e240a2fac9366ef61441e",
+    "duration_seconds": 391.3666666666667,
+    "sha256": "4a31387982e2734597650bb17bc62c522dbeada69352e46ea28e7d2bdecf12fa",
     "page_url": "https://yche0441.github.io/elec5305-project-550889472/Final_Project/video/index.html",
     "actual_matlab_screen_capture": true,
-    "coverage": "Completed earlier hard-gate and controlled-diagnostic recording; new soft-tracker study is in report Sections8-9 and runnable demo"
+    "coverage": "Earlier hard-gate study and actual MATLAB demonstration, controlled diagnostic, new soft-probability follow-up, and revised conclusion. New follow-up figures are labelled stored results, not a new live run."
   },
   "files": [
     {
@@ -614,8 +622,8 @@
     },
     {
       "path": "Final_Project_Video_Prep/README_DEMO.txt",
-      "bytes": 1791,
-      "sha256": "7ab76ee443f394d86dc87710976e067a40fa23f0193195053456923ed60ab24d"
+      "bytes": 2144,
+      "sha256": "65b890fe66ddabe441411551dd9364aa32264dec69e1e65a50176f21f8abc198"
     },
     {
       "path": "Final_Project_Video_Prep/SCRIPT_CONTENT.json",
@@ -1199,8 +1207,8 @@
     },
     {
       "path": "README.txt",
-      "bytes": 6371,
-      "sha256": "40e84dbdfa5544022e6330d99e378aa93628dde9806fa88b5d19ddf971e04724"
+      "bytes": 6666,
+      "sha256": "d4c229a7fb9cee7cd99dcf3af5bfdc8e89749f3f7cd54ef0671088e5447a166a"
     },
     {
       "path": "RUN_ORIGINAL_DEMO.m",
@@ -1224,8 +1232,8 @@
     },
     {
       "path": "VALIDATION_SUMMARY.txt",
-      "bytes": 2505,
-      "sha256": "1db894a01130a1e23db45b3ad7fbfc968b84172f5b409c52a19d5dc48e679054"
+      "bytes": 3414,
+      "sha256": "b3cc4cdb1defd93977571c8ad0c5c3074cf9ae73d87418d72ad37f1aa23d73b3"
     },
     {
       "path": "check_environment.m",
@@ -1619,8 +1627,8 @@
     },
     {
       "path": "spp_recovery/DELIVERY_MANIFEST.json",
-      "bytes": 42011,
-      "sha256": "9dcb83521fbe2eb6d5c03ec5c018fbd20cb34f2d4482bcaa5a382a3b107e096e"
+      "bytes": 42100,
+      "sha256": "81d3c7a56733af02c2136c76d83b638367b56ad73bc8c1f69a033ce1188e7c3f"
     },
     {
       "path": "spp_recovery/EXECUTION_MANIFEST.json",
@@ -2874,23 +2882,33 @@
     },
     {
       "path": "video/ELEC5305_Final_Project_English.srt",
-      "bytes": 5427,
-      "sha256": "a9f32735c6f237bb906098a802d7000a6d86a80db815bebe4a95950dd078813d"
+      "bytes": 6568,
+      "sha256": "4678145a4b05afa98a32fd9c7d2d4d6752a2fca22654ccc96c184b9ff20c1f9d"
     },
     {
       "path": "video/ELEC5305_Final_Project_Video.mp4",
-      "bytes": 11920413,
-      "sha256": "7448f1fbe66948b16e8b573f86b557e90bfa0e41243e240a2fac9366ef61441e"
+      "bytes": 14671727,
+      "sha256": "4a31387982e2734597650bb17bc62c522dbeada69352e46ea28e7d2bdecf12fa"
     },
     {
       "path": "video/Final_Video_Transcript.txt",
-      "bytes": 3017,
-      "sha256": "6193a9fcad4877488ba3c5015ea4149d497e434b136181b3f3054c3f026a7255"
+      "bytes": 3795,
+      "sha256": "315b8dd9679875627bb61fc023a92d936b4db2ef372037a5c516b0753f500d85"
+    },
+    {
+      "path": "video/VIDEO_QA.json",
+      "bytes": 2266,
+      "sha256": "16424a9b516b12788d2a62280266a0f8f6edb57ac6cb1554944a4b2d3f474990"
+    },
+    {
+      "path": "video/chapters.json",
+      "bytes": 1064,
+      "sha256": "52d9d4cce96a431929066456633fdd39853fc74aa045b1c02a4ea69368e1c5d0"
     },
     {
       "path": "video/index.html",
-      "bytes": 7650,
-      "sha256": "cbeb7c2200e43baec14fecb90a3857fcf9fb51feb31f0dd4e80c78e11bd7e675"
+      "bytes": 9616,
+      "sha256": "8319c2e7423a53c2048b29deea1d980fa118d2771ec3e05dd0131648d1602b40"
     }
   ]
 }

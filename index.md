@@ -4,7 +4,7 @@ title: ELEC5305 Final Project
 
 # Noise tracking and speech protection in Wiener enhancement
 
-**Yulong Chen · SID 550889472 · ELEC5305 · 4 November 2026**
+**Yulong Chen · SID 550889472 · ELEC5305 · 5 November 2026**
 
 [Final report](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Supporting results](Final_Project/report/Supporting_Results.pdf) · [Recorded demonstration](Final_Project/video/index.html) · [GitHub repository](https://github.com/yche0441/elec5305-project-550889472) · [Code and instructions](Final_Project/README.txt)
 
@@ -67,16 +67,16 @@ In the earlier 36-mixture diagnostic, neither gate made late updates in any of t
 
 ## Watch the completed recorded demonstration
 
-The **5 min 24 sec** recording includes English captions and an actual MATLAB run. It covers the original hard-gate comparison and first matched noise-change experiment, distinguishing fresh example results from stored study means. The newer soft-tracker study is documented above and in report Sections 8–9, and can be rerun through the new demonstration; it is not part of the earlier narration.
+The completed 6 min 31 sec video has eight chapters, English captions and the presenter’s recorded narration. It retains the original six chapters, including the actual MATLAB run of the earlier sp02 / street / nominal 5 dB example, and adds the soft-SPP follow-up and an updated conclusion. The new section presents stored results in narrated figures and summary cards: 18 additional sentences from the same six known speakers, constant and rising/falling noise, and the predeclared SPP 0.8 and 0.95 comparison. The rise-condition tracking and SNR gains are shown alongside the STOI cost. The soft-SPP section presents the experiment’s recorded results; the runnable new example remains available separately through START_HERE.m.
 
-<video controls playsinline preload="metadata" style="width:100%;max-width:960px;aspect-ratio:16/9;background:#102031" aria-label="Recorded ELEC5305 demonstration of the earlier hard-gate studies"><source src="Final_Project/video/ELEC5305_Final_Project_Video.mp4" type="video/mp4">Your browser does not support the video player. Use the MP4 download link below.</video>
+<video controls playsinline preload="metadata" style="width:100%;max-width:960px;aspect-ratio:16/9;background:#102031" aria-label="Recorded ELEC5305 demonstration covering hard-gate and soft-SPP studies"><source src="Final_Project/video/ELEC5305_Final_Project_Video.mp4" type="video/mp4">Your browser does not support the video player. Use the MP4 download link below.</video>
 
 [Video page](Final_Project/video/index.html) · [MP4](Final_Project/video/ELEC5305_Final_Project_Video.mp4) · [English captions](Final_Project/video/ELEC5305_Final_Project_English.srt) · [Spoken transcript](Final_Project/video/Final_Video_Transcript.txt)
 
 ## Reproduce and inspect the evidence
 
 - [12-page final report](ELEC5305_Final_Project_Yulong_Chen.pdf) and [supporting results](Final_Project/report/Supporting_Results.pdf).
-- [Complete package with all unquantized outputs](https://github.com/yche0441/elec5305-project-550889472/releases/download/final-recovery-2026-11-04/ELEC5305_Final_Project_Complete.zip).
+- [Complete package with all unquantized outputs](https://github.com/yche0441/elec5305-project-550889472/releases/download/final-video-2026-11-05/ELEC5305_Final_Project_Complete.zip).
 - [Quick and full running instructions](Final_Project/README.txt), [follow-up README](Final_Project/spp_recovery/README.txt), and [frozen protocol](Final_Project/spp_recovery/PROTOCOL.json).
 - [Every case score](Final_Project/spp_recovery/metrics.csv), [sentence contrasts](Final_Project/spp_recovery/sentence_paired_contrasts.csv), and [speaker contrasts](Final_Project/spp_recovery/speaker_paired_contrasts.csv).
 - [Independent numerical audit](Final_Project/spp_recovery/checks/README.txt) and [validation summary](Final_Project/VALIDATION_SUMMARY.txt).

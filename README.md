@@ -1,6 +1,6 @@
 # Noise tracking and speech protection in Wiener enhancement
 
-**ELEC5305 Final Project · Yulong Chen · SID 550889472 · 4 November 2026**
+**ELEC5305 Final Project · Yulong Chen · SID 550889472 · 5 November 2026**
 
 [Project website](https://yche0441.github.io/elec5305-project-550889472/) · [Final report](ELEC5305_Final_Project_Yulong_Chen.pdf) · [Supporting results](Final_Project/report/Supporting_Results.pdf) · [Recorded demonstration](https://yche0441.github.io/elec5305-project-550889472/Final_Project/video/index.html) · [Running instructions](Final_Project/README.txt)
 
@@ -32,7 +32,7 @@ The 144-condition constant-noise benchmark also exposes costs: SPP 0.8 changes S
 
 The quick demo needs base MATLAB and does not need the large generated waveform archive or Python. Full scoring uses standard **PySTOI 0.4.1, `extended=False`**, with the dependencies in [requirements.txt](Final_Project/requirements.txt).
 
-[Download the complete reproducibility package](https://github.com/yche0441/elec5305-project-550889472/releases/download/final-recovery-2026-11-04/ELEC5305_Final_Project_Complete.zip), including all unquantized waveform chunks. The ordinary repository omits approximately 250 MB of generated `spp_recovery/signals/*.mat`; a full MATLAB rerun regenerates them before Python scoring. See the [follow-up README](Final_Project/spp_recovery/README.txt), [frozen protocol](Final_Project/spp_recovery/PROTOCOL.json), [all results](Final_Project/spp_recovery/metrics.csv), and [independent checks](Final_Project/spp_recovery/checks/README.txt).
+[Download the complete reproducibility package](https://github.com/yche0441/elec5305-project-550889472/releases/download/final-video-2026-11-05/ELEC5305_Final_Project_Complete.zip), including all unquantized waveform chunks. The ordinary repository omits approximately 250 MB of generated `spp_recovery/signals/*.mat`; a full MATLAB rerun regenerates them before Python scoring. See the [follow-up README](Final_Project/spp_recovery/README.txt), [frozen protocol](Final_Project/spp_recovery/PROTOCOL.json), [all results](Final_Project/spp_recovery/metrics.csv), and [independent checks](Final_Project/spp_recovery/checks/README.txt).
 
 ## Earlier stages remain available
 
@@ -42,7 +42,7 @@ The earlier benchmark spectrogram, condition table and sentence-sensitivity figu
 
 ## Recorded demonstration
 
-The completed [5 min 24 sec recording](https://yche0441.github.io/elec5305-project-550889472/Final_Project/video/index.html) includes English captions and an actual MATLAB run. It covers the original hard-gate comparison and the first controlled noise-change experiment. The follow-up soft-tracker methods and results are documented in report Sections 8–9, the website and the new runnable demo; they are not claimed to be part of that earlier narration.
+The completed 6 min 31 sec video has eight chapters, English captions and the presenter’s recorded narration. It retains the original six chapters, including the actual MATLAB run of the earlier sp02 / street / nominal 5 dB example, and adds the soft-SPP follow-up and an updated conclusion. The new section presents stored results in narrated figures and summary cards: 18 additional sentences from the same six known speakers, constant and rising/falling noise, and the predeclared SPP 0.8 and 0.95 comparison. The rise-condition tracking and SNR gains are shown alongside the STOI cost. The soft-SPP section presents the experiment’s recorded results; the runnable new example remains available separately through START_HERE.m.
 
 [MP4](Final_Project/video/ELEC5305_Final_Project_Video.mp4) · [English SRT](Final_Project/video/ELEC5305_Final_Project_English.srt) · [Spoken transcript](Final_Project/video/Final_Video_Transcript.txt)
 

@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "release": "final-video-2026-11-05",
+  "video_file": "ELEC5305_Final_Project_Video.mp4",
+  "video_sha256": "4a31387982e2734597650bb17bc62c522dbeada69352e46ea28e7d2bdecf12fa",
+  "duration_seconds": 391.3666666666667,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "full_decode_passed": true,
+  "retained_original_decoded_video_frames_unchanged": true,
+  "retained_original_narration_unchanged": true,
+  "new_soft_tracker_study_included": true,
+  "no_synthesized_voice": true,
+  "no_speed_or_pitch_change": true,
+  "captions": {
+    "cues": 89,
+    "maximum_characters_per_second": 16.08187134502924,
+    "max_lines": 2
+  },
+  "audio": {
+    "integrated_lufs": -24.0,
+    "true_peak_dbfs": -1.8,
+    "all_segment_alignment_lags_samples": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "no_accumulated_audio_drift": true
+  },
+  "visual_review_passed": true,
+  "processed_audio_review_passed": true,
+  "chapters": [
+    {
+      "id": "01",
+      "title": "Research question",
+      "start_seconds": 0,
+      "duration_seconds": 28.9
+    },
+    {
+      "id": "02",
+      "title": "Method and attribution",
+      "start_seconds": 28.9,
+      "duration_seconds": 39.93333333333333
+    },
+    {
+      "id": "03",
+      "title": "Development and original test",
+      "start_seconds": 68.83333333333333,
+      "duration_seconds": 48.5
+    },
+    {
+      "id": "04",
+      "title": "Code in action",
+      "start_seconds": 117.33333333333333,
+      "duration_seconds": 52.2
+    },
+    {
+      "id": "05",
+      "title": "Original results",
+      "start_seconds": 169.53333333333333,
+      "duration_seconds": 58.4
+    },
+    {
+      "id": "06",
+      "title": "Controlled noise-change diagnostic",
+      "start_seconds": 227.93333333333334,
+      "duration_seconds": 55.4
+    },
+    {
+      "id": "A",
+      "title": "Soft probability follow-up",
+      "start_seconds": 283.3333333333333,
+      "duration_seconds": 76.56666666666666
+    },
+    {
+      "id": "B",
+      "title": "Final conclusion",
+      "start_seconds": 359.9,
+      "duration_seconds": 31.466666666666665
+    }
+  ],
+  "scope": "Technical presentation checks; subjective listening quality of the enhancement methods was not evaluated."
+}
